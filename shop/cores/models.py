@@ -6,9 +6,18 @@ from django.contrib.auth.models import User
 
 #---------------- PRODUCT START --------------------#
 class Product(models.Model):
+    CATEGORY = (
+        ('Gu', '거문고'),
+        ('Hae', '해금'),
+        ('Ah', '아쟁'),
+        ('Ga', '가야금'),
+    )
     product_id = models.AutoField(primary_key=True)
     price = models.IntegerField()
     content = models.TextField()
+
+    category = models.CharField(choices=CATEGORY, max_length=10, default='Gu')
+    recommend = models.BooleanField(default=False)
     maing_img = models.ImageField(upload_to="Products/mainImg")
 
 class ProductImgs(models.Model):

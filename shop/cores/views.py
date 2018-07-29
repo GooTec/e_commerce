@@ -6,23 +6,8 @@ from django.views.generic.edit import CreateView # 오브젝트를 생성하는 
 from django.urls import reverse_lazy
 
 from .forms import CreateUserForm
-from .models import Products
-'''
- path('/', coreViews.HomeListView.as_view() , name='home'),
-    path('info/', coreViews.InfoTemplateView.as_view(), name='info'),
-    path('info/intro/', coreViews.IntroTemplateView.as_view(), name='intro'),
-    path('info/auth/', coreViews.AuthTemplateView.as_view(), name='auth'),
-    path('info/process/', coreViews.ProcessTemplateView.as_view(), name='process'),
-    path('products/', coreViews.ProductListView.as_view(), name='products'),
-    path('products/<int:category_id>/', coreViews.CategoryListView.as_view(), name='category' ),
-    path('products/<int:product_id>/', coreViews.ProductDetailView.as_view(), name='product'),
-    path('mypage/', coreViews.ProfileDetailView.as_view(), name='profile'),
-    path('mypage/edit/', coreViews.ProfileUpdateView.as_view(), name='profile_edit'),
-    path('mypage/cart/', coreViews.CartUpdateView.as_view(), name='cart'),
-    path('mypage/order/', coreViews.OrderListView.as_view(), name='my_order'),
-    path('order/', coreViews.OrderFormView.as_view(), name='order'),
-]
-'''
+from .models import Product
+
 
 #### USER 생성 ####
 class CreateUserView(CreateView): # generic view중에 CreateView를 상속받는다.
@@ -54,10 +39,63 @@ class ProcessTemplateView(TemplateView):
 #-----------------HOME START------------------#
 
 class HomeListView(ListView):
-    template_name =  'shop/info.html'
-    model = Products
+    template_name =  'shop/home.html'
+    model = Product
 
     def get_queryset(self):  # 컨텍스트 오버라이딩
-        return Products.objects.filter(recommend=True)
+        return Product.objects.filter(recommend=True)
 
 #-----------------HOME END-----------------#
+
+#-----------------PRODUCT START------------------#
+
+class ProductListView(ListView):
+    template_name = 'shop/product_list.html'
+    model = Product
+    def get_queryset(self):  # 컨텍스트 오버라이딩
+        return Product.objects.all()
+
+class CategoryListView(ListView):
+    template_name = 'shop/product_list.html'
+    model = Product
+    def get_queryset(self, **kwargs):
+        category = kwargs.get('category', None)
+        if category == 'gumoongo':
+            return Product.objects.filter(category='Gu')
+        elif category == 'haegum':
+            return Product.objects.filter(category='Hae')
+        elif category == 'ajeng':
+            return Product.objects.filter(category='Ah')
+        elif category == 'gayagum' :
+            return Product.objects.filter(category='Ga')
+        else :
+            return Product.objects.all()
+
+class ProductDetailView(ListView):
+    template_name = 'shop/product_detail.html'
+    model =  Product
+    def get_queryset(self, **kwargs):
+        product_id = kwargs.get('product_id', None)
+        return Product.objects.filter(pk=product_id)
+
+#-----------------PRODUCT END------------------#
+
+'''
+ path('/', coreViews.HomeListView.as_view() , name='home'),
+    path('info/', coreViews.InfoTemplateView.as_view(), name='info'),
+    path('info/intro/', coreViews.IntroTemplateView.as_view(), name='intro'),
+    path('info/auth/', coreViews.AuthTemplateView.as_view(), name='auth'),
+    path('info/process/', coreViews.ProcessTemplateView.as_view(), name='process'),
+    path('products/', coreViews.ProductListView.as_view(), name='products'),
+    path('products/<int:category_id>/', coreViews.CategoryListView.as_view(), name='category' ),
+    path('products/<int:product_id>/', coreViews.ProductDetailView.as_view(), name='product'),
+    path('mypage/', coreViews.ProfileDetailView.as_view(), name='profile'),
+    path('mypage/edit/', coreViews.ProfileUpdateView.as_view(), name='profile_edit'),
+    path('mypage/cart/', coreViews.CartUpdateView.as_view(), name='cart'),
+    path('mypage/order/', coreViews.OrderListView.as_view(), name='my_order'),
+    path('order/', coreViews.OrderFormView.as_view(), name='order'),
+]
+'''
+#-----------------MYPAGE START------------------#
+
+class 
