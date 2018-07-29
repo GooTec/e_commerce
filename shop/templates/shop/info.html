@@ -1,0 +1,14 @@
+{% extends 'shop/base.html' %}
+
+{% block content %}
+
+<nav>
+    <a href="{% url 'shop:info' %}">소개</a>
+    <a href="{% url 'shop:intro' %}">장인소개</a>
+    <a href="{% url 'shop:auth' %}">허가</a>
+    <a href="{% url 'shop:process' %}">제작</a>
+</nav>
+
+
+{% endblock %}
+
