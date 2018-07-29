@@ -1,13 +1,12 @@
 from django.shortcuts import render
 
 # Create your views here.
-from django.views.generic import TemplateView
+from django.views.generic import TemplateView, ListView
 from django.views.generic.edit import CreateView # 오브젝트를 생성하는 뷰 (form 혹은 model과 연결되서 새로운 데이터를 넣을 때 CreateView - generic view를 사용)
-# from django.contrib.auth.forms import UserCreationForm  >>  장고의 기본 회원가입 폼 (ID, PW만 확인한다 - 뒤에서 이메일 추가 커스터미아징 예정)
-from .forms import CreateUserForm
 from django.urls import reverse_lazy
 
-
+from .forms import CreateUserForm
+from .models import Products
 '''
  path('/', coreViews.HomeListView.as_view() , name='home'),
     path('info/', coreViews.InfoTemplateView.as_view(), name='info'),
@@ -35,7 +34,8 @@ class CreateUserView(CreateView): # generic view중에 CreateView를 상속받�
 class RegisteredView(TemplateView): # generic view중에 TemplateView를 상속받는다.
     template_name = 'shop/signup_done.html' # 템플릿은?
 
-#### INFO VIEW ####
+#-----------------INFOVIEW START------------------#
+
 class InfoTemplateView(TemplateView):
     template_name =  'shop/info.html'
 
@@ -45,7 +45,19 @@ class IntroTemplateView(TemplateView):
 class AuthTemplateView(TemplateView):
     template_name =  'shop/auth.html'
 
-class ProcesstemplateView(TemplateView):
+class ProcessTemplateView(TemplateView):
     template_name =  'shop/process.html'
 
+#-----------------INFOVIEW END-----------------#
 
+
+#-----------------HOME START------------------#
+
+class HomeListView(ListView):
+    template_name =  'shop/info.html'
+    model = Products
+
+    def get_queryset(self):  # 컨텍스트 오버라이딩
+        return Products.objects.filter(recommend=True)
+
+#-----------------HOME END-----------------#

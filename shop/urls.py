@@ -1,5 +1,6 @@
 from django.contrib import admin
-from django.urls import path, include, url
+from django.urls import path, include
+from django.conf.urls import url
 
 from .cores import views as coreViews
 
