@@ -6,19 +6,19 @@ from django.views.generic import TemplateView, ListView, DetailView
 from django.views.generic.edit import CreateView # 오브젝트를 생성하는 뷰 (form 혹은 model과 연결되서 새로운 데이터를 넣을 때 CreateView - generic view를 사용)
 from django.urls import reverse_lazy
 
-from .forms import CreateUserForm
-from .models import Product
+from .forms import CreateUserForm, ProfileCreateForm
+from .models import Product, Profile
 
 
 #### USER 생성 ####
 class CreateUserView(CreateView): # generic view중에 CreateView를 상속받는다.
-    template_name = 'shop/signup.html' # 템플릿은?
+    template_name = 'registration/signup.html' # 템플릿은?
     form_class =  CreateUserForm # 푸슨 폼 사용? >> 내장 회원가입 폼을 커스터마지징 한 것을 사용하는 경우
     # form_class = UserCreationForm >> 내장 회원가입 폼 사용하는 경우
-    success_url = reverse_lazy('create_user_done') # 성공하면 어디로?
+    success_url = reverse_lazy('shop:create_user_done') # 성공하면 어디로?
 
 class RegisteredView(TemplateView): # generic view중에 TemplateView를 상속받는다.
-    template_name = 'shop/signup_done.html' # 템플릿은?
+    template_name = 'registration/signup_done.html' # 템플릿은?
 
 #-----------------INFOVIEW START------------------#
 
@@ -99,11 +99,16 @@ class ProductDetailView(DetailView):
 '''
 #-----------------MYPAGE START------------------#
 
-class ProfileDetailView(DetailView):
+class ProfileDetailView(ListView):
     template_name = 'shop/profile.html'
-    model = User
+    model = Profile
 
-    def get_queryset(self, **kwargs):
-        user_id = kwargs.get('user_id', None)
-        return User.objects.filter(pk=user_id)
+    def get_queryset(self):
+        user_id = self.request.user.pk
+        return Profile.objects.filter(pk=user_id)
 
+class ProfileCreateView(CreateView):
+    template_name = 'shop/profile_create.html'  # 템플릿은?
+    form_class = ProfileCreateForm  # 푸슨 폼 사용? >> 내장 회원가입 폼을 커스터마지징 한 것을 사용하는 경우
+    # form_class = UserCreationForm >> 내장 회원가입 폼 사용하는 경우
+    success_url = reverse_lazy('shop:profile')  # 성공하면 어디로?

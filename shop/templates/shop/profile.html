@@ -1,0 +1,18 @@
+{% extends 'shop/base.html' %}
+
+{% block content %}
+
+<h1>Profile</h1>
+    {% if profile_list %}
+        {% for profile in profile_list %}
+            <p>이름 : {{ profile.fullname }} </p>
+            <p>연락처 : {{ profile.phone }}</p>
+
+        {% endfor %}
+    {% else %}
+        <a href="{% url 'shop:profile_create' %}">프로필 작성하기</a>
+    {% endif %}
+
+
+
+{% endblock %}
