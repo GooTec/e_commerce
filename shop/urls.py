@@ -19,10 +19,10 @@ urlpatterns = [
     path(r'products/(?P<category>)/$', coreViews.CategoryListView.as_view(), name='category' ),
     path('products/<int:product_id>/', coreViews.ProductDetailView.as_view(), name='product'),
     path('mypage/', coreViews.ProfileDetailView.as_view(), name='profile'),
-    path('mypage/edit/', coreViews.ProfileUpdateView.as_view(), name='profile_edit'),
-    path('mypage/cart/', coreViews.CartUpdateView.as_view(), name='cart'),
-    path('mypage/order/', coreViews.OrderListView.as_view(), name='my_order'),
-    path('order/', coreViews.OrderFormView.as_view(), name='order'),
+    # path('mypage/edit/', coreViews.ProfileUpdateView.as_view(), name='profile_edit'),
+    # path('mypage/cart/', coreViews.CartUpdateView.as_view(), name='cart'),
+    # path('mypage/order/', coreViews.OrderListView.as_view(), name='my_order'),
+    # path('order/', coreViews.OrderFormView.as_view(), name='order'),
 ]
 # r'^profile/(?P<username>[\w.@+-]+)/$
 

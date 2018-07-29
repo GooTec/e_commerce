@@ -1,7 +1,8 @@
-from django.shortcuts import render
+# from django.shortcuts import render
+from django.contrib.auth.models import User
 
 # Create your views here.
-from django.views.generic import TemplateView, ListView
+from django.views.generic import TemplateView, ListView, DetailView
 from django.views.generic.edit import CreateView # 오브젝트를 생성하는 뷰 (form 혹은 model과 연결되서 새로운 데이터를 넣을 때 CreateView - generic view를 사용)
 from django.urls import reverse_lazy
 
@@ -71,7 +72,7 @@ class CategoryListView(ListView):
         else :
             return Product.objects.all()
 
-class ProductDetailView(ListView):
+class ProductDetailView(DetailView):
     template_name = 'shop/product_detail.html'
     model =  Product
     def get_queryset(self, **kwargs):
@@ -98,4 +99,11 @@ class ProductDetailView(ListView):
 '''
 #-----------------MYPAGE START------------------#
 
-class 
+class ProfileDetailView(DetailView):
+    template_name = 'shop/profile.html'
+    model = User
+
+    def get_queryset(self, **kwargs):
+        user_id = kwargs.get('user_id', None)
+        return User.objects.filter(pk=user_id)
+
