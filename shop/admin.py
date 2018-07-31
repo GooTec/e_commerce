@@ -15,6 +15,9 @@ class ProductAdmin(admin.ModelAdmin):
     ]
     inlines =  [ProductImgsInline]
 
+    def __str__(self):
+        return 'Product: ' + self.name
+
 admin.site.register(Product, ProductAdmin)
 
 
