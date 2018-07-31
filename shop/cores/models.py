@@ -11,6 +11,8 @@ class Product(models.Model):
         ('Hae', '해금'),
         ('Ah', '아쟁'),
         ('Ga', '가야금'),
+        ('Dae', '대금'),
+        ('etc', '소품'),
     )
     product_id = models.AutoField(primary_key=True)
     price = models.IntegerField()
@@ -18,7 +20,7 @@ class Product(models.Model):
 
     category = models.CharField(choices=CATEGORY, max_length=10, default='Gu')
     recommend = models.BooleanField(default=False)
-    maing_img = models.ImageField(upload_to="Products/mainImg")
+    main_img = models.ImageField(upload_to="Products/mainImg")
 
 class ProductImgs(models.Model):
     product_id = models.ForeignKey(Product, on_delete=models.CASCADE)
@@ -32,6 +34,8 @@ class Profile(models.Model):
     user_id =  models.OneToOneField(User , primary_key=True, on_delete=models.CASCADE)
     phone = models.TextField(max_length=10)
     ### 주소 검색 : http://www.juso.go.kr/CommonPageLink.do?link=/addrlink/jusoSearchSolutionIntroduce
+    address = models.CharField(max_length=40)
+    address_detail = models.CharField(max_length=40)
     fullname = models.TextField(max_length=20)
 
 class Cart(models.Model):
