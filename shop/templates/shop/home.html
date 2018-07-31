@@ -24,7 +24,7 @@
 				<ul>
 					{% for product in object_list %}
 						<li>
-							<p><img src="{{ product.image }}"></p>
+							<p><img src="{{ product.main_img.url }}"></p>
 							<p>{{ product.name }}</p>
 						</li>
 					{% empty %}
