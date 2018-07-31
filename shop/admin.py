@@ -10,7 +10,7 @@ class ProductImgsInline(admin.StackedInline):
 class ProductAdmin(admin.ModelAdmin):
     fieldsets = [
         ('Product information',
-         {'fields': ['category','price']}),
+         {'fields': ['category','name','price']}),
         ('Product detail', {'fields': ['content','main_img','recommend']}),
     ]
     inlines =  [ProductImgsInline]
