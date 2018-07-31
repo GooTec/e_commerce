@@ -23,7 +23,7 @@ class Product(models.Model):
     main_img = models.ImageField(upload_to="Products/mainImg")
 
     def __str__(self):
-        return 'Product: ' + self.name
+        return  self.name
 
 class ProductImgs(models.Model):
     product_id = models.ForeignKey(Product, on_delete=models.CASCADE)
