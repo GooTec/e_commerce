@@ -17,7 +17,7 @@ class Product(models.Model):
     product_id = models.AutoField(primary_key=True)
     price = models.IntegerField()
     content = models.TextField()
-
+    name = models.CharField(max_length=20, default="거문고")
     category = models.CharField(choices=CATEGORY, max_length=10, default='Gu')
     recommend = models.BooleanField(default=False)
     main_img = models.ImageField(upload_to="Products/mainImg")

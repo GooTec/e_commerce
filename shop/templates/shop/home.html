@@ -22,34 +22,12 @@
 			</div>
 			<div id="m1_cont">
 				<ul>
-					<li>
-						<p><img src="./sample.png" alt="#" title="#"/></p>
-						<p><a href="#">민속국악사 해금</a></p>
-					</li>
-					<li>
-						<p><img src="./sample.png" alt="#" title="#"/></p>
-						<p><a href="#">민속국악사 해금</a></p>
-					</li>
-					<li>
-						<p><img src="./sample.png" alt="#" title="#"/></p>
-						<p><a href="#">민속국악사 해금</a></p>
-					</li>
-					<li>
-						<p><img src="./sample.png" alt="#" title="#"/></p>
-						<p><a href="#">민속국악사 해금</a></p>
-					</li>
-					<li>
-						<p><img src="./sample.png" alt="#" title="#"/></p>
-						<p><a href="#">민속국악사 해금</a></p>
-					</li>
-					<li>
-						<p><img src="./sample.png" alt="#" title="#"/></p>
-						<p><a href="#">민속국악사 해금</a></p>
-					</li>
-					<li>
-						<p><img src="./sample.png" alt="#" title="#"/></p>
-						<p><a href="#">민속국악사 해금</a></p>
-					</li>
+					{% for product in object_list %}
+						<li><p><img src="{{ product.image.url }}"></p></li>
+						<li><p>{{ product.name }}</p></li>
+					{% empty %}
+						<li><p>비었다</p></li>
+					{% endfor %}
 					<li>
 						<p><img src="./sample.png" alt="#" title="#"/></p>
 						<p><a href="#">민속국악사 해금</a></p>

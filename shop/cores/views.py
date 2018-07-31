@@ -25,6 +25,7 @@ class RegisteredView(TemplateView): # generic view중에 TemplateView를 상속�
 class InfoTemplateView(TemplateView):
     template_name =  'shop/info.html'
 
+
 class IntroTemplateView(TemplateView):
     template_name =  'shop/intro.html'
 
