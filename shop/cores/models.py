@@ -34,8 +34,8 @@ class Profile(models.Model):
     user_id =  models.OneToOneField(User , primary_key=True, on_delete=models.CASCADE)
     phone = models.TextField(max_length=10)
     ### 주소 검색 : http://www.juso.go.kr/CommonPageLink.do?link=/addrlink/jusoSearchSolutionIntroduce
-    address = models.CharField(max_length=40)
-    address_detail = models.CharField(max_length=40)
+    address = models.CharField(max_length=40 , default=None)
+    address_detail = models.CharField(max_length=40, default=None)
     fullname = models.TextField(max_length=20)
 
 class Cart(models.Model):
