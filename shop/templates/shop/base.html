@@ -1,26 +1,61 @@
-<!DOCTYPE html>
-<html lang="ko">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+<meta charset="utf-8">
+{% load static %}
+<title>민속국악사</title>
+<link rel= "stylesheet" type="text/css" href="{% static 'shop/css/home.css' %}">
+<script src="{% static 'shop/js/javascript.js' %}"></script>
 </head>
+
 <body>
-
-<header>
-
-    <a href=" {% url 'shop:home' %}">홈</a>
-    <a href=" {% url 'shop:info' %}">소개</a>
-    <a href=" {% url 'shop:products' %}">상품</a>
-    {% if user.is_active %}
-        <a href=" {% url 'shop:profile' %}">마이페이지</a>
-        <a href="{% url 'logout' %}">Logout</a>
-    {% else %}
-        <a href="{% url 'login' %}"> <span class="glyphicon glyphicon-user"></span> Login</a>
-    {% endif %}
-</header>
+	<!-- header -->
+	<div id="header_wrap">
+		<div id="header">
+			<!-- 로고 -->
+			<a href="{% url 'shop:home' %}"><img id="logo" alt="민속국악사" title="민속국악사" src="{% static 'shop/assets/logo.png' %}"/></a>
+			
+			<!-- 메인 메뉴 -->
+			<nav id="gnb_m">
+				<ul>
+					<li><a href="#" title="민속국악사">민속국악사</a></li>
+					<li><a href="#" title="제품구매">제품구매</a></li>
+					<li><a href="#" title="오시는 길">오시는 길</a></li>
+					<li><a href="#" title="커뮤니티">커뮤니티</a></li>
+				</ul>
+			</nav>
+			
+			<!-- 부 메뉴 -->
+			<nav id="gnb_s">
+				<ul>
+                    {% if user.is_active %}
+                    <li><a href="{% url 'shop:profile' %}">마이 페이지</a></li>
+                    <li><a href="#" title="장바구니">장바구니</a><span>|</span></li>
+                    <li><a href="{% url 'logout' %}">로그아웃</a></li>
+                    {% else %}
+					<li><a href="{% url 'login' %}" title="로그인">로그인</a><span>|</span></li>
+                    {% endif %}
+				</ul>
+			</nav>
+		</div>
+	</div>
 
 {% block content %}
 {% endblock %}
 
+    <div id="footer_wrap">
+		<div id="footer">
+			<div id="copyright">
+				제조판매업자 민속국악사  주소 서울특별시 강남구 개포동 1200-3<br/>
+				대표 홍길동  충북 음성군 맹동면 맹동산단 1길 47-71  사업자정보 000-00-0000<br/>
+				개인정보관리책임자 홍길동  문의전화 010-5271-7897<br/>
+				2018 MINSOKGUKAKSA RIGHTS RESERVED.
+			</div>
+			<div id="footBtn">
+				<button class="footBtn1" type="button" title="이용약관">이용약관</button>
+				<button class="footBtn2" type="button" title="개인정보처리방침">개인정보처리방침</button>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
