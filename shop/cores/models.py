@@ -22,6 +22,9 @@ class Product(models.Model):
     recommend = models.BooleanField(default=False)
     main_img = models.ImageField(upload_to="Products/mainImg")
 
+    def __str__(self):
+        return 'Product: ' + self.name
+
 class ProductImgs(models.Model):
     product_id = models.ForeignKey(Product, on_delete=models.CASCADE)
     img = models.ImageField(upload_to="Products/subImg")
