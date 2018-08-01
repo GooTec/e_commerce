@@ -22,4 +22,4 @@ class CreateUserForm(UserCreationForm): # 내장 회원가입 폼을 상속받�
 class ProfileCreateForm(forms.ModelForm): # 내장 회원가입 폼을 상속받아서 확장한다.
     class Meta:
         model = Profile
-        fields = ("phone", "fullname")
+        fields = ( "fullname", "phone","address", "address_detail")

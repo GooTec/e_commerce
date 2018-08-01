@@ -1,29 +1,52 @@
 {% extends 'shop/base.html' %}
 
+{% load static %}
 {% block content %}
   <!-- 로그인 되어있는 경우 -->
-  {% if user.is_active %}
-  <h2> Welcome, {{user.username}} </h2>
-  <a href="{% url 'logout' %}">로그아웃</a>
 
-  <!-- 로그인 되어있지 않은 경우 -->
-  {% else %}
+  <link rel= "stylesheet" type="text/css" href="{% static 'shop/css/login.css' %}">
 
-
-  {% if form.errors %}
-    <!-- 에러발생시 -->
-  <p>ID나 비밀번호가 일치하지 않습니다.</p>
-  {% endif %}
-    <!-- 로그인 폼 -->
-  <form method="post" action="{% url 'login' %}">
-  {% csrf_token %}
-  <input type="hidden" name="next" value="" />
-  {{ form.as_p }}
-  <button type="submit">로그인</button>
-  </form>
+<div id="login_wrap">
+	<div id="login">
+    <p>민속국악사 로그인</p>
+    {% if user.is_active %}
+      <p>로그인 되었습니다.</p>
+      <a href="{% url 'logout' %}">로그아웃</a>
+      <!-- 로그인 되어있지 않은 경우 -->
+      {% else %}
+      {% if form.errors %}
+        <!-- 에러발생시 -->
+      <p>ID나 비밀번호가 일치하지 않습니다.</p>
+      {% endif %}
+        <!-- 로그인 폼 -->
+      <form method="post" action="{% url 'login' %}">
+          <div id="inputBox">
+          {% csrf_token %}
+          {{ form.as_table }}
+          </div>
+          <div id="loginBtn">
+            <input type="submit" id="submitBtn" value="로그인" />
+          </div>      
+        </form>
 
   <a href="{% url 'shop:signup' %}">회원가입하기</a>
 
-{% endif %}
+      {% endif %} 
+		<!-- <form name="loginForm" action="#" method="post">
+			<div id="inputBox">
+				<input type="text" id="idBox" name="userid" value="아이디" />
+				<input type="password" id="pwBox" name="userid" value="비밀번호" />
+			</div>
+			<div id="loginBtn">
+				<input type="submit" id="submitBtn" value="로그인" />
+			</div>
+		</form>
+		<div id="loginBottom">
+			<a href="#">아이디 찾기</a><span>|</span>
+			<a href="#">비밀번호 찾기</a><span>|</span>
+			<a href="#">회원가입</a> -->
+	</div>
+</div>
+  
 
 {% endblock %}

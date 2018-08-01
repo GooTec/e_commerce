@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* 민속국악사 2018 추천상품 */
+#login_wrap {float: left; width: 100%;}
+#login_wrap #login {width: 385px; margin: 330px auto;}
+	/* 민속국악사 로그인 */
+	#login_wrap #login p {float: left; width: 385px; text-align: left; font-size: 18px; font-weight: bold; height: 60px; line-height: 60px; border-bottom: 1px solid #000; margin-bottom: 20px;}
+	/* 로그인 폼 */
+	#login_wrap #login form {float: left; width: 385px;}
+	#login_wrap #login form #inputBox {float: left; width: 280px; margin-right: 10px;}
+		#login_wrap #login form #inputBox input{width: 275px; height: 40px; margin-bottom: 10px; font-size: 14px; color: #666666; border: 1px solid #dddddd; padding-left: 10px;}
+
+	#login_wrap #login form #loginBtn {float: left; width: 90px; height: 90px;}
+		#login_wrap #login form #loginBtn input {width: 90px; height: 90px; background-color: #000; font-size: 14px; color: #fff; border: 0;}
+	/* ID/PW 찾기 및 회원가입 */
+	#login_wrap #login #loginBottom {float: left; width: 385px; text-align: center; height: 60px; border-bottom: 1px solid #dddddd; margin-top: 5px;}
+		#login_wrap #login #loginBottom a {font-size: 12px;}
+		#login_wrap #login #loginBottom span {margin: 0 5px;}

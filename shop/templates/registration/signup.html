@@ -1,12 +1,20 @@
 {% extends 'shop/base.html' %}
-
+{% load static %}
 
 {% block content %}
+<link rel= "stylesheet" type="text/css" href="{% static 'shop/css/login.css' %}">
 
-<form method="post" action="{% url 'shop:signup' %}">
-{% csrf_token %}
-{{ form.as_p }}
-<button type="submit">회원가입</button>
-</form>
-
+<div id="login_wrap">
+    <div id="login">
+        <form method="post" action="{% url 'shop:signup' %}">
+            <div id="inputBox">
+                    {% csrf_token %}
+                    {{ form.as_table }}
+            </div>
+            <div id="loginBtn">
+                <input type="submit" id="submitBtn" value="회원가입" />
+            </div>    
+        </form>
+    </div>
+</div>
 {% endblock %}

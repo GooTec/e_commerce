@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 전체 서브 페이지 */
+#subPageContents_wrap {float: left; width: 100%; padding-bottom: 150px;}
+#subPageContents_wrap #subPageContents {width: 1200px; margin: 100px auto;}
+
+/* 서브페이지 메뉴 */
+#subPageMenu_wrap {float: left; width: 300px; }
+#subPageMenu_wrap #subPageMenu {width: 200px; margin-left: 10px;}
+#subPageMenu_wrap #subPageMenu div {width: 200px; height: 60px; line-height: 60px; font-weight: bold; font-size: 17px;}
+#subPageMenu_wrap #subPageMenu p {color: #444; font-size: 15px;}
+#subPageMenu_wrap #subPageMenu ul {float: left;}
+#subPageMenu_wrap #subPageMenu ul li {float: left; width: 200px; height: 32px; line-height: 32px;}
+#subPageMenu_wrap #subPageMenu ul li p:nth-child(1) {float: left;}
+#subPageMenu_wrap #subPageMenu ul li p:nth-child(2) {float: right;}
+#subPageMenu_wrap #subPageMenu ul:nth-child(3) {margin-top: 50px; border-top: 1px solid #dddddd; padding-top: 20px;}
+#subPageMenu_wrap #subPageMenu ul a:hover {font-weight: bold;}
+
+/* 상품 리스트 */
+#product_wrap {float: left; width: 900px;}
+#product_wrap #product {}
+#product_wrap #product ul {float: left;}
+#product_wrap #product ul li {float: left; margin: 10px;}
+#product_wrap #product ul li img {width: 280px; height: 380px;}
+#product_wrap #product ul li p:nth-child(2){font-weight: bold; font-size: 16px; margin-top: 15px;}
+#product_wrap #product ul li p{margin: 7px 0;}

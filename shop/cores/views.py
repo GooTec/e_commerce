@@ -105,7 +105,9 @@ class ProfileDetailView(ListView):
     model = Profile
 
     def get_queryset(self):
-        user_id = self.request.user.pk
+        user_id = self.request.user.id
+        # user = User.objects.filter(pk=user_id)
+        # print(user)
         return Profile.objects.filter(pk=user_id)
 
 class ProfileCreateView(CreateView):

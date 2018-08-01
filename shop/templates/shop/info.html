@@ -1,14 +1,70 @@
 {% extends 'shop/base.html' %}
 
 {% block content %}
+{% load static %}
+<link rel= "stylesheet" type="text/css" href="{% static 'shop/css/intro.css' %}">
 
-<nav>
-    <a href="{% url 'shop:info' %}">소개</a>
-    <a href="{% url 'shop:intro' %}">장인소개</a>
-    <a href="{% url 'shop:auth' %}">허가</a>
-    <a href="{% url 'shop:process' %}">제작</a>
-</nav>
-
+<!-- 서브페이지 타이틀 -->
+<div id="subPageTitle_wrap">
+		<p id="subPageTitle">
+			민속국악사 / 소개
+		</p>
+	</div>
+	
+	<!-- 민속국악사 소개 -->
+	<div id="intro_wrap">
+		<div id="intro">
+			
+			<!-- 조대석 장인 -->
+			<div id="intro_1">
+				<img src="{% static 'shop/assets/intro1.png' %}" alt="조대석 장인"/>
+				<div>
+					<p>안녕하세요 민속국악사 대표<br/>조대석입니다</p>
+					1968년부터 국악기 제작에 입문하여 현재까지 다양한 활동과 함께 <br/>
+					전통적인 제작법과 노하우로 국악기 제작 및 발전에 힘쓰고 있으며,<br/>
+					악기제작에 필요한 좋은 품질의 재료를 위해 양평소재의 연구소에서<br/>
+					목재 건조 및 연구에 매진 하고있습니다.<br/>
+					민속국악사는 항상 장인정신으로 제작하여 연주자의 마음을 울릴 수<br/>
+					있는 최상의 악기를 만들 수 있도록 최선을 다하겠습니다.<br/>
+					감사합니다.<br/>
+				</div>
+			</div>
+			
+			<!-- 특별상 수상 -->
+			<div id="intro_2">
+				<div>
+					<p>2014 제30회 동아국악 콩쿠르<br/>거문고부분 특별상 수상</p>
+					민속국악사는 동아국악콩쿠르에서 거문고 부분 특별상을 수상하여<br/>
+					검증된 제작실력을 통해 현재 현악기 부분에서<br/>
+					최상의 악기를 제작하고 있습니다.<br/>
+				</div>
+				<img src="{% static 'shop/assets/intro2.png' %}" alt="특별상 수상"/>
+			</div>
+			
+			<!-- 장인정신 -->
+			<div id="intro_3">
+				<img src="{% static 'shop/assets/intro3.png' %}" alt="장인정신"/>
+				<div>
+					<p><span>민속국악사의 장인정신</span></p>
+					민속국악사는 항상 장인정신으로 제작하여 연주자의 마음을 울릴수 있는<br/>
+					최상의 악기를 만들 수 있도록 최선을 다하겠습니다.<br/>
+				</div>
+			</div>
+			
+			<!-- 전문 제작 -->
+			<div id="intro_4">
+				<div>
+					<p><span>국악 현악기 전문 제작</span></p>
+					민속국악사는24년 전통 가야금, 거문고등 현악기를<br/>
+					전문적으로 제작했습니다. 우수한 품질을 제공하고 정확한 소리를<br/>
+					위해 끊임없이 탐구합니다. 민속국악사는24년 전통 가야금, 거문고등 현악기를<br/>
+					전문적으로 제작했습니다. 우수한 품질을 제공하고 정확한 소리를<br/>
+					위해 끊임없이 탐구합니다.<br/>
+				</div>
+				<img src="{% static 'shop/assets/intro4.png' %}" alt="전문 제작"/>
+			</div>
+		</div>
+	</div>
 
 {% endblock %}
 

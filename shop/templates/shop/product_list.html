@@ -1,5 +1,64 @@
 {% extends 'shop/base.html' %}
 
-{% block contet %}
+{% block content %}
+
+{% load static %}
+
+<link rel= "stylesheet" type="text/css" href="{% static 'shop/css/product.css' %}">
+<link rel= "stylesheet" type="text/css" href="{% static 'shop/css/login.css' %}">
+<link rel= "stylesheet" type="text/css" href="{% static 'shop/css/intro.css' %}">
+
+<!-- 서브페이지 타이틀 -->
+    <div id="subPageTitle_wrap">
+		<p id="subPageTitle">
+			민속국악사 / 제품구매 / 가야금
+		</p>
+	</div>
+	
+	<div id="subPageContents_wrap">
+	<div id="subPageContents">
+     
+	<!-- 서브페이지 메뉴 -->
+	<div id="subPageMenu_wrap">
+		<div id="subPageMenu">
+			<div>민속국악사 악기 분류</div>
+			<ul>
+				<a href="{% url 'shop:category' 'Ga' }"><li><p>가야금</p><p>7</p></li></a>
+				<a href="{% url 'shop:category' 'Gu' }"><li><p>거문고</p><p>3</p></li></a>
+				<a href="{% url 'shop:category' 'Ah' }"><li><p>아쟁</p><p>2</p></li></a>
+				<a href="{% url 'shop:category' 'Hae' }"><li><p>해금</p><p>3</p></li></a>
+				<a href="{% url 'shop:category' 'Dae' }"><li><p>대금</p><p>1</p></li></a>
+				<a href="{% url 'shop:category' 'etc' }"><li><p>소품류</p><p>19</p></li></a>
+			</ul>
+			<ul>
+				<a href="#"><li><p>베스트셀러</p><p>10</p></li></a>
+			</ul>
+		</div>
+	</div>	
+	
+	<!-- 상품 리스트 -->
+	<div id="product_wrap">
+		<div id="product">
+			
+		<ul>
+			{% for product in object_list %}
+                <a href="{% url 'shop:detail' product.product_id %}">
+                <li>
+                    <p><img src="{{ product.main_img.url }}"></p>
+                    <p>{{ product.name }}</p>
+                    <p>{{ product.price }}</p>
+                </li>
+                </a>
+            {% empty %}
+                <li><p>비었다</p></li>
+            {% endfor %}
+		</ul>
+			
+		</div>
+	</div>
+		
+		</div>
+    </div>
+    
 
 {% endblock %}

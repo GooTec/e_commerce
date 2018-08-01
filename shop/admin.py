@@ -16,7 +16,17 @@ class ProductAdmin(admin.ModelAdmin):
     inlines =  [ProductImgsInline]
 
 
+class ProfileAdmin(admin.ModelAdmin):
+    exclude=("user_id",)
+    readonly_fields=('user_id', )
+
+    fieldsets = [
+        ('User information',
+        {'fields' : ['fullname', 'phone', 'address', 'address_detail']})
+    ]
 
 admin.site.register(Product, ProductAdmin)
 
 
+
+admin.site.register(Profile ,ProfileAdmin)
