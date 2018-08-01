@@ -1,0 +1,35 @@
+{% extends 'shop/base.html' %}
+
+{% block content %}
+{% load static %}
+<link rel= "stylesheet" type="text/css" href="{% static 'shop/css/product.css' %}">
+<link rel= "stylesheet" type="text/css" href="{% static 'shop/css/login.css' %}">
+<link rel= "stylesheet" type="text/css" href="{% static 'shop/css/intro.css' %}">
+
+<!-- 서브페이지 타이틀 -->
+    <div id="subPageTitle_wrap">
+		<p id="subPageTitle">
+			장바구니
+		</p>
+	</div>
+	
+     
+    {% if profile_list %}
+    <link rel= "stylesheet" type="text/css" href="{% static 'shop/css/login.css' %}">
+  
+    <div id="login_wrap">
+      <div id="login">
+        {% for cart in cartitem_list %}
+
+        {% endfor %}
+        </div>
+    </div>
+
+    {% else %}
+        <!--<a href="{% url 'shop:profile_create' %}">프로필 작성하기</a>-->
+        <a href="{% url 'shop:products' %}">상품 담으러가기</a>
+    {% endif %}
+
+
+
+{% endblock %}

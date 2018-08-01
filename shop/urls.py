@@ -16,12 +16,14 @@ urlpatterns = [
     path('info/auth/', coreViews.AuthTemplateView.as_view(), name='auth'),
     path('info/process/', coreViews.ProcessTemplateView.as_view(), name='process'),
     path('products/', coreViews.ProductListView.as_view(), name='products'),
+    path('products/<int:pk>/', coreViews.ProductDetailView.as_view(), name='product'),
     path('products/<slug:category>/', coreViews.CategoryListView.as_view(), name='category' ),
-    path('products/<int:product_id>/', coreViews.ProductDetailView.as_view(), name='product'),
     path('mypage/', coreViews.ProfileDetailView.as_view(), name='profile'),
     path('mypage/create', coreViews.ProfileCreateView.as_view(), name='profile_create'),
     path('mypage/edit/<int:pk>', coreViews.ProfileUpdateView.as_view(), name='profile_edit'),
-    # path('mypage/cart/', coreViews.CartUpdateView.as_view(), name='cart'),
+    path('mypage/cart/', coreViews.CartListView.as_view(), name='cart'),
+    # path('mypage/cart/', coreViews.CartListView.as_view(), name='cart_edit'),
+
     # path('mypage/order/', coreViews.OrderListView.as_view(), name='my_order'),
     # path('order/', coreViews.OrderFormView.as_view(), name='order'),
 ]

@@ -57,4 +57,3 @@ class CartItem(models.Model):
 #---------------- USER RELATED END --------------------#
 
 
-#-----------------

@@ -29,7 +29,7 @@
 				<ul>
                     {% if user.is_active %}
                     <li><a href="{% url 'shop:profile' %}">마이 페이지</a><span>|</span></li>
-                    <li><a href="#" title="장바구니">장바구니</a><span>|</span></li>
+                    <li><a href="{% url 'shop:cart' %}" title="장바구니">장바구니</a><span>|</span></li>
                     <li><a href="{% url 'logout' %}">로그아웃</a><span>|</span></li>
                     {% else %}
 					<li><a href="{% url 'login' %}" title="로그인">로그인</a><span>|</span></li>

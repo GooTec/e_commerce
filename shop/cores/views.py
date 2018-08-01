@@ -7,7 +7,7 @@ from django.views.generic.edit import CreateView # 오브젝트를 생성하는 
 from django.urls import reverse_lazy
 
 from .forms import CreateUserForm, ProfileCreateForm
-from .models import Product, Profile
+from .models import Product, Profile , CartItem
 
 
 #### USER 생성 ####
@@ -77,8 +77,9 @@ class ProductDetailView(DetailView):
     template_name = 'shop/product_detail.html'
     model =  Product
     def get_queryset(self, **kwargs):
-        product_id = kwargs.get('product_id', None)
-        return Product.objects.filter(pk=product_id)
+        product_id = self.kwargs['pk']
+        print(product_id)
+        return Product.objects.filter(pk =product_id)
 
 #-----------------PRODUCT END------------------#
 
@@ -113,11 +114,27 @@ class ProfileDetailView(ListView):
 class ProfileCreateView(CreateView):
     template_name = 'shop/profile_create.html'  # 템플릿은?
     form_class = ProfileCreateForm  # 푸슨 폼 사용? >> 내장 회원가입 폼을 커스터마지징 한 것을 사용하는 경우
+    model = Profile
     # form_class = UserCreationForm >> 내장 회원가입 폼 사용하는 경우
     success_url = reverse_lazy('shop:profile')  # 성공하면 어디로?
+    def form_valid(self, form):
+        form.instance.user_id = self.request.user
+        return super(ProfileCreateView, self).form_valid(form)
+
 
 class ProfileUpdateView(UpdateView):
     model = Profile
     fields = ['fullname', 'phone', 'address', 'address_detail']
     template_name ='shop/profile_edit.html'
     success_url ='/mypage/'
+
+#---------------CART START-----------------#
+class CartListView(ListView):
+    template_name =  'shop/cart.html'
+    model = CartItem
+
+    # def get_context_data(self, *, object_list=None, **kwargs):
+    #     context = super(CartItem, self).get_context_data(**kwargs)
+
+        # return context
+

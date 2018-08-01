@@ -1,0 +1,23 @@
+{% extends 'shop/base.html' %}
+
+{% block content %}
+{% load static %}
+<link rel= "stylesheet" type="text/css" href="{% static 'shop/css/product.css' %}">
+<link rel= "stylesheet" type="text/css" href="{% static 'shop/css/login.css' %}">
+<link rel= "stylesheet" type="text/css" href="{% static 'shop/css/intro.css' %}">
+
+<!-- 서브페이지 타이틀 -->
+    <div id="subPageTitle_wrap">
+		<p id="subPageTitle">
+            {{ object.name }}
+		</p>
+	</div>
+
+    <img src ="{{ object.main_img.url }}">
+    <p>가격 : {{ object.price }}</p>
+    <p>설명 : {{ object.content }} </p>
+    price = models.IntegerField()
+
+
+
+{% endblock %}
