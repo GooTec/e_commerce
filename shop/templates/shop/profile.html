@@ -1,16 +1,35 @@
 {% extends 'shop/base.html' %}
 
 {% block content %}
+{% load static %}
+<link rel= "stylesheet" type="text/css" href="{% static 'shop/css/product.css' %}">
+<link rel= "stylesheet" type="text/css" href="{% static 'shop/css/login.css' %}">
+<link rel= "stylesheet" type="text/css" href="{% static 'shop/css/intro.css' %}">
 
-<h1>Profile</h1>
+<!-- 서브페이지 타이틀 -->
+    <div id="subPageTitle_wrap">
+		<p id="subPageTitle">
+			프로필
+		</p>
+	</div>
+	
+     
     {% if profile_list %}
+    <link rel= "stylesheet" type="text/css" href="{% static 'shop/css/login.css' %}">
+  
+    <div id="login_wrap">
+      <div id="login">
         {% for profile in profile_list %}
             <p>이름 : {{ profile.fullname }} </p>
             <p>연락처 : {{ profile.phone }}</p>
             <p>주소 : {{ profile.address }}</p>
             <p>상세 주소 : {{ profile.address_detail }}</p>
+            <a href="{% url 'shop:profile_edit' user.pk %}">프로필 수정하기</a>
 
         {% endfor %}
+        </div>
+    </div>
+
     {% else %}
         <a href="{% url 'shop:profile_create' %}">프로필 작성하기</a>
     {% endif %}

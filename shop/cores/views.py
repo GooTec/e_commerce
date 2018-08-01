@@ -2,7 +2,7 @@
 from django.contrib.auth.models import User
 
 # Create your views here.
-from django.views.generic import TemplateView, ListView, DetailView
+from django.views.generic import TemplateView, ListView, DetailView, UpdateView
 from django.views.generic.edit import CreateView # 오브젝트를 생성하는 뷰 (form 혹은 model과 연결되서 새로운 데이터를 넣을 때 CreateView - generic view를 사용)
 from django.urls import reverse_lazy
 
@@ -115,3 +115,9 @@ class ProfileCreateView(CreateView):
     form_class = ProfileCreateForm  # 푸슨 폼 사용? >> 내장 회원가입 폼을 커스터마지징 한 것을 사용하는 경우
     # form_class = UserCreationForm >> 내장 회원가입 폼 사용하는 경우
     success_url = reverse_lazy('shop:profile')  # 성공하면 어디로?
+
+class ProfileUpdateView(UpdateView):
+    model = Profile
+    fields = ['fullname', 'phone', 'address', 'address_detail']
+    template_name ='shop/profile_edit.html'
+    success_url ='/mypage/'

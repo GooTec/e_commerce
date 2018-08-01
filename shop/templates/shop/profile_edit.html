@@ -6,7 +6,7 @@
 
 <div id="login_wrap">
         <div id="login">
-                <form method="post" action="{% url 'shop:profile_create' %}">
+                <form method="post" action="{% url 'shop:profile_edit' user.pk %}">
                 <div id="inputBox">
                     {% csrf_token %}
                     {{ form.non_field_errors }}
