@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e2cbf96-21b5-47be-850f-93e376d8539b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/templates/shop/cart.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/templates/shop/product_detail.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/cores/models.py" afterPath="$PROJECT_DIR$/shop/cores/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/cores/views.py" afterPath="$PROJECT_DIR$/shop/cores/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/templates/shop/base.html" afterPath="$PROJECT_DIR$/shop/templates/shop/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/templates/shop/product_list.html" afterPath="$PROJECT_DIR$/shop/templates/shop/product_list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/urls.py" afterPath="$PROJECT_DIR$/shop/urls.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,8 +67,8 @@
           <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/shop/urls.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+                <state relative-caret-position="360">
+                  <caret line="24" column="53" lean-forward="false" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
                   <folding>
                     <element signature="e#0#32#0" expanded="true" />
                   </folding>
@@ -140,7 +135,19 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="413">
                   <caret line="52" column="35" lean-forward="true" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
-                  <folding />
+                  <folding>
+                    <marker date="1533218622000" expanded="true" signature="1032:1704" ph="..." />
+                    <marker date="1533218622000" expanded="true" signature="1032:1693" ph="..." />
+                    <marker date="1533218622000" expanded="true" signature="1032:1160" ph="..." />
+                    <marker date="1533218622000" expanded="true" signature="1032:1152" ph="..." />
+                    <marker date="1533218622000" expanded="true" signature="1032:1075" ph="..." />
+                    <marker date="1533218622000" expanded="true" signature="1083:1143" ph="..." />
+                    <marker date="1533218622000" expanded="true" signature="1205:1681" ph="..." />
+                    <marker date="1533218622000" expanded="true" signature="1226:1673" ph="..." />
+                    <marker date="1533218622000" expanded="true" signature="1237:1660" ph="..." />
+                    <marker date="1533218622000" expanded="true" signature="1344:1567" ph="..." />
+                    <marker date="1533218622000" expanded="true" signature="1365:1546" ph="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -149,24 +156,14 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/shop/cores/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="246">
-                  <caret line="73" column="36" lean-forward="false" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+                <state relative-caret-position="414">
+                  <caret line="118" column="19" lean-forward="true" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
                   <folding>
                     <element signature="e#38#81#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="product_detail.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/shop/templates/shop/product_detail.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -188,6 +185,16 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="240">
                   <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="product_detail.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/shop/templates/shop/product_detail.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="341">
+                  <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
@@ -262,9 +269,9 @@
         <option value="$PROJECT_DIR$/shop/templates/shop/base.html" />
         <option value="$PROJECT_DIR$/shop/templates/shop/cart.html" />
         <option value="$PROJECT_DIR$/shop/templates/shop/product_list.html" />
+        <option value="$PROJECT_DIR$/shop/templates/shop/product_detail.html" />
         <option value="$PROJECT_DIR$/shop/urls.py" />
         <option value="$PROJECT_DIR$/shop/cores/views.py" />
-        <option value="$PROJECT_DIR$/shop/templates/shop/product_detail.html" />
       </list>
     </option>
   </component>
@@ -723,14 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop/templates/shop/profile_create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop/templates/shop/cart.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -753,7 +752,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
           <caret line="52" column="35" lean-forward="true" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
-          <folding />
+          <folding>
+            <marker date="1533218622000" expanded="true" signature="1032:1704" ph="..." />
+            <marker date="1533218622000" expanded="true" signature="1032:1693" ph="..." />
+            <marker date="1533218622000" expanded="true" signature="1032:1160" ph="..." />
+            <marker date="1533218622000" expanded="true" signature="1032:1152" ph="..." />
+            <marker date="1533218622000" expanded="true" signature="1032:1075" ph="..." />
+            <marker date="1533218622000" expanded="true" signature="1083:1143" ph="..." />
+            <marker date="1533218622000" expanded="true" signature="1205:1681" ph="..." />
+            <marker date="1533218622000" expanded="true" signature="1226:1673" ph="..." />
+            <marker date="1533218622000" expanded="true" signature="1237:1660" ph="..." />
+            <marker date="1533218622000" expanded="true" signature="1344:1567" ph="..." />
+            <marker date="1533218622000" expanded="true" signature="1365:1546" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -762,26 +773,6 @@
         <state relative-caret-position="180">
           <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/cores/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="73" column="36" lean-forward="false" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
-          <folding>
-            <element signature="e#38#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -795,11 +786,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shop/templates/shop/profile_create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shop/templates/shop/product_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="341">
+          <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="53" lean-forward="false" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/cores/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="118" column="19" lean-forward="true" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
+          <folding>
+            <element signature="e#38#81#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

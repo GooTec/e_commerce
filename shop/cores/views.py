@@ -5,6 +5,7 @@ from django.contrib.auth.models import User
 from django.views.generic import TemplateView, ListView, DetailView, UpdateView
 from django.views.generic.edit import CreateView # 오브젝트를 생성하는 뷰 (form 혹은 model과 연결되서 새로운 데이터를 넣을 때 CreateView - generic view를 사용)
 from django.urls import reverse_lazy
+from django.views.generic.edit import FormMixin
 
 from .forms import CreateUserForm, ProfileCreateForm
 from .models import Product, Profile , CartItem
@@ -65,7 +66,7 @@ class CategoryListView(ListView):
         context = Product.objects.filter(category=category)
         return context
 
-class ProductDetailView(DetailView):
+class ProductDetailView(FormMixin, DetailView):
     template_name = 'shop/product_detail.html'
     model =  Product
     def get_queryset(self, **kwargs):
