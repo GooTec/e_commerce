@@ -60,18 +60,10 @@ class ProductListView(ListView):
 class CategoryListView(ListView):
     template_name = 'shop/product_list.html'
     model = Product
-    def get_queryset(self, **kwargs):
-        category = kwargs.get('category', None)
-        if category == 'gumoongo':
-            return Product.objects.filter(category='Gu')
-        elif category == 'haegum':
-            return Product.objects.filter(category='Hae')
-        elif category == 'ajeng':
-            return Product.objects.filter(category='Ah')
-        elif category == 'gayagum' :
-            return Product.objects.filter(category='Ga')
-        else :
-            return Product.objects.all()
+    def get_queryset(self):
+        category  = self.kwargs['category']
+        context = Product.objects.filter(category=category)
+        return context
 
 class ProductDetailView(DetailView):
     template_name = 'shop/product_detail.html'

@@ -5,18 +5,73 @@
 <link rel= "stylesheet" type="text/css" href="{% static 'shop/css/product.css' %}">
 <link rel= "stylesheet" type="text/css" href="{% static 'shop/css/login.css' %}">
 <link rel= "stylesheet" type="text/css" href="{% static 'shop/css/intro.css' %}">
+<link rel= "stylesheet" type="text/css" href="{% static 'shop/css/home.css' %}">
+<link rel= "stylesheet" type="text/css" href="{% static 'shop/css/productD.css' %}">
 
-<!-- 서브페이지 타이틀 -->
-    <div id="subPageTitle_wrap">
+<script src="{% static 'shop/js/javascript.js' %}"></script>
+	<!-- 서브페이지 타이틀 -->
+	<div id="subPageTitle_wrap">
 		<p id="subPageTitle">
-            {{ object.name }}
+			민속국악사 / 제품구매 / {{ object.name }}
 		</p>
 	</div>
+	
+	<div id="subPageContents_wrap">
+	<div id="subPageContents">
 
-    <img src ="{{ object.main_img.url }}">
-    <p>가격 : {{ object.price }}</p>
-    <p>설명 : {{ object.content }} </p>
-    price = models.IntegerField()
+	<!-- 상품 이미지 -->
+	<img id="productInfoImg" src="{{ object.main_img.url }}" alt="#" title="#" />
+
+	<!-- 상품 요약 -->
+	<div id="productInfo">
+		<form>
+			<!-- 상품명 -->
+			<p class="tit">{{ object.name }}</p><hr />
+			<!-- 상품 요약 -->
+			<p class="h">판매가격</p>	<p class="d">{{ object.price }}</p>
+			<p class="h">원산지</p>	<p class="d">대한민국</p>
+			<p class="h">배송비</p>	<p class="d">무료배송</p><hr />
+			<!-- 상품 옵션 -->
+			<p class="h40">옵션</p>
+			<!-- 합계 -->
+			<p class="sum">합계<span>{{ object.price }}</span> 원</p>
+			<!-- 버튼 -->
+			<div>
+				<button class="btn_buy" type="button" title="구매하기">구매하기</button>
+				<button class="btn_basket" type="button" onclick="location.href='{% url 'shop:cart' object.pk  %}'" title="장바구니">장바구니</button>
+			</div>
+		</form>
+	</div>
+	
+	<!-- 상품 상세 -->
+	<div id="productDetail_wrap">
+		<div id="productDetail">
+			<div id="detailTab">
+				<a id="detailTab_1" href="#detailTab1" onClick="changeTab('1')">상품상세정보</a>
+				<a id="detailTab_2" href="#detailTab2" onClick="changeTab('2')">관련상품안내</a>
+				<a id="detailTab_3" href="#detailTab3" onClick="changeTab('3')">배송/교환/반품안내</a><hr />
+				
+				<!-- 상품상세정보 -->
+				<div id="detailTab1">
+                    상품 상세 사진 
+                </div>
+				
+				<!-- 관련상품안내 -->
+				<div id="detailTab2">
+					관련상품안내 ...
+				</div>
+				
+				<!-- 배송/교환/반품안내 -->
+				<div id="detailTab3">
+					배송/교환/반품안내 ...
+				</div>
+			</div>
+		</div>
+	</div>
+		
+	</div>
+	</div>
+<!-- 서브페이지 타이틀 -->
 
 
 

@@ -22,7 +22,7 @@ urlpatterns = [
     path('mypage/create', coreViews.ProfileCreateView.as_view(), name='profile_create'),
     path('mypage/edit/<int:pk>', coreViews.ProfileUpdateView.as_view(), name='profile_edit'),
     path('mypage/cart/', coreViews.CartListView.as_view(), name='cart'),
-    # path('mypage/cart/', coreViews.CartListView.as_view(), name='cart_edit'),
+    path('mypage/cart/<int:pk>', coreViews.CartAddView.as_view(), name='cart'),
 
     # path('mypage/order/', coreViews.OrderListView.as_view(), name='my_order'),
     # path('order/', coreViews.OrderFormView.as_view(), name='order'),
