@@ -14,13 +14,20 @@
 	</div>
 	
      
-    {% if profile_list %}
+    {% if objects %}
     <link rel= "stylesheet" type="text/css" href="{% static 'shop/css/login.css' %}">
   
     <div id="login_wrap">
       <div id="login">
-        {% for cart in cartitem_list %}
 
+          {% for object in objects %}
+            <h2>{{ object.product_name }}</h2>
+            <p>가격 : {{ object.price }}</p>
+            <p>수량: {{ object.count }}</p>
+            <p>합계: {{ object.total }}</p>
+            <a href="{% url 'shop:cart_delete' object.cart_id %}">Delete</a>
+
+          <hr>
         {% endfor %}
         </div>
     </div>
@@ -30,6 +37,10 @@
         <a href="{% url 'shop:products' %}">상품 담으러가기</a>
     {% endif %}
 
+<script>
 
+
+
+</script>
 
 {% endblock %}

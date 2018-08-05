@@ -3,12 +3,15 @@ from django.contrib.auth.models import User
 
 # Create your views here.
 from django.views.generic import TemplateView, ListView, DetailView, UpdateView
-from django.views.generic.edit import CreateView # 오브젝트를 생성하는 뷰 (form 혹은 model과 연결되서 새로운 데이터를 넣을 때 CreateView - generic view를 사용)
+from django.views.generic.edit import CreateView ,DeleteView# 오브젝트를 생성하는 뷰 (form 혹은 model과 연결되서 새로운 데이터를 넣을 때 CreateView - generic view를 사용)
 from django.urls import reverse_lazy
 from django.views.generic.edit import FormMixin
-
-from .forms import CreateUserForm, ProfileCreateForm
-from .models import Product, Profile , CartItem
+from django.http import HttpResponseForbidden
+from django.shortcuts import redirect
+from django.contrib import messages
+from django.views import  View
+from .forms import CreateUserForm, ProfileCreateForm, CartItemForm ,OrderCreateForm , OrderItemCreateForm
+from .models import Product, Profile , CartItem, Order, OrderItem
 
 
 #### USER 생성 ####
@@ -61,6 +64,7 @@ class ProductListView(ListView):
 class CategoryListView(ListView):
     template_name = 'shop/product_list.html'
     model = Product
+
     def get_queryset(self):
         category  = self.kwargs['category']
         context = Product.objects.filter(category=category)
@@ -69,10 +73,44 @@ class CategoryListView(ListView):
 class ProductDetailView(FormMixin, DetailView):
     template_name = 'shop/product_detail.html'
     model =  Product
-    def get_queryset(self, **kwargs):
-        product_id = self.kwargs['pk']
-        print(product_id)
-        return Product.objects.filter(pk =product_id)
+    form_class =  CartItemForm
+    # def get_queryset(self, **kwargs):
+    #     product_id = self.kwargs['pk']
+    #     print(product_id)
+    #     return Product.objects.filter(pk =product_id)
+
+    def get_success_url(self):
+        return reverse_lazy('shop:cart')
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['form'] = self.get_form()
+        return context
+
+    def post(self, request, *args, **kwargs):
+        if not request.user.is_active:
+            return redirect('login')
+        self.object = self.get_object()
+        form = self.get_form()
+        form.instance.count = request.POST['count']
+        form.instance.price = int(self.object.price) * int(form.instance.count)
+        # form.instance.price = self.object.price
+        print(form.instance.price, form.instance.count)
+        form.instance.user = self.request.user
+        form.instance.product = self.object
+        if form.is_valid():
+            return self.form_valid(form)
+        else:
+            print("form is invalid")
+            return self.form_invalid(form)
+
+    def form_valid(self, form):
+        # Here, we would record the user's interest using the message
+        # passed in form.cleaned_data['message']
+        # print(self.object)
+        # form.instance.save()
+        form.save()
+        return super().form_valid(form)
 
 #-----------------PRODUCT END------------------#
 
@@ -126,8 +164,138 @@ class CartListView(ListView):
     template_name =  'shop/cart.html'
     model = CartItem
 
-    # def get_context_data(self, *, object_list=None, **kwargs):
-    #     context = super(CartItem, self).get_context_data(**kwargs)
+    def get_context_data(self, *, object_list=None, **kwargs):
+        carts = self.model.objects.filter(user_id=self.request.user).values()
+        context= {}
+        objects = []
+        for cart in carts :
+            info = {}
+            product_info = Product.objects.get(pk=cart['product_id'])
+            info['cart_id'] = cart['cart_id']
+            info['product_name'] = product_info.name
+            info['price'] = product_info.price
+            info['count'] = cart['count']
+            info['total'] = cart['price']
+            objects.append(info)
 
-        # return context
+        context['objects'] = objects
+        # context = super(CartItem, self).get_context_data(**kwargs)
+        return context
+
+class CartDeleteView(DeleteView):
+    model = CartItem
+    success_url = reverse_lazy('shop:cart')
+
+    def get(self, *a, **kw):
+        return self.delete(*a, **kw)
+
+
+#---------------CART END----------------------#
+
+#----------------ORDER START------------------#
+
+class OrderCreateView(CreateView):
+    template_name = 'shop/order_create.html'  # 템플릿은?
+    form_class = OrderCreateForm
+    model = Order
+    success_url = reverse_lazy('shop:home')  # 성공하면 어디로?
+
+    def get_context_data(self,* , object_list=None, **kwargs):
+        carts = CartItem.objects.filter(user_id=self.request.user).values()
+        context = {}
+        objects = []
+        for cart in carts:
+            info = {}
+            product_info = Product.objects.get(pk=cart['product_id'])
+            info['cart_id'] = cart['cart_id']
+            info['product_name'] = product_info.name
+            info['price'] = product_info.price
+            info['count'] = cart['count']
+            info['total'] = cart['price']
+            objects.append(info)
+        context['objects'] = objects
+        print(objects)
+        # context = super(CartItem, self).get_context_data(**kwargs)
+        return context
+
+    def form_valid(self, form):
+        form.instance.user = self.request.user
+        return super(OrderCreateView, self).form_valid(form)
+
+    def post(self, request, *args, **kwargs):
+        if not request.user.is_active:
+            return redirect('login')
+        self.object = self.get_object()
+        form = self.get_form()
+        form.instance.count = request.POST['count']
+        form.instance.price = int(self.object.price) * int(form.instance.count)
+        # form.instance.price = self.object.price
+        print(form.instance.price, form.instance.count)
+        form.instance.user = self.request.user
+        form.instance.product = self.object
+        if form.is_valid():
+            return self.form_valid(form)
+        else:
+            print("form is invalid")
+            return self.form_invalid(form)
+
+class OrderCreateByProductView(CreateView):
+    template_name = 'shop/order_create.html'  # 템플릿은?
+    form_class = OrderCreateForm
+    model = Order
+    success_url = reverse_lazy('shop:home')  # 성공하면 어디로?
+
+    def get_context_data(self, *, object_list=None, **kwargs):
+        if not self.request.user.is_active:
+            return redirect('login')
+        context = super(OrderCreateByProductView, self).get_context_data(**kwargs)
+        product = Product.objects.get(pk=self.kwargs['pk'])
+        context['product'] = product
+        context['itemform'] =  OrderItemCreateForm
+        return context
+
+    def form_valid(self, form):
+        return super(OrderCreateByProductView, self).form_valid(form)
+
+    def post(self, request, *args, **kwargs):
+        if not request.user.is_active:
+            return redirect('login')
+        # self.object = self.get_object()
+        order_form = self.get_form()
+        order_item = OrderItem()
+        order_form.instance.fullname = request.POST['fullname']
+        order_form.instance.phone = request.POST['phone']
+        order_form.instance.address = request.POST['address']
+        order_form.instance.address_detail = request.POST['address_detail']
+        order_form.instance.user = self.request.user
+        order_form.instance.total = 0
+        order_form.instance.status = '0'
+        if self.form_valid(order_form):
+            current_order = order_form.save()
+            order_item.order = current_order
+            order_item.product = Product.objects.get(pk = request.POST['product_id'])
+            order_item.count = request.POST['count']
+            order_item.price = request.POST['price']
+            order_item.total = int(request.POST['count']) * int(request.POST['price'])
+            current_order.total = order_item.total
+            current_order.save()
+            item = order_item.save()
+            return self.form_valid(order_form)
+        else :
+            print("form is invalid")
+            return self.form_invalid(order_form)
+
+
+
+class OrderListView(ListView):
+    template_name = 'shop/order_list.html'
+    model = Order
+
+    def get_queryset(self):  # 컨텍스트 오버라이딩
+        return Order.objects.filter(user=self.request.user)
+
+
+
+
+#------------------ORDER END--------------------#
 

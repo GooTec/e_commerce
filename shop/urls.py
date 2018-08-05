@@ -1,5 +1,5 @@
 from django.contrib import admin
-from django.urls import path, include
+from django.urls import path,re_path, include
 from django.conf.urls import url
 from django.conf import settings
 from django.conf.urls.static import static
@@ -22,10 +22,12 @@ urlpatterns = [
     path('mypage/create', coreViews.ProfileCreateView.as_view(), name='profile_create'),
     path('mypage/edit/<int:pk>', coreViews.ProfileUpdateView.as_view(), name='profile_edit'),
     path('mypage/cart/', coreViews.CartListView.as_view(), name='cart'),
-    path('mypage/cart/<int:pk>', coreViews.CartCreateView.as_view(), name='cart'),
+    path('mypage/cart/<int:pk>/', coreViews.CartDeleteView.as_view(), name='cart_delete'),
 
-    # path('mypage/order/', coreViews.OrderListView.as_view(), name='my_order'),
-    # path('order/', coreViews.OrderFormView.as_view(), name='order'),
+    path('mypage/order/', coreViews.OrderListView.as_view(), name='my_order'),
+    # path('order/', coreViews.OrderCreateView.as_view(), name='order'),
+    re_path('^order/(?P<pk>\d+)/$', coreViews.OrderCreateByProductView.as_view(), name='order_product'),
+
 ]
 # r'^profile/(?P<username>[\w.@+-]+)/$
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

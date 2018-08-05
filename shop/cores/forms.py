@@ -2,7 +2,7 @@ from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
 from django import forms
 
-from .models import Profile
+from .models import Profile, CartItem, Order, OrderItem
 
 class CreateUserForm(UserCreationForm): # 내장 회원가입 폼을 상속받아서 확장한다.
     email = forms.EmailField(required=True) # 이메일 필드 추가
@@ -23,3 +23,20 @@ class ProfileCreateForm(forms.ModelForm): # 내장 회원가입 폼을 상속받
     class Meta:
         model = Profile
         fields = ( "fullname", "phone","address", "address_detail")
+
+
+class CartItemForm(forms.ModelForm):
+    class Meta:
+        model = CartItem
+        fields = ("count", )
+        # count = forms.IntegerField(initial=1)
+
+class OrderCreateForm(forms.ModelForm):
+    class Meta:
+        model = Order
+        fields = ("phone", "address", "address_detail", "fullname")
+
+class OrderItemCreateForm(forms.ModelForm):
+    class Meta :
+        model = OrderItem
+        fields = ("count" , )

@@ -1,0 +1,63 @@
+{% extends 'shop/base.html' %}
+
+{% block content %}
+
+{% load static %}
+
+<link rel= "stylesheet" type="text/css" href="{% static 'shop/css/product.css' %}">
+<link rel= "stylesheet" type="text/css" href="{% static 'shop/css/login.css' %}">
+<link rel= "stylesheet" type="text/css" href="{% static 'shop/css/intro.css' %}">
+
+<!-- 서브페이지 타이틀 -->
+    <div id="subPageTitle_wrap">
+		<p id="subPageTitle">
+			민속국악사 / 제품구매 
+		</p>
+	</div>
+	
+	<div id="subPageContents_wrap">
+	<div id="subPageContents">
+
+	<!-- 상품 리스트 -->
+	<div id="product_wrap">
+		<div id="product">
+			
+		<ul>
+			{% for order in object_list %}
+                <li>
+                    <p> 주문번호 : {{ order.order_id }} </p>
+                    <p> 주문자명 :  {{ order.fullname }} </p>
+                    <p> 연락처 :  {{ order.phone }} </p>
+                    <p> 주소 :  {{ order.address }} </p>
+                    <p> 상세 주소 : {{ order.address_detail }}</p>
+                    <p> 총 액 : {{ order.total }}</p>
+                    <p> 주문 상태 :
+                        {% if order.status == '0' %}
+                            결제 대기
+                        {% elif order.status == '1' %}
+                            결제 완료
+                        {% elif order.status == '2' %}
+                            상품 준비중
+                        {% elif order.status == '3' %}
+                            배송 중
+                        {% elif order.status == '4' %}
+                            배송 완료
+                        {% elif order.status == '5' %}
+                            구매 완료
+                        {% endif %}
+                    </p>
+                    <a href="#">취소 요청</a>
+                </li>
+            {% empty %}
+                <li><p>비었다</p></li>
+            {% endfor %}
+		</ul>
+			
+		</div>
+	</div>
+		
+		</div>
+    </div>
+    
+
+{% endblock %}

@@ -49,11 +49,38 @@ class Cart(models.Model):
 
 class CartItem(models.Model):
     cart_id = models.AutoField(primary_key=True)
-    product_id = models.ForeignKey(Product, on_delete=models.CASCADE)
-    user_id = models.ForeignKey(User, on_delete=models.CASCADE)
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
     count = models.IntegerField()
     price = models.IntegerField()
 
 #---------------- USER RELATED END --------------------#
 
+
+
+class Order(models.Model):
+    STATUS = (
+        ('0', '결제 대기'),
+        ('1', '결제 완료'),
+        ('2', '준비 중'),
+        ('3', '배송 중'),
+        ('4', '배송 완료'),
+        ('5', '구매 완료'),
+    )
+    order_id = models.AutoField(primary_key=True)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    phone = models.CharField(max_length=10)
+    ### 주소 검색 : http://www.juso.go.kr/CommonPageLink.do?link=/addrlink/jusoSearchSolutionIntroduce
+    address = models.CharField(max_length=40, default=None)
+    address_detail = models.CharField(max_length=40, default=None)
+    fullname = models.CharField(max_length=20)
+    total = models.IntegerField()
+    status = models.CharField(choices=STATUS, max_length=20, default=0)
+
+class OrderItem(models.Model):
+    order = models.ForeignKey(Order, on_delete=models.CASCADE)
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+    count = models.IntegerField()
+    price = models.IntegerField()
+    total = models.IntegerField()
 

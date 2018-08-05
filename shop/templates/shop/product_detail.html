@@ -9,6 +9,7 @@
 <link rel= "stylesheet" type="text/css" href="{% static 'shop/css/productD.css' %}">
 
 <script src="{% static 'shop/js/javascript.js' %}"></script>
+
 	<!-- 서브페이지 타이틀 -->
 	<div id="subPageTitle_wrap">
 		<p id="subPageTitle">
@@ -24,7 +25,6 @@
 
 	<!-- 상품 요약 -->
 	<div id="productInfo">
-		<form>
 			<!-- 상품명 -->
 			<p class="tit">{{ object.name }}</p><hr />
 			<!-- 상품 요약 -->
@@ -32,15 +32,29 @@
 			<p class="h">원산지</p>	<p class="d">대한민국</p>
 			<p class="h">배송비</p>	<p class="d">무료배송</p><hr />
 			<!-- 상품 옵션 -->
-			<p class="h40">옵션</p>
+			<form method="POST" action="{% url 'shop:product' object.pk %}" id="cart_form">
+					{% csrf_token %}
+					{{ form.non_field_erros }}
+					{% for field in form %}
+					<div class="fieldWrapper">
+						{{ field.label_tag }} {{ field }}
+					</div>
+					{% endfor %}
+			</form>
 			<!-- 합계 -->
+
 			<p class="sum">합계<span>{{ object.price }}</span> 원</p>
 			<!-- 버튼 -->
 			<div>
-				<button class="btn_buy" type="button" title="구매하기">구매하기</button>
-				<button class="btn_basket" type="button" onclick="location.href='{% url 'shop:cart' object.pk  %}'" title="장바구니">장바구니</button>
+				{% if user.is_active %}
+					<button class="btn_buy" onclick="location.href='{% url 'shop:order_product' object.pk %}'" title="구매하기">구매하기</button>
+					<button class="btn_basket" type="submit"  value="submit" form="cart_form" title="장바구니">장바구니</button>
+				{% else %}
+					<button class="btn_buy"  onClick="to_login()" title="구매하기">구매하기</button>
+					<button class="btn_basket" onClick="to_login()" title="장바구니">장바구니</button>
+				{% endif %}
+
 			</div>
-		</form>
 	</div>
 	
 	<!-- 상품 상세 -->
@@ -72,7 +86,12 @@
 	</div>
 	</div>
 <!-- 서브페이지 타이틀 -->
-
+<script>
+function to_login(){
+    window.alert('로그인 후 이용하세요.');
+   	window.location.href='{% url 'login' %}';
+};
+</script>
 
 
 {% endblock %}
