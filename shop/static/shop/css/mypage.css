@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+#mypageTit {font-size: 30px; font-weight: bold; height: 70px; line-height: 70px; width: 1200px; float: left;}
+
+#mypageTab_2, #mypageTab_2_2, #mypageTab_2_3 {display: none;}
+
+#mypageTab {float: left; width: 1200px;}
+
+/* 메뉴 관련 */
+.mypageUNSelected {float: left; width: 600px; background-color: #fbf8ef; height: 70px; color: #444444; font-size: 16px; line-height: 70px; text-align: center; border-bottom: 1px solid #000; margin-bottom: 50px;}
+.mypageSelected {float: left; width: 598px; background-color: #fff; height: 70px; color: #444444; font-size: 16px; line-height: 70px; text-align: center; border: 1px solid #000; border-bottom: 0; margin-bottom: 50px;}
+
+.mypageUNSelected2 {float: left; width: 400px; background-color: #fbf8ef; height: 55px; font-size: 16px; line-height: 55px; text-align: center; border-top: 1px solid #aaaaaa; border-bottom: 1px solid #dddddd; margin-bottom: 50px;}
+.mypageSelected2 {float: left; width: 400px; background-color: #fbf8ef; height: 53px; font-size: 16px; line-height: 55px; text-align: center; border-top: 1px solid #aaaaaa; border-bottom: 3px solid #e3cd73; margin-bottom: 50px; font-weight: bold;}
+
+/* 주문 관리 -------------------------------------------------------------------------------------------------------------------------- */
+#mypageTab_1 {float: left; width: 1200px; margin: 0 auto;}
+
+/* 주문 목록 테이블 */
+#mypageTab_1 table {float: left; width: 1200px; border-top: 1px solid #dddddd; margin-top: 50px;}
+#mypageTab_1 table tr {float: left; width: 1200px; text-align: center; border-bottom: 1px solid #dddddd;}
+
+	/* 제목 줄 */
+	#mypageTab_1 table tr th {float: left; height: 50px; line-height: 50px; font-size: 15px; text-align: center;}
+	#mypageTab_1 table tr th:nth-child(1) {width: 180px; margin: 0 9.5px;}
+	#mypageTab_1 table tr th:nth-child(2) {width: 385px; margin: 0 9.5px;}
+	#mypageTab_1 table tr th:nth-child(3) {width: 180px; margin: 0 9.5px;}
+	#mypageTab_1 table tr th:nth-child(4) {width: 180px; margin: 0 9.5px;}
+	#mypageTab_1 table tr th:nth-child(5) {width: 180px; margin: 0 9.5px;}
+
+	/* 내용 */
+	#mypageTab_1 table tr td {float: left; height: 145px; font-size: 15px; text-align: center; line-height: 145px;}
+	/* 주문날짜/주문번호 */
+	#mypageTab_1 table tr td:nth-child(1) {width: 180px; margin: 0 9.5px; line-height: normal;}
+		#mypageTab_1 table tr td:nth-child(1) p:nth-child(1) {margin-top: 54px; font-weight: bold;}
+		#mypageTab_1 table tr td:nth-child(1) p:nth-child(2) {margin-top: 5px;}
+	/* 제품명 */
+	#mypageTab_1 table tr td:nth-child(2) {width: 385px; margin: 0 9.5px; text-align: left;}
+		#mypageTab_1 table tr td:nth-child(2) img {margin-top: 22px; float: left; margin-right: 20px;}
+	/* 가격/수량 */
+	#mypageTab_1 table tr td:nth-child(3) {width: 180px; margin: 0 9.5px; line-height: normal;}
+		#mypageTab_1 table tr td:nth-child(3) p:nth-child(1) {margin-top: 54px;}
+		#mypageTab_1 table tr td:nth-child(3) p:nth-child(2) {margin-top: 5px; font-weight: bold;}
+	/* 총합 */
+	#mypageTab_1 table tr td:nth-child(4) {width: 180px; margin: 0 9.5px;}
+	/* 주문/배송상태 */
+	#mypageTab_1 table tr td:nth-child(5) {width: 180px; margin: 0 9.5px;}
+		#mypageTab_1 table tr td:nth-child(5) button {margin-top: 58px;}
+		#mypageTab_1 table tr td:nth-child(5) button.deliveryBtn {width: 80px; height: 30px; font-size: 13px; background-color: #222; color: #fff; font-weight: bold;}
+
+/* 개인정보관리:회원정보수정 --------------------------------------------------------------------------------------------------------------- */
+
+#mypageTab_1 {float: left; width: 1200px; margin: 0 auto;}
+
+#mypageTab_2_1 form {float: left; width: 1200px; text-align: center;}
+	#mypageTab_2_1 table {float: left; width: 1200px; border-top: 1px solid #dddddd;}
+	#mypageTab_2_1 table tr {float: left; width: 1200px; text-align: left; border-bottom: 1px solid #dddddd;}
+	#mypageTab_2_1 table tr th {float: left; width: 180px; font-size: 14px; font-weight: bold; padding-left: 20px; min-height: 80px; line-height: 80px;}
+	#mypageTab_2_1 table tr td {float: left; font-size: 14px; min-height: 80px; line-height: 80px;}
+	#mypageTab_2_1 table tr:nth-child(8) td {line-height: normal; padding: 15px 0;}
+	
+	#mypageTab_2_1 table tr td select {border: 1px solid #dddddd; width: 152px; height: 40px; padding-left: 10px;}
+	#mypageTab_2_1 table tr td input {border: 1px solid #dddddd; width: 480px; height: 40px; padding-left: 10px;}
+	#mypageTab_2_1 table tr:nth-child(5) td input {width: 150px;}
+	#mypageTab_2_1 table tr:nth-child(6) td input {width: 150px;}
+	#mypageTab_2_1 table tr:nth-child(7) td input {width: 200px;}
+	#mypageTab_2_1 table tr:nth-child(8) td input:nth-child(1) {width: 360px;}
+	#mypageTab_2_1 table tr:nth-child(8) td input {width: 360px; margin: 5px 0;}
+	
+	#mypageTab_2_1 table tr td button.chkBtn {width: 110px; height: 40px; background-color: #eeeeee; font-size: 14px; font-weight: bold; margin-left: 8px;}
+	#mypageTab_2_1 table tr td span.capt {font-size: 15px; color: #666666; padding-left: 10px;}
+	#mypageTab_2_1 table tr td span.capt2 {font-size: 12px; color: #d01212;}
+	#mypageTab_2_1 table tr:nth-child(2) td span.capt2 {margin-top: -45px; margin-bottom: -10px; display: block;}
+	
+	#mypageTab_2_1 form button.submitBtn {width: 210px; height: 55px; background-color: #222222; color: #fff; font-size: 15px; font-weight: bold; margin: 50px auto;}
+
+/* 개인정보관리:환불계좌관리 --------------------------------------------------------------------------------------------------------------- */
+
+#mypageTab_2_2 {float: left; width: 1200px; margin: 0 auto;}
+
+	#mypageTab_2_2 form {float: left; width: 1200px; text-align: center;}
+	#mypageTab_2_2 table {float: left; width: 1200px; border-top: 1px solid #dddddd;}
+	#mypageTab_2_2 table tr {float: left; width: 1200px; text-align: left; border-bottom: 1px solid #dddddd; height: 80px; line-height: 80px;}
+	#mypageTab_2_2 table tr th {float: left; width: 180px; font-size: 14px; font-weight: bold; padding-left: 20px; height: 80px; line-height: 80px;}
+	#mypageTab_2_2 table tr td {float: left; font-size: 14px; min-height: 80px; line-height: 80px;}
+	
+	#mypageTab_2_2 table tr td select {border: 1px solid #dddddd; width: 152px; height: 40px; padding-left: 10px; margin: 20px auto;}
+	#mypageTab_2_2 table tr td input {border: 1px solid #dddddd; width: 480px; height: 40px; padding-left: 10px; margin: 20px auto;}
+	
+	#mypageTab_2_2 form button.submitBtn {width: 210px; height: 55px; background-color: #222222; color: #fff; font-size: 15px; font-weight: bold; margin: 50px auto;}
+
+/* 개인정보관리:회원탈퇴 --------------------------------------------------------------------------------------------------------------- */
+#mypageTab_2_3 {float: left; width: 1200px; margin: 0 auto; text-align: center;}
+
+#mypageTab_2_3 div {margin: auto; border-bottom: 1px solid #dddddd; border-top: 1px solid #dddddd; padding: 150px 0; line-height: 30px; color: red;}
+
+#mypageTab_2_3 form button.submitBtn {width: 210px; height: 55px; background-color: #222222; color: #fff; font-size: 15px; font-weight: bold; margin: 50px auto;}
