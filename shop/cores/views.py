@@ -292,8 +292,9 @@ class OrderListView(ListView):
     model = Order
 
     def get_queryset(self):  # 컨텍스트 오버라이딩
-        return Order.objects.filter(user=self.request.user)
-
+        query =  Order.objects.filter(user=self.request.user)
+        print(query)
+        return query
 
 
 
