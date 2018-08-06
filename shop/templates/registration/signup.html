@@ -9,6 +9,7 @@
         <form method="post" action="{% url 'shop:signup' %}">
             <div id="inputBox">
                     {% csrf_token %}
+                    {{ form.non_field_errors }}
                     {{ form.as_table }}
             </div>
             <div id="loginBtn">

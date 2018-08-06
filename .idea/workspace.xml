@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e2cbf96-21b5-47be-850f-93e376d8539b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/cores/models.py" afterPath="$PROJECT_DIR$/shop/cores/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/static/shop/css/home.css" afterPath="$PROJECT_DIR$/shop/static/shop/css/home.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/templates/registration/signup.html" afterPath="$PROJECT_DIR$/shop/templates/registration/signup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/templates/shop/profile.html" afterPath="$PROJECT_DIR$/shop/templates/shop/profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/templates/shop/profile_create.html" afterPath="$PROJECT_DIR$/shop/templates/shop/profile_create.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,7 +63,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="home.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="home.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/shop/static/shop/css/home.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="200">
@@ -105,11 +105,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="profile_create.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="profile_create.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/shop/templates/shop/profile_create.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="795">
-                  <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+                <state relative-caret-position="105">
+                  <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -143,11 +143,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="order_list.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="order_list.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/shop/templates/shop/order_list.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="275">
-                  <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+                <state relative-caret-position="200">
+                  <caret line="44" column="34" lean-forward="false" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="signup.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/shop/templates/registration/signup.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -156,8 +166,8 @@
           <file leaf-file-name="order_create.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/shop/templates/shop/order_create.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="232">
-                  <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+                <state relative-caret-position="56">
+                  <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -168,6 +178,16 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="364">
                   <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="profile.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/shop/templates/shop/profile.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="93">
+                  <caret line="48" column="57" lean-forward="false" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
                   <folding />
                 </state>
               </provider>
@@ -235,8 +255,8 @@
       <find>get_form</find>
       <find>Ord</find>
       <find>order_cr</find>
-      <find>product</find>
       <find>ListView</find>
+      <find>product</find>
       <find>banner</find>
     </findStrings>
   </component>
@@ -250,8 +270,6 @@
         <option value="$PROJECT_DIR$/shop/templates/shop/signup.html" />
         <option value="$PROJECT_DIR$/shop/templates/shop/signup_done.html" />
         <option value="$PROJECT_DIR$/e_commerce/settings.py" />
-        <option value="$PROJECT_DIR$/shop/templates/shop/profile_create.html" />
-        <option value="$PROJECT_DIR$/shop/templates/shop/profile.html" />
         <option value="$PROJECT_DIR$/shop/templates/registration/logout.html" />
         <option value="$PROJECT_DIR$/shop/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/shop/templates/registration/signup_done.html" />
@@ -271,6 +289,9 @@
         <option value="$PROJECT_DIR$/shop/templates/shop/order_list.html" />
         <option value="$PROJECT_DIR$/shop/cores/models.py" />
         <option value="$PROJECT_DIR$/shop/static/shop/css/home.css" />
+        <option value="$PROJECT_DIR$/shop/templates/registration/signup.html" />
+        <option value="$PROJECT_DIR$/shop/templates/shop/profile_create.html" />
+        <option value="$PROJECT_DIR$/shop/templates/shop/profile.html" />
       </list>
     </option>
   </component>
@@ -525,6 +546,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -674,13 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop/templates/registration/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop/templates/registration/signup_done.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -692,14 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/templates/shop/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -745,14 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop/templates/shop/profile_create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop/cores/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
@@ -770,14 +769,6 @@
           <folding>
             <marker date="1533218622000" expanded="true" signature="1032:1075" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/templates/shop/order_create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -819,14 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop/templates/shop/order_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop/cores/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -855,10 +838,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shop/templates/shop/order_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="44" column="34" lean-forward="false" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/templates/shop/order_create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/templates/registration/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shop/static/shop/css/home.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="44" column="60" lean-forward="true" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/templates/shop/profile_create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/templates/shop/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="48" column="57" lean-forward="false" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
           <folding />
         </state>
       </provider>

@@ -5,6 +5,9 @@
 <link rel= "stylesheet" type="text/css" href="{% static 'shop/css/product.css' %}">
 <link rel= "stylesheet" type="text/css" href="{% static 'shop/css/login.css' %}">
 <link rel= "stylesheet" type="text/css" href="{% static 'shop/css/intro.css' %}">
+<link rel= "stylesheet" type="text/css" href="{% static 'shop/css/home.css' %}">
+<link rel= "stylesheet" type="text/css" href="{% static 'shop/css/productD.css' %}">
+<link rel= "stylesheet" type="text/css" href="{% static 'shop/css/mypage.css' %}">
 
 <!-- 서브페이지 타이틀 -->
     <div id="subPageTitle_wrap">
@@ -12,27 +15,77 @@
 			프로필
 		</p>
 	</div>
-	
-     
-    {% if profile_list %}
-    <link rel= "stylesheet" type="text/css" href="{% static 'shop/css/login.css' %}">
-  
-    <div id="login_wrap">
-      <div id="login">
-        {% for profile in profile_list %}
-            <p>이름 : {{ profile.fullname }} </p>
-            <p>연락처 : {{ profile.phone }}</p>
-            <p>주소 : {{ profile.address }}</p>
-            <p>상세 주소 : {{ profile.address_detail }}</p>
-            <a href="{% url 'shop:profile_edit' user.pk %}">프로필 수정하기</a>
 
-        {% endfor %}
-        </div>
-    </div>
+	<!-- 서브페이지 타이틀 -->
+	<div id="subPageTitle_wrap">
+		<p id="subPageTitle">
+			민속국악사 / 마이페이지 / 개인정보관리 / 회원정보수정
+		</p>
+	</div>
 
-    {% else %}
-        <a href="{% url 'shop:profile_create' %}">프로필 작성하기</a>
-    {% endif %}
+	<div id="subPageContents_wrap">
+	<div id="subPageContents">
+
+	<!-- 마이페이지 -->
+	<p id="mypageTit">마이페이지</p>
+
+	<!-- 마이페이지 탭 메뉴 -->
+	<div id="mypageTab">
+		<a id="mypageTab1" class="mypageSelected" href="#mypageTab_1" onClick="mypageFirstChangeTab('1')">주문관리</a>
+		<a id="mypageTab2" class="mypageUNSelected" href="#mypageTab_2" onClick="mypageFirstChangeTab('2')">개인정보관리</a>
+
+		<!-- 주문관리 -->
+		<div id="mypageTab_1" name="mypageTab_1">
+			<!-- ********** 주문관리 file include ********** -->
+		</div>
+
+		<!-- 개인정보관리 -->
+		<div id="mypageTab_2" name="mypageTab_2">
+
+			<a id="mypageTab2_1" href="#mypageTab_2_1" onClick="mypageSecondChangeTab('1')" class="mypageSelected2">회원정보수정</a>
+			<a id="mypageTab2_2" href="#mypageTab_2_2" onClick="mypageSecondChangeTab('2')" class="mypageUNSelected2">환불계좌관리</a>
+			<a id="mypageTab2_3" href="#mypageTab_2_3" onClick="mypageSecondChangeTab('3')" class="mypageUNSelected2">회원탈퇴</a>
+
+			<div id="mypageTab_2_1" name="mypageTab_2_1">
+                {% if profile_list %}
+                <link rel= "stylesheet" type="text/css" href="{% static 'shop/css/login.css' %}">
+
+                <div id="login_wrap">
+                  <div id="login">
+                    {% for profile in profile_list %}
+                        <p>이름 : {{ profile.fullname }} </p>
+                        <p>연락처 : {{ profile.phone }}</p>
+                        <p>주소 : {{ profile.address }}</p>
+                        <p>상세 주소 : {{ profile.address_detail }}</p>
+                        <a href="{% url 'shop:profile_edit' user.pk %}">프로필 수정하기</a>
+
+                    {% endfor %}
+                    </div>
+                </div>
+
+                {% else %}
+                    <a href="{% url 'shop:profile_create' %}">프로필 작성하기</a>
+                {% endif %}
+			</div>
+			<div id="mypageTab_2_2" name="mypageTab_2_2">
+				<!-- ********** 환불계좌관리 file include ********** -->
+			</div>
+			<div id="mypageTab_2_3" name="mypageTab_2_3">
+				<form>
+					<div>
+						회원탈퇴시 개인정보가 모두 삭제되며, 탈퇴처리 이후에는 어떠한 방법으로도 회원님의 개인정보를 복원할 수 없습니다.<br />
+						위의 주의사항 등을 먼저 꼭 읽어 보신 후 아래의 항목을 입력하셔야 합니다.
+					</div>
+					<button type="submit" class="submitBtn">탈퇴하기</button>
+				</form>
+			</div>
+
+		</div>
+
+	</div>
+
+	</div>
+	</div>
 
 
 
