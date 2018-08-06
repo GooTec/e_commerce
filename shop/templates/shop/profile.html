@@ -40,41 +40,31 @@
 		<th>총합</th>
 		<th>주문/배송상태</th>
 	</tr>
-	<tr>
-		<td><p>2017.07.28</p><p>2017073048035</p></td>
-		<td><img src="./order.png" alt="#" />민속국악사 앙금 250</td>
-		<td><p>2,500,000 원</p><p>1개</p></td>
-		<td>2,500,000 원</td>
-		<td><button class="deliveryBtn" type="button" title="배송확인">배송확인</button></td>
-	</tr>
-	<tr>
-		<td><p>2017.07.28</p><p>2017073048035</p></td>
-		<td><img src="./order.png" alt="#" />민속국악사 앙금 250</td>
-		<td><p>2,500,000 원</p><p>1개</p></td>
-		<td>2,500,000 원</td>
-		<td><button class="deliveryBtn" type="button" title="배송확인">배송확인</button></td>
-	</tr>
-	<tr>
-		<td><p>2017.07.28</p><p>2017073048035</p></td>
-		<td><img src="./order.png" alt="#" />민속국악사 앙금 250</td>
-		<td><p>2,500,000 원</p><p>1개</p></td>
-		<td>2,500,000 원</td>
-		<td><button class="deliveryBtn" type="button" title="배송확인">배송확인</button></td>
-	</tr>
-	<tr>
-		<td><p>2017.07.28</p><p>2017073048035</p></td>
-		<td><img src="./order.png" alt="#" />민속국악사 앙금 250</td>
-		<td><p>2,500,000 원</p><p>1개</p></td>
-		<td>2,500,000 원</td>
-		<td><button class="deliveryBtn" type="button" title="배송확인">배송확인</button></td>
-	</tr>
-	<tr>
-		<td><p>2017.07.28</p><p>2017073048035</p></td>
-		<td><img src="./order.png" alt="#" />민속국악사 앙금 250</td>
-		<td><p>2,500,000 원</p><p>1개</p></td>
-		<td>2,500,000 원</td>
-		<td><button class="deliveryBtn" type="button" title="배송확인">배송확인</button></td>
-	</tr>
+        {% for order in object_list %}
+    <tr>
+        <td><p>{{ order.order_date }}</p><p>{{ order.order_id }}</p></td>
+        <td>상품사진상품명</td>
+        <td><p>가격</p><p>수량</p></td>
+        <td><p>{{ order.total }}</p></td>
+        <td><p>
+                {% if order.status == '0' %}
+                    결제 대기
+                {% elif order.status == '1' %}
+                    결제 완료
+                {% elif order.status == '2' %}
+                    상품 준비중
+                {% elif order.status == '3' %}
+                    배송 중
+                {% elif order.status == '4' %}
+                    배송 완료
+                {% elif order.status == '5' %}
+                    구매 완료
+                {% endif %}
+        </p></td>
+    </tr>
+        {% empty %}
+            <li><p>비었다</p></li>
+        {% endfor %}
 </table>
 
         </div>
