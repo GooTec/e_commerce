@@ -25,7 +25,6 @@ function banner_click_right() {
 		banner_wrap.style.backgroundImage = "url("+fileName+")";
 	}
 }
-/* Banner End */
 
 /* 상세페이지 Tab */
 var showTab = "";
@@ -85,6 +84,82 @@ function changeTab(showTab) {
 			
 			break;
 	}
+}
+
+/* 마이페이지 Tab */
+var myTab1 = "";
+
+function mypageFirstChangeTab(myTab1) {
 	
-	document.getElementById(showTab).style.display = "block";
+	var tab1 = document.getElementById('mypageTab1');
+	var tab2 = document.getElementById('mypageTab2');
+	
+	switch (myTab1){
+		/* 주문관리 */
+		case '1':
+			tab1.classList.add("mypageSelected");tab1.classList.remove("mypageUNSelected");
+			tab2.classList.add("mypageUNSelected");tab2.classList.remove("mypageSelected");
+			
+			document.getElementById('mypageTab_1').style.display = "block";
+			document.getElementById('mypageTab_2').style.display = "none";
+			
+			break;
+			
+		/* 개인정보관 */
+		case '2':
+			tab1.classList.add("mypageUNSelected");tab1.classList.remove("mypageSelected");
+			tab2.classList.add("mypageSelected");tab2.classList.remove("mypageUNSelected");
+			
+			document.getElementById('mypageTab_1').style.display = "none";
+			document.getElementById('mypageTab_2').style.display = "block";
+			
+			break;
+	}
+}
+
+var myTab2 = "";
+
+function mypageSecondChangeTab(myTab2) {
+	
+	var tab1 = document.getElementById('mypageTab2_1');
+	var tab2 = document.getElementById('mypageTab2_2');
+	var tab3 = document.getElementById('mypageTab2_3');
+	
+	switch (myTab2){
+		/* 회원정보수정 */
+		case '1':
+			tab1.classList.add("mypageSelected2");tab1.classList.remove("mypageUNSelected2");
+			tab2.classList.add("mypageUNSelected2");tab2.classList.remove("mypageSelected2");
+			tab3.classList.add("mypageUNSelected2");tab3.classList.remove("mypageSelected2");
+			
+			document.getElementById('mypageTab_2_1').style.display = "block";
+			document.getElementById('mypageTab_2_2').style.display = "none";
+			document.getElementById('mypageTab_2_3').style.display = "none";
+			
+			break;
+			
+		/* 환불계좌관리 */
+		case '2':
+			tab1.classList.add("mypageUNSelected2");tab1.classList.remove("mypageSelected2");
+			tab2.classList.add("mypageSelected2");tab2.classList.remove("mypageUNSelected2");
+			tab3.classList.add("mypageUNSelected2");tab3.classList.remove("mypageSelected2");
+			
+			document.getElementById('mypageTab_2_1').style.display = "none";
+			document.getElementById('mypageTab_2_2').style.display = "block";
+			document.getElementById('mypageTab_2_3').style.display = "none";
+			
+			break;
+			
+		/* 회원탈퇴 */
+		case '3':
+			tab1.classList.add("mypageUNSelected2");tab1.classList.remove("mypageSelected2");
+			tab2.classList.add("mypageUNSelected2");tab2.classList.remove("mypageSelected2");
+			tab3.classList.add("mypageSelected2");tab3.classList.remove("mypageUNSelected2");
+			
+			document.getElementById('mypageTab_2_1').style.display = "none";
+			document.getElementById('mypageTab_2_2').style.display = "none";
+			document.getElementById('mypageTab_2_3').style.display = "block";
+			
+			break;
+	}
 }
