@@ -32,8 +32,52 @@
 
 		<!-- 주문관리 -->
 		<div id="mypageTab_1" name="mypageTab_1">
-			<!-- ********** 주문관리 file include ********** -->
-		</div>
+<table>
+	<tr>
+		<th>주문날짜/주문번호</th>
+		<th>제품명</th>
+		<th>가격/수량</th>
+		<th>총합</th>
+		<th>주문/배송상태</th>
+	</tr>
+	<tr>
+		<td><p>2017.07.28</p><p>2017073048035</p></td>
+		<td><img src="./order.png" alt="#" />민속국악사 앙금 250</td>
+		<td><p>2,500,000 원</p><p>1개</p></td>
+		<td>2,500,000 원</td>
+		<td><button class="deliveryBtn" type="button" title="배송확인">배송확인</button></td>
+	</tr>
+	<tr>
+		<td><p>2017.07.28</p><p>2017073048035</p></td>
+		<td><img src="./order.png" alt="#" />민속국악사 앙금 250</td>
+		<td><p>2,500,000 원</p><p>1개</p></td>
+		<td>2,500,000 원</td>
+		<td><button class="deliveryBtn" type="button" title="배송확인">배송확인</button></td>
+	</tr>
+	<tr>
+		<td><p>2017.07.28</p><p>2017073048035</p></td>
+		<td><img src="./order.png" alt="#" />민속국악사 앙금 250</td>
+		<td><p>2,500,000 원</p><p>1개</p></td>
+		<td>2,500,000 원</td>
+		<td><button class="deliveryBtn" type="button" title="배송확인">배송확인</button></td>
+	</tr>
+	<tr>
+		<td><p>2017.07.28</p><p>2017073048035</p></td>
+		<td><img src="./order.png" alt="#" />민속국악사 앙금 250</td>
+		<td><p>2,500,000 원</p><p>1개</p></td>
+		<td>2,500,000 원</td>
+		<td><button class="deliveryBtn" type="button" title="배송확인">배송확인</button></td>
+	</tr>
+	<tr>
+		<td><p>2017.07.28</p><p>2017073048035</p></td>
+		<td><img src="./order.png" alt="#" />민속국악사 앙금 250</td>
+		<td><p>2,500,000 원</p><p>1개</p></td>
+		<td>2,500,000 원</td>
+		<td><button class="deliveryBtn" type="button" title="배송확인">배송확인</button></td>
+	</tr>
+</table>
+
+        </div>
 
 		<!-- 개인정보관리 -->
 		<div id="mypageTab_2" name="mypageTab_2">
@@ -44,9 +88,7 @@
 
 			<div id="mypageTab_2_1" name="mypageTab_2_1">
                 {% if profile_list %}
-                <link rel= "stylesheet" type="text/css" href="{% static 'shop/css/login.css' %}">
-
-                <div id="login_wrap">
+                <div id="profile_wrap">
                   <div id="login">
                     {% for profile in profile_list %}
                         <p>이름 : {{ profile.fullname }} </p>
