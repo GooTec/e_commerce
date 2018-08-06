@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e2cbf96-21b5-47be-850f-93e376d8539b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/templates/shop/profile.html" afterPath="$PROJECT_DIR$/shop/templates/shop/profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/templates/shop/profile_edit.html" afterPath="$PROJECT_DIR$/shop/templates/shop/profile_edit.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -71,11 +71,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="profile_edit.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="profile_edit.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/shop/templates/shop/profile_edit.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="403">
-                  <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+                <state relative-caret-position="133">
+                  <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -103,7 +103,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="profile_create.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="profile_create.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/shop/templates/shop/profile_create.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="105">
@@ -184,8 +184,8 @@
           <file leaf-file-name="profile.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/shop/templates/shop/profile.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="79" column="8" lean-forward="false" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
+                <state relative-caret-position="45">
+                  <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -290,6 +290,7 @@
         <option value="$PROJECT_DIR$/shop/templates/registration/signup.html" />
         <option value="$PROJECT_DIR$/shop/templates/shop/profile_create.html" />
         <option value="$PROJECT_DIR$/shop/templates/shop/profile.html" />
+        <option value="$PROJECT_DIR$/shop/templates/shop/profile_edit.html" />
       </list>
     </option>
   </component>
@@ -742,14 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop/templates/shop/profile_edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop/cores/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
@@ -868,6 +861,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shop/templates/shop/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shop/templates/shop/profile_create.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -876,10 +877,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop/templates/shop/profile.html">
+    <entry file="file://$PROJECT_DIR$/shop/templates/shop/profile_edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="79" column="8" lean-forward="false" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
+        <state relative-caret-position="133">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
