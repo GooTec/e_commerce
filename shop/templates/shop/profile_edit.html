@@ -15,14 +15,7 @@
                 <div id="inputBox">
                     {% csrf_token %}
                     {{ form.non_field_errors }}
-                    <label for="{{ form.fullname.id_for_label }}">이름</label>
-                    {{ form.fullname }}
-                    <label for="{{ form.phone.id_for_label }}">연락처</label>
-                    {{ form.phone }}
-                    <label for="{{ form.address.id_for_label }}">주소</label>
-                    {{ form.address }}
-                    <label for="{{ form.address_detail.id_for_label }}">상세 주소</label>
-                    {{ form.address_detail }}
+                    {{ form.as_table }}
                     
                     <!-- <tbody>
                         <tr>
