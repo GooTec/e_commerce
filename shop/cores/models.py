@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from datetime import datetime
 
 # Create your models here.
 
@@ -76,6 +77,8 @@ class Order(models.Model):
     fullname = models.CharField(max_length=20)
     total = models.IntegerField()
     status = models.CharField(choices=STATUS, max_length=20, default=0)
+    order_date = models.DateTimeField(default=datetime.now, blank=True)
+
 
 class OrderItem(models.Model):
     order = models.ForeignKey(Order, on_delete=models.CASCADE)
