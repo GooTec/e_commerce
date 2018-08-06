@@ -28,46 +28,7 @@
 	<!-- 마이페이지 탭 메뉴 -->
 	<div id="mypageTab">
 		<a id="mypageTab2" class="mypageUNSelected" href="#mypageTab_2" onClick="mypageFirstChangeTab('2')">개인정보관리</a>
-
-		<!-- 주문관리 -->
-		<div id="mypageTab_1" name="mypageTab_1">
-<table>
-	<tr>
-		<th>주문날짜/주문번호</th>
-		<th>제품명</th>
-		<th>가격/수량</th>
-		<th>총합</th>
-		<th>주문/배송상태</th>
-	</tr>
-        {% for order in object_list %}
-    <tr>
-        <td><p>{{ order.order_date }}</p><p>{{ order.order_id }}</p></td>
-        <td>상품사진상품명</td>
-        <td><p>가격</p><p>수량</p></td>
-        <td><p>{{ order.total }}</p></td>
-        <td><p>
-                {% if order.status == '0' %}
-                    결제 대기
-                {% elif order.status == '1' %}
-                    결제 완료
-                {% elif order.status == '2' %}
-                    상품 준비중
-                {% elif order.status == '3' %}
-                    배송 중
-                {% elif order.status == '4' %}
-                    배송 완료
-                {% elif order.status == '5' %}
-                    구매 완료
-                {% endif %}
-        </p></td>
-    </tr>
-        {% empty %}
-            <li><p>비었다</p></li>
-        {% endfor %}
-</table>
-
-        </div>
-
+        
 		<!-- 개인정보관리 -->
 		<div id="mypageTab_2" name="mypageTab_2">
 
