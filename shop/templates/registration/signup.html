@@ -36,7 +36,8 @@
 
 <script>
     var idDuplicationChecker = false;
-
+    var fd = {};
+    fd['csrfmiddlewaretoken'] = $.csrf_token;
     function idDuplicationCheck(){
        var username = $("#id_username").val();
        $.ajax({
