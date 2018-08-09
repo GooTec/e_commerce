@@ -1,5 +1,7 @@
 # from django.shortcuts import render
 from django.contrib.auth.models import User
+from django.http import JsonResponse
+
 
 # Create your views here.
 from django.views.generic import TemplateView, ListView, DetailView, UpdateView
@@ -135,12 +137,18 @@ class ProductDetailView(FormMixin, DetailView):
 class ProfileDetailView(ListView):
     template_name = 'shop/profile.html'
     model = Profile
-
     def get_queryset(self):
         user_id = self.request.user.id
-        # user = User.objects.filter(pk=user_id)
-        # print(user)
         return Profile.objects.filter(pk=user_id)
+
+    def get(self, request, *args, **kwargs):
+        """
+        Same as django.views.generic.edit.ProcessFormView.get(), but adds test cookie stuff
+        """
+        if not self.request.user.is_active:
+            return redirect('login')
+        print("HERE")
+        return super(ProfileDetailView, self).get(request, *args, **kwargs)
 
 class ProfileCreateView(CreateView):
     template_name = 'shop/profile_create.html'  # 템플릿은?
@@ -151,6 +159,8 @@ class ProfileCreateView(CreateView):
     def form_valid(self, form):
         form.instance.user_id = self.request.user
         return super(ProfileCreateView, self).form_valid(form)
+
+
 
 
 class ProfileUpdateView(UpdateView):
@@ -165,6 +175,8 @@ class CartListView(ListView):
     model = CartItem
 
     def get_context_data(self, *, object_list=None, **kwargs):
+        if not self.request.user.is_active:
+            return redirect('login')
         carts = self.model.objects.filter(user_id=self.request.user).values()
         context= {}
         objects = []
@@ -187,6 +199,8 @@ class CartDeleteView(DeleteView):
     success_url = reverse_lazy('shop:cart')
 
     def get(self, *a, **kw):
+        if not self.request.user.is_active:
+            return redirect('login')
         return self.delete(*a, **kw)
 
 
@@ -201,6 +215,8 @@ class OrderCreateView(CreateView):
     success_url = reverse_lazy('shop:home')  # 성공하면 어디로?
 
     def get_context_data(self,* , object_list=None, **kwargs):
+        if not self.request.user.is_active:
+            return redirect('login')
         carts = CartItem.objects.filter(user_id=self.request.user).values()
         context = {}
         objects = []
@@ -300,3 +316,9 @@ class OrderListView(ListView):
 
 #------------------ORDER END--------------------#
 
+def idCheck(request):
+    username = request.POST.get('username', None)
+    data = {
+        'is_taken': User.objects.filter(username__iexact=username).exists()
+    }
+    return JsonResponse(data)

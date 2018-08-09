@@ -11,6 +11,7 @@ urlpatterns = [
     path('', coreViews.HomeListView.as_view(), name='home'),
     url('accounts/signup/', coreViews.CreateUserView.as_view(), name = 'signup'),
     url('accounts/login/done/', coreViews.RegisteredView.as_view(), name = 'create_user_done'),
+    path('idCheck/', coreViews.idCheck , name='id_check'),
     path('info/', coreViews.InfoTemplateView.as_view(), name='info'),
     path('info/intro/', coreViews.IntroTemplateView.as_view(), name='intro'),
     path('info/auth/', coreViews.AuthTemplateView.as_view(), name='auth'),

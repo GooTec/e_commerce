@@ -3,19 +3,77 @@
 
 {% block content %}
 <link rel= "stylesheet" type="text/css" href="{% static 'shop/css/login.css' %}">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
 
+</script>
 <div id="login_wrap">
     <div id="login">
-        <form method="post" action="{% url 'shop:signup' %}">
+        <form method="post" name="theForm" action="{% url 'shop:signup' %}">
             <div id="inputBox">
                     {% csrf_token %}
                     {{ form.non_field_errors }}
-                    {{ form.as_table }}
+                    <label for="{{ form.username.id_for_label }}">ID</label>
+                    {{ form.username }}
+
+                    <a onclick="idDuplicationCheck();")>ID 중복확인</a><br>
+
+                    <label for="{{ form.email.id_for_label }}">e-mail</label>
+                    {{ form.email }}
+
+                    <label for="{{ form.password1.id_for_label }}">password</label>
+                    {{ form.password1 }}
+                    <label for="{{ form.password2.id_for_label }}">password check</label>
+                    {{ form.password2 }}
+
             </div>
             <div id="loginBtn">
-                <input type="submit" id="submitBtn" value="회원가입" />
+
+                <input type="button" id="submitBtn" onclick="checkSubmit()" value="회원가입" />
             </div>    
         </form>
     </div>
 </div>
+
+<script>
+    var idDuplicationChecker = false;
+
+    function idDuplicationCheck(){
+       var username = $("#id_username").val();
+       $.ajax({
+          type: "POST", // 데이터를 전송하는 방법을 지정
+          url: "{% url 'shop:id_check' %}", // 통신할 url을 지정
+          data: {'username': username, 'csrfmiddlewaretoken': '{{ csrf_token }}'},
+          dataType: "json",
+          success: function(response){
+            if(response.is_taken){
+                alert("사용 불가능한 ID입니다. 새로운 ID를 입력하세요.");
+            }
+            else {
+                window.idDuplicationChecker = true;
+                console.log(window.idDuplicationChecker);
+                alert("사용 가능한 ID입니다. 회원 가입을 진행하세요.");
+            }
+          },
+          error: function(request, status, error){
+            alert("로그인이 필요합니다.")
+            window.location.replace("/accounts/login/")
+            //  alert("code:"+request.status+"\n"+"message:"+request.responseText+"\n"+"error:"+error);
+          },
+        });
+    }
+
+    function checkSubmit(){
+        console.log(window.idDuplicationChecker);
+        if(window.idDuplicationChecker){
+            document.theForm.submit();
+
+        }else {
+            alert("ID 중복 여부를 확인하세요");
+        }
+
+    }
+
+
+
+</script>
 {% endblock %}
