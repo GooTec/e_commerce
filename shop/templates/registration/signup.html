@@ -35,17 +35,19 @@
 </div>
 
 <script>
+    var csrftoken = {% csrf_token %};
     var idDuplicationChecker = false;
-    var fd = {};
-    fd['csrfmiddlewaretoken'] = $.csrf_token;
-    $.ajaxSetup({
-    crossDomain: false, // obviates need for sameOrigin test
-    beforeSend: function(xhr, settings) {
-        if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
-            xhr.setRequestHeader("X-CSRFToken", fd['csrfmiddlewaretoken');
+    alert(csrftoken);
+
+     $.ajaxSetup({
+        crossDomain: false,
+        beforeSend: function(xhr, settings) {
+            if (!csrfSafeMethod(settings.type)) {
+                xhr.setRequestHeader("X-CSRFToken", csrftoken);
+            }
         }
-    }
-});
+    });
+
     function idDuplicationCheck(){
        var username = $("#id_username").val();
        $.ajax({
