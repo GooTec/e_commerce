@@ -47,6 +47,10 @@
         }
     });
 
+    function csrfSafeMethod(method) {
+    return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+    }
+
     function idDuplicationCheck(){
        var username = $("#id_username").val();
        $.ajax({
