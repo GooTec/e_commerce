@@ -62,6 +62,7 @@
             else {
                 window.idDuplicationChecker = true;
                 console.log(window.idDuplicationChecker);
+                $('#submitBtn').prop("type", "submit");
                 alert("사용 가능한 ID입니다. 회원 가입을 진행하세요.");
             }
           },
@@ -75,12 +76,8 @@
 
     function checkSubmit(){
         console.log(window.idDuplicationChecker);
-        if(window.idDuplicationChecker){
-            document.theForm.submit();
 
-        }else {
-            alert("ID 중복 여부를 확인하세요");
-        }
+        alert("ID 중복 여부를 확인하세요");
 
     }
 
