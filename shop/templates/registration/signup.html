@@ -28,8 +28,10 @@
             </div>
             <div id="loginBtn">
 
-                <input type="button" id="submitBtn" onclick="checkSubmit()" value="회원가입" />
-            </div>    
+                <input type="button" id="checkBtn" onclick="checkSubmit()" value="회원가입" />
+                <input type="button" id="submitBtn" value="회원가입" style="display: none;" />
+
+            </div>
         </form>
     </div>
 </div>
@@ -65,7 +67,8 @@
             else {
                 window.idDuplicationChecker = true;
                 console.log(window.idDuplicationChecker);
-                $('#submitBtn').prop("type", "submit");
+                $("#submitBtn").show();
+                $("#checkBtn").hide();
                 alert("사용 가능한 ID입니다. 회원 가입을 진행하세요.");
             }
           },
