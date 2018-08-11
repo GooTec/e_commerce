@@ -8,11 +8,19 @@
 </script>
 <div id="login_wrap">
     <div id="login">
-        <form method="post" name="theForm" action="{% url 'shop:signup' %}">
+        <form method="post" id="theForm" name="theForm" action="{% url 'shop:signup' %}">
             <div id="inputBox">
-                    {% csrf_token %}
-                    {{ form.non_field_errors }}
-                    <label for="{{ form.username.id_for_label }}">ID</label>
+                {% csrf_token %}
+                {% if form.errors %}
+                    {% for field in form %}
+                        {% for error in field.errors %}
+                            <script>
+                                alert('{{ error }}');
+                            </script>
+                        {% endfor %}
+                    {% endfor %}
+                {% endif %}
+                <label for="{{ form.username.id_for_label }}">ID</label>
                     {{ form.username }}
 
                     <a onclick="idDuplicationCheck();")>ID 중복확인</a><br>
@@ -27,10 +35,7 @@
 
             </div>
             <div id="loginBtn">
-
                 <input type="button" id="checkBtn" onclick="checkSubmit()" value="회원가입" />
-                <input type="submit" id="submitBtn" value="회원가입" style="display: none;" />
-
             </div>
         </form>
     </div>
@@ -67,8 +72,6 @@
             else {
                 window.idDuplicationChecker = true;
                 console.log(window.idDuplicationChecker);
-                $("#submitBtn").show();
-                $("#checkBtn").hide();
                 alert("사용 가능한 ID입니다. 회원 가입을 진행하세요.");
             }
           },
@@ -81,10 +84,12 @@
     }
 
     function checkSubmit(){
-        console.log(window.idDuplicationChecker);
-
-        alert("ID 중복 여부를 확인하세요");
-
+        if(window.idDuplicationChecker){
+            alert("회원가입진행");
+            $("form#theForm").submit();
+        }else{
+            alert("ID 중복 여부를 확인하세요");
+        }
     }
 
 
