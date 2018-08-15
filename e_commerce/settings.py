@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
-    'questminsok.cafe24.com',
+    'minsokgukak.com',
 ]
 
 
@@ -78,18 +78,18 @@ WSGI_APPLICATION = 'e_commerce.wsgi.application'
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-       'ENGINE': 'django.db.backends.sqlite3',
-       'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-    # 'default': {
-    #     'ENGINE' : 'django.db.backends.mysql',
-    #     'NAME' : 'questminsok',
-    #     'USER' : 'root',
-    #     'PASSWORD' : 'admin123@',
-    #     'HOST' : 'localhost',
-    #     'PORT' : '',
-    # }
+    #'default': {
+    #   'ENGINE': 'django.db.backends.sqlite3',
+    #   'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    #}
+     'default': {
+         'ENGINE' : 'django.db.backends.mysql',
+         'NAME' : 'questminsok',
+         'USER' : 'root',
+         'PASSWORD' : 'admin123@',
+         'HOST' : 'localhost',
+         'PORT' : '',
+     }
 
 }
 
@@ -140,4 +140,3 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'gootec92@gmail.com'
-EMAIL_HOST_PASSWORD = 'xodhks123@'

