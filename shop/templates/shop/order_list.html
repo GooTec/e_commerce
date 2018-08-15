@@ -22,6 +22,7 @@
 
 	<!-- 상품 리스트 -->
 			<div id="mypageTab_1" name="mypageTab_1">
+{% if object_list %}
 <table>
 	<tr>
 		<th>주문날짜/주문번호</th>
@@ -63,8 +64,10 @@
             {% endfor %}
     </table>
 		
-		</div>
-    </div>
-    
 
+{% else %}
+        <a href="{% url 'shop:products' %}">상품 담으러가기</a>
+{% endif %}
+</div>
+    </div>
 {% endblock %}
