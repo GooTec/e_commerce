@@ -195,6 +195,7 @@ class CartListView(ListView):
             product_info = Product.objects.get(pk=cart['product_id'])
             info['cart_id'] = cart['cart_id']
             info['product_name'] = product_info.name
+            info['product_id'] = product_info.product_id
             info['price'] = product_info.price
             info['count'] = cart['count']
             info['total'] = cart['price']

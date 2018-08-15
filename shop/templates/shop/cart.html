@@ -5,6 +5,9 @@
 <link rel= "stylesheet" type="text/css" href="{% static 'shop/css/product.css' %}">
 <link rel= "stylesheet" type="text/css" href="{% static 'shop/css/login.css' %}">
 <link rel= "stylesheet" type="text/css" href="{% static 'shop/css/intro.css' %}">
+<link rel= "stylesheet" type="text/css" href="{% static 'shop/css/home.css' %}">
+<link rel= "stylesheet" type="text/css" href="{% static 'shop/css/productD.css' %}">
+<link rel= "stylesheet" type="text/css" href="{% static 'shop/css/mypage.css' %}">
 
 <!-- 서브페이지 타이틀 -->
     <div id="subPageTitle_wrap">
@@ -13,29 +16,39 @@
 		</p>
 	</div>
 	
-     
+<div id="mypageTab_1" name="mypageTab_1">
+
     {% if objects %}
     <link rel= "stylesheet" type="text/css" href="{% static 'shop/css/login.css' %}">
-  
-    <div id="login_wrap">
-      <div id="login">
+  <table>
+	<tr>
+		<th>장바구니 번호</th>
+		<th>제품명</th>
+		<th>가격/수량</th>
+		<th>총합</th>
+		<th>주문/배송상태</th>
+	</tr>
+        {% for cart in objects %}
 
-          {% for object in objects %}
-            <h2>{{ object.product_name }}</h2>
-            <p>가격 : {{ object.price }}</p>
-            <p>수량: {{ object.count }}</p>
-            <p>합계: {{ object.total }}</p>
-            <a href="{% url 'shop:cart_delete' object.cart_id %}">Delete</a>
-
-          <hr>
-        {% endfor %}
-        </div>
-    </div>
+    <tr>
+        <td><p>{{ cart.cart_id }}</p></td>
+        <td><p>{{ cart.product_name }}</p></td>
+        <td><p>{{ cart.price }}</p><p>{{ cart.count }}</p></td>
+        <td><p>{{ cart.total }}</p></td>
+        <td>
+                <button class="btn_buy" onclick="location.href='{% url 'shop:order_product' cart.product_id %}'" title="구매하기">구매하기</button>
+        </td>
+        </tr>
+            {% empty %}
+                <li><p>비었다</p></li>
+            {% endfor %}
+    </table>
 
     {% else %}
         <!--<a href="{% url 'shop:profile_create' %}">프로필 작성하기</a>-->
         <a href="{% url 'shop:products' %}">상품 담으러가기</a>
     {% endif %}
+</div>
 
 <script>
 

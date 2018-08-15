@@ -30,7 +30,7 @@ urlpatterns = [
     path('mypage/order/', coreViews.OrderListView.as_view(), name='my_order'),
     re_path('^mypage/order/(?P<pk>\d+)/$', coreViews.OrderDetailView.as_view(), name='order_detail'),
 
-    # path('order/', coreViews.OrderCreateView.as_view(), name='order'),
+    path('order/cart/', coreViews.OrderCreateView.as_view(), name='order'),
     re_path('^order/(?P<pk>\d+)/$', coreViews.OrderCreateByProductView.as_view(), name='order_product'),
 
 ]
