@@ -1,0 +1,28 @@
+{% extends 'shop/base.html' %}
+{% load static %}
+
+{% block content %}
+<link rel= "stylesheet" type="text/css" href="{% static 'shop/css/login.css' %}">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+
+</script>
+<div id="login_wrap">
+    <div id="login">
+        <form method="post" id="theForm" name="theForm" action="{% url 'shop:findPW' %}">
+            <div id="inputBox">
+                {% csrf_token %}
+                <label>ID</label>
+                <input type="text" name="username">
+                <label>e-mail</label>
+                <input type="email" name="email">
+            </div>
+
+            <div id="loginBtn">
+                <input type="submit" id="submit" onclick="" value="메일 보내기" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+{% endblock %}

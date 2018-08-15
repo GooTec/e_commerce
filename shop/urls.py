@@ -11,7 +11,9 @@ urlpatterns = [
     path('', coreViews.HomeListView.as_view(), name='home'),
     url('accounts/signup/', coreViews.CreateUserView.as_view(), name = 'signup'),
     url('accounts/login/done/', coreViews.RegisteredView.as_view(), name = 'create_user_done'),
+    path('accounts/findpw/', coreViews.findPW , name='findPW'),
     path('idCheck/', coreViews.idCheck , name='id_check'),
+
     path('info/', coreViews.InfoTemplateView.as_view(), name='info'),
     path('info/intro/', coreViews.IntroTemplateView.as_view(), name='intro'),
     path('info/auth/', coreViews.AuthTemplateView.as_view(), name='auth'),
@@ -26,6 +28,8 @@ urlpatterns = [
     path('mypage/cart/<int:pk>/', coreViews.CartDeleteView.as_view(), name='cart_delete'),
 
     path('mypage/order/', coreViews.OrderListView.as_view(), name='my_order'),
+    re_path('^mypage/order/(?P<pk>\d+)/$', coreViews.OrderDetailView.as_view(), name='order_detail'),
+
     # path('order/', coreViews.OrderCreateView.as_view(), name='order'),
     re_path('^order/(?P<pk>\d+)/$', coreViews.OrderCreateByProductView.as_view(), name='order_product'),
 

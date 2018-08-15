@@ -1,7 +1,9 @@
 # from django.shortcuts import render
 from django.contrib.auth.models import User
 from django.http import JsonResponse
-
+from django.core.mail import BadHeaderError, send_mail
+from django.http import HttpResponse, HttpResponseRedirect
+from django.core import mail
 
 # Create your views here.
 from django.views.generic import TemplateView, ListView, DetailView, UpdateView
@@ -9,7 +11,7 @@ from django.views.generic.edit import CreateView ,DeleteView# 오브젝트를 �
 from django.urls import reverse_lazy
 from django.views.generic.edit import FormMixin
 from django.http import HttpResponseForbidden
-from django.shortcuts import redirect
+from django.shortcuts import redirect, render
 from django.contrib import messages
 from django.views import  View
 from .forms import CreateUserForm, ProfileCreateForm, CartItemForm ,OrderCreateForm , OrderItemCreateForm
@@ -321,6 +323,16 @@ class OrderListView(ListView):
         return query
 
 
+class OrderDetailView(DetailView):
+    template_name = 'shop/order_detail.html'
+    model = Order
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['items'] = OrderItem.objects.filter(order=context['object'])
+        print(context)
+
+        return context
 
 #------------------ORDER END--------------------#
 
@@ -330,3 +342,31 @@ def idCheck(request):
         'is_taken': User.objects.filter(username__iexact=username).exists()
     }
     return JsonResponse(data)
+
+def findPW(request):
+    if request.method == 'POST':
+        send_email(request)
+        return redirect('login')
+        #id는 유효한지
+    else :
+        return render(request, 'registration/findPW.html',{} )
+
+
+def send_email(request):
+    connection = mail.get_connection()  # Use default email connection
+    connection.send_messages(messages)
+
+    subject = "THIS MAIL IS FOR TEST"
+    message = "this is test mail"
+    from_email = "test@test.com"##정용이 메일로 바꾸기
+    to_email = "starymate@gmail.com"
+    if subject and message and from_email:
+        try:
+            connection.send_mail(subject, message, from_email, [to_email])
+        except BadHeaderError:
+            return HttpResponse('Invalid header found.')
+        return HttpResponseRedirect('/contact/thanks/')
+    else:
+        # In reality we'd use a form class
+        # to get proper validation errors.
+        return HttpResponse('Make sure all fields are entered and valid.')

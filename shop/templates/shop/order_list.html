@@ -31,12 +31,15 @@
 		<th>주문/배송상태</th>
 	</tr>
         {% for order in object_list %}
+
     <tr>
         <td><p>{{ order.order_date }}</p><p>{{ order.order_id }}</p></td>
         <td>상품사진상품명</td>
         <td><p>가격</p><p>수량</p></td>
         <td><p>{{ order.total }}</p></td>
-        <td><p>
+        <td>
+             <a href="{% url 'shop:order_detail' order.pk %}">
+                 <p>
                 {% if order.status == '0' %}
                     결제 대기
                 {% elif order.status == '1' %}
@@ -50,7 +53,10 @@
                 {% elif order.status == '5' %}
                     구매 완료
                 {% endif %}
-        </p></td>
+                 - 상세보기
+            </p>
+            </a>
+        </td>
         </tr>
             {% empty %}
                 <li><p>비었다</p></li>
