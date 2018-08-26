@@ -9,14 +9,18 @@
 <link rel= "stylesheet" type="text/css" href="{% static 'shop/css/productD.css' %}">
 <link rel= "stylesheet" type="text/css" href="{% static 'shop/css/mypage.css' %}">
 <script src="{% static 'shop/js/javascript.js' %}"></script>
+<style>
 
+
+
+</style>
 <!-- 서브페이지 타이틀 -->
 
 
 	<!-- 서브페이지 타이틀 -->
 	<div id="subPageTitle_wrap">
 		<p id="subPageTitle">
-			민속국악사 / 마이페이지 / 개인정보관리 / 회원정보수정
+			민속국악사 / 마이페이지 / 개인정보관리
 		</p>
 	</div>
 
@@ -30,19 +34,32 @@
 
 		<!-- 개인정보관리 -->
 		<div id="mypageTab_1" name="mypageTab_1" style="display:show">
-
-			<a id="mypageTab2_1" href="#mypageTab_2_1" onClick="mypageSecondChangeTab('1')" class="mypageSelected2">회원정보수정</a>
-
 			<div id="mypageTab_2_1" name="mypageTab_2_1">
                 {% if profile_list %}
-                <div id="profile_wrap">
+
+				<div id="profile_wrap">
                   <div id="login">
-                    {% for profile in profile_list %}
-                        <p>이름 : {{ profile.fullname }} </p>
-                        <p>연락처 : {{ profile.phone }}</p>
-                        <p>주소 : {{ profile.address }}</p>
-                        <p>상세 주소 : {{ profile.address_detail }}</p>
-                        <a href="{% url 'shop:profile_edit' user.pk %}">프로필 수정하기</a>
+					  <table>
+					  	{% for profile in profile_list %}
+					  		<tr>
+								<th>이름</th>
+								<td>{{ profile.fullname }}</td>
+							</tr>
+						  	<tr>
+								<th>연락처</th>
+								<td>{{ profile.phone }}</td>
+							</tr>
+						  	<tr>
+								<th>주소</th>
+								<td>{{ profile.address }}</td>
+							</tr>
+						  	<tr>
+								<th>상세 주소</th>
+								<td>{{ profile.address_detail }}</td>
+							</tr>
+
+					  </table>
+					  							<a href="{% url 'shop:profile_edit' user.pk %}">프로필 수정하기</a>
 
                     {% endfor %}
                     </div>
@@ -51,9 +68,6 @@
                 {% else %}
                     <a href="{% url 'shop:profile_create' %}">프로필 작성하기</a>
                 {% endif %}
-			</div>
-			<div id="mypageTab_2_2" name="mypageTab_2_2">
-				<!-- ********** 환불계좌관리 file include ********** -->
 			</div>
 			<div id="mypageTab_2_3" name="mypageTab_2_3">
 				<form>

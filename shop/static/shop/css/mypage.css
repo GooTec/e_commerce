@@ -3,6 +3,7 @@
 
 #mypageTit {font-size: 30px; font-weight: bold; height: 70px; line-height: 70px; width: 1200px; float: left;}
 
+#mypageTab_2, #mypageTab_2_2, #mypageTab_2_3 {display: none;}
 
 #mypageTab {float: left; width: 1200px;}
 
