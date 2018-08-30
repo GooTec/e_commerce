@@ -76,7 +76,7 @@ class HomeListView(ListView):
 class ProductListView(ListView):
     template_name = 'shop/product_list.html'
     model = Product
-    locale.setlocale(locale.LC_ALL, 'ko_kr.utf-8')
+    locale.setlocale(locale.LC_ALL, 'en_US.utf-8')
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = {}
@@ -97,7 +97,7 @@ class CategoryListView(ListView):
         category  = self.kwargs['category']
         context = {}
         context['object_list'] = Product.objects.filter(category=category)
-        locale.setlocale(locale.LC_ALL ,'ko_kr.utf-8')
+        locale.setlocale(locale.LC_ALL ,'en_US.utf-8')
 
         for item in context['object_list'] :
             item.price = locale.currency(item.price, grouping=True)
@@ -117,7 +117,7 @@ class BestListView(ListView):
     def get_context_data(self, *, object_list=None, **kwargs):
         context = {}
         context['object_list'] = Product.objects.filter(recommend=True)
-        locale.setlocale(locale.LC_ALL ,'ko_kr.utf-8')
+        locale.setlocale(locale.LC_ALL ,'en_US.utf-8')
         for item in context['object_list'] :
             item.price = locale.currency(item.price, grouping=True)
 
