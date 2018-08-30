@@ -5,6 +5,8 @@ from django.core.mail import BadHeaderError, send_mail
 from django.http import HttpResponse, HttpResponseRedirect
 from django.core import mail
 
+import locale
+
 # Create your views here.
 from django.views.generic import TemplateView, ListView, DetailView, UpdateView
 from django.views.generic.edit import CreateView ,DeleteView# 오브젝트를 생성하는 뷰 (form 혹은 model과 연결되서 새로운 데이터를 넣을 때 CreateView - generic view를 사용)
@@ -16,6 +18,10 @@ from django.contrib import messages
 from django.views import  View
 from .forms import CreateUserForm, ProfileCreateForm, CartItemForm ,OrderCreateForm , OrderItemCreateForm
 from .models import Product, Profile , CartItem, Order, OrderItem
+
+
+
+
 
 
 #### USER 생성 ####
@@ -70,11 +76,16 @@ class HomeListView(ListView):
 class ProductListView(ListView):
     template_name = 'shop/product_list.html'
     model = Product
+    locale.setlocale(locale.LC_ALL, 'ko_kr.utf-8')
+
     def get_context_data(self, *, object_list=None, **kwargs):
         context = {}
         context['object_list'] = Product.objects.all()
         context['categories'] = Product.count_of_category(Product)
         context['best'] = Product.count_of_best(Product)
+
+        for item in context['object_list'] :
+            item.price = locale.currency(item.price, grouping=True)
 
         return context
 
@@ -86,6 +97,10 @@ class CategoryListView(ListView):
         category  = self.kwargs['category']
         context = {}
         context['object_list'] = Product.objects.filter(category=category)
+        locale.setlocale(locale.LC_ALL ,'ko_kr.utf-8')
+
+        for item in context['object_list'] :
+            item.price = locale.currency(item.price, grouping=True)
 
         context['categories'] = Product.count_of_category(Product)
         context['best'] = Product.count_of_best(Product)
@@ -102,6 +117,10 @@ class BestListView(ListView):
     def get_context_data(self, *, object_list=None, **kwargs):
         context = {}
         context['object_list'] = Product.objects.filter(recommend=True)
+        locale.setlocale(locale.LC_ALL ,'ko_kr.utf-8')
+        for item in context['object_list'] :
+            item.price = locale.currency(item.price, grouping=True)
+
         context['categories'] = Product.count_of_category(Product)
         context['best'] = Product.count_of_best(Product)
         return context
