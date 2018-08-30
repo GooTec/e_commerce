@@ -70,16 +70,39 @@ class HomeListView(ListView):
 class ProductListView(ListView):
     template_name = 'shop/product_list.html'
     model = Product
-    def get_queryset(self):  # 컨텍스트 오버라이딩
-        return Product.objects.all()
+    def get_context_data(self, *, object_list=None, **kwargs):
+        context = {}
+        context['object_list'] = Product.objects.all()
+        context['categories'] = Product.count_of_category(Product)
+        context['best'] = Product.count_of_best(Product)
+
+        return context
 
 class CategoryListView(ListView):
     template_name = 'shop/product_list.html'
     model = Product
 
-    def get_queryset(self):
+    def get_context_data(self, **kwargs):
         category  = self.kwargs['category']
-        context = Product.objects.filter(category=category)
+        context = {}
+        context['object_list'] = Product.objects.filter(category=category)
+        context['categories'] = Product.count_of_category(Product)
+        context['best'] = Product.count_of_best(Product)
+
+        print(context)
+        return context
+
+
+
+class BestListView(ListView):
+    template_name = 'shop/product_list.html'
+    model = Product
+
+    def get_context_data(self, *, object_list=None, **kwargs):
+        context = {}
+        context['object_list'] = Product.objects.filter(recommend=True)
+        context['categories'] = Product.count_of_category(Product)
+        context['best'] = Product.count_of_best(Product)
         return context
 
 class ProductDetailView(FormMixin, DetailView):

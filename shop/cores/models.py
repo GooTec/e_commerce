@@ -26,6 +26,17 @@ class Product(models.Model):
     def __str__(self):
         return  self.name
 
+    def count_of_category(self):
+        categories = {'Gu':0, 'Hae':0, 'Ah':0, 'Ga':0, 'Dae':0 , 'etc':0}
+
+        for key in categories :
+            categories[key] = self.objects.filter(category=key).count()
+        return categories
+
+    def count_of_best(self):
+        return self.objects.filter(recommend=True).count()
+
+
 class ProductImgs(models.Model):
     product_id = models.ForeignKey(Product, on_delete=models.CASCADE)
     img = models.ImageField(upload_to="Products/subImg")

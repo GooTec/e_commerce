@@ -19,6 +19,7 @@ urlpatterns = [
     path('info/auth/', coreViews.AuthTemplateView.as_view(), name='auth'),
     path('info/process/', coreViews.ProcessTemplateView.as_view(), name='process'),
     path('products/', coreViews.ProductListView.as_view(), name='products'),
+    path('products/best', coreViews.ProductListView.as_view(), name='best'),
     path('products/<int:pk>/', coreViews.ProductDetailView.as_view(), name='product'),
     path('products/<slug:category>/', coreViews.CategoryListView.as_view(), name='category' ),
     path('mypage/', coreViews.ProfileDetailView.as_view(), name='profile'),

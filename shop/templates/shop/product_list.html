@@ -23,15 +23,15 @@
 		<div id="subPageMenu">
 			<div>민속국악사 악기 분류</div>
 			<ul>
-				<a href="{% url 'shop:category' 'Ga' %}"><li><p>가야금</p><p>7</p></li></a>
-				<a href="{% url 'shop:category' 'Gu' %}"><li><p>거문고</p><p>3</p></li></a>
-				<a href="{% url 'shop:category' 'Ah' %}"><li><p>아쟁</p><p>2</p></li></a>
-				<a href="{% url 'shop:category' 'Hae' %}"><li><p>해금</p><p>3</p></li></a>
-				<a href="{% url 'shop:category' 'Dae' %}"><li><p>대금</p><p>1</p></li></a>
-				<a href="{% url 'shop:category' 'etc' %}"><li><p>소품류</p><p>19</p></li></a>
+				<a href="{% url 'shop:category' 'Ga' %}"><li><p>가야금</p><p>{{ categories.Ga }}</p></li></a>
+				<a href="{% url 'shop:category' 'Gu' %}"><li><p>거문고</p><p>{{ categories.Gu }}</p></li></a>
+				<a href="{% url 'shop:category' 'Ah' %}"><li><p>아쟁</p><p>{{ categories.Ah }}</p></li></a>
+				<a href="{% url 'shop:category' 'Hae' %}"><li><p>해금</p><p>{{ categories.Hae }}</p></li></a>
+				<a href="{% url 'shop:category' 'Dae' %}"><li><p>대금</p><p>{{ categories.Dae }}</p></li></a>
+				<a href="{% url 'shop:category' 'etc' %}"><li><p>소품류</p><p>{{ categories.etc }}</p></li></a>
 			</ul>
 			<ul>
-				<a href="#"><li><p>베스트셀러</p><p>10</p></li></a>
+				<a href="{% url 'shop:best' %}"><li><p>베스트셀러</p><p>{{ best }}</p></li></a>
 			</ul>
 		</div>
 	</div>	
