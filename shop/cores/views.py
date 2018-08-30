@@ -105,7 +105,6 @@ class CategoryListView(ListView):
         context['categories'] = Product.count_of_category(Product)
         context['best'] = Product.count_of_best(Product)
 
-        print(context)
         return context
 
 
