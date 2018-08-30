@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e2cbf96-21b5-47be-850f-93e376d8539b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e_commerce/settings.py" afterPath="$PROJECT_DIR$/e_commerce/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/static/shop/css/home.css" afterPath="$PROJECT_DIR$/shop/static/shop/css/home.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/static/shop/css/intro.css" afterPath="$PROJECT_DIR$/shop/static/shop/css/intro.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/static/shop/css/login.css" afterPath="$PROJECT_DIR$/shop/static/shop/css/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/static/shop/css/mypage.css" afterPath="$PROJECT_DIR$/shop/static/shop/css/mypage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/static/shop/css/product.css" afterPath="$PROJECT_DIR$/shop/static/shop/css/product.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/static/shop/css/productD.css" afterPath="$PROJECT_DIR$/shop/static/shop/css/productD.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/templates/registration/login.html" afterPath="$PROJECT_DIR$/shop/templates/registration/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/templates/shop/profile.html" afterPath="$PROJECT_DIR$/shop/templates/shop/profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/templates/shop/home.html" afterPath="$PROJECT_DIR$/shop/templates/shop/home.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,11 +61,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/shop/templates/shop/home.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="23" />
+                <state relative-caret-position="289">
+                  <caret line="80" column="40" lean-forward="true" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
                   <folding />
                 </state>
               </provider>
@@ -83,7 +74,7 @@
           <file leaf-file-name="home.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/shop/static/shop/css/home.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="660">
+                <state relative-caret-position="403">
                   <caret line="44" column="60" lean-forward="false" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
                   <folding />
                 </state>
@@ -100,11 +91,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="cart.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="cart.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/shop/templates/shop/cart.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="333">
-                  <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+                <state relative-caret-position="303">
+                  <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -300,7 +291,6 @@
         <option value="$PROJECT_DIR$/shop/templates/registration/signup_done.html" />
         <option value="$PROJECT_DIR$/shop/templates/shop/info.html" />
         <option value="$PROJECT_DIR$/shop/templates/shop/intro.html" />
-        <option value="$PROJECT_DIR$/shop/templates/shop/home.html" />
         <option value="$PROJECT_DIR$/shop/templates/shop/product_list.html" />
         <option value="$PROJECT_DIR$/e_commerce/urls.py" />
         <option value="$PROJECT_DIR$/shop/templates/shop/order_create.html" />
@@ -325,6 +315,7 @@
         <option value="$PROJECT_DIR$/shop/templates/shop/order_list.html" />
         <option value="$PROJECT_DIR$/shop/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/shop/templates/shop/profile.html" />
+        <option value="$PROJECT_DIR$/shop/templates/shop/home.html" />
       </list>
     </option>
   </component>
@@ -729,22 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop/templates/shop/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/static/shop/css/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="60" lean-forward="false" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop/templates/shop/profile_create.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -914,8 +889,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shop/templates/shop/cart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        <state relative-caret-position="303">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/static/shop/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="44" column="60" lean-forward="false" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/templates/shop/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="80" column="40" lean-forward="true" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
           <folding />
         </state>
       </provider>
