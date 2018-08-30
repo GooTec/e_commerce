@@ -86,6 +86,7 @@ class CategoryListView(ListView):
         category  = self.kwargs['category']
         context = {}
         context['object_list'] = Product.objects.filter(category=category)
+
         context['categories'] = Product.count_of_category(Product)
         context['best'] = Product.count_of_best(Product)
 

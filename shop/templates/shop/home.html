@@ -3,7 +3,14 @@
 
 {% block content %}
 {% load static %}
+<style>
 
+#banner_wrap {float: left; width: 100%; background: url({% static 'shop/assets/banner1.png' %}) no-repeat center; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
+#banner_wrap #banner {width: 1200px; height: 600px; margin: 0 auto;}
+#banner_wrap #btnL {float: right; width: 62px; height: 62px; margin-top: 500px;}
+#banner_wrap #btnR {float: right; width: 62px; height: 62px; margin-top: 500px;}
+
+</style>
 <!-- banner -->
 <div id="banner_wrap">
 		<div id="banner">
