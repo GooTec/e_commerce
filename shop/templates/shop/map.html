@@ -1,0 +1,95 @@
+<!--<link rel= "stylesheet" type="text/css" href="./home.css">-->
+
+{% extends 'shop/base.html' %}
+
+{% block content %}
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: "나눔스퀘어", "나눔고딕";
+        color: #222222;
+        text-decoration: none;
+        border: 0;
+        outline: 0;
+    }
+    
+    button:hover {cursor:pointer;}
+    ul,li{list-style:none;}
+    
+    #dirs_wrap {float: left; width: 100%;}
+    #dirs_wrap #dirs {width: 1200px; margin: 0 auto;}
+    #dirs_wrap #dirs #dirs_cont {float: left; width: 1200px; text-align: center; margin-bottom: 150px;}
+        
+    #dirs_wrap #dirs #dirs_cont #contact {float: left; width: 588px; margin-right: 24px;}
+    #dirs_wrap #dirs #dirs_cont #traffic {float: left; width: 588px;}
+        
+    #dirs_wrap #dirs #dirs_cont p {border-bottom: 2px solid #e3cd73; height: 80px; text-align: left;font-size:18px; line-height: 80px; font-weight: bold;}
+    
+    #dirs_wrap #dirs tr {width: 588px; line-height: 30px;}
+    #dirs_wrap #dirs tr th {border-bottom: 1px solid #dddddd; padding: 20px 0; width: 100px; text-align: left;}
+    #dirs_wrap #dirs tr td {border-bottom: 1px solid #dddddd; padding: 20px 0; color: #444444;width: 488px;}
+        
+    #dirs_wrap #dirs #dirs_cont #traffic table tr td .b1 {background-color: #f85757; width: 60px; height: 25px; font-size: 13px; text-align: center; line-height: 25px; color: #fefefe; display: inline-block; margin-right: 10px;}
+    #dirs_wrap #dirs #dirs_cont #traffic table tr td .b2 {background-color: #3556a7; width: 60px; height: 25px; font-size: 13px; text-align: center; line-height: 25px; color: #fefefe; display: inline-block; margin-right: 10px;}
+    #dirs_wrap #dirs #dirs_cont #traffic table tr td .b3 {background-color: #4a972e; width: 60px; height: 25px; font-size: 13px; text-align: center; line-height: 25px; color: #fefefe; display: inline-block; margin-right: 10px;}
+        
+    </style>
+        
+    <div id="dirs_wrap">
+        <div id="dirs">
+    
+            <div id="dirs_cont">
+                <img src="./map1200.png">
+    
+                <!-- 1. 연락처 --> 
+                <div id="contact">
+                    <p>연락처</p>
+                    <table>
+                        <tr>
+                            <th>주소</th>
+                            <td>서울특별시 강남구 개포로22길 52, <br />민속국악사</td>
+                        </tr>
+                        <tr>
+                            <th>전화</th>
+                            <td>010-5271-7897</td>
+                        </tr>
+                    </table>
+                </div>
+    
+                <!-- 2. 교통편 -->
+                <div id="traffic">
+                    <p>교통편</p>
+                    <table>
+                        <tr>
+                            <th>지하철</th>
+                            <td>
+                                <div class="b1">신분당선</div><br/>
+                                양재시민의숲역 -> 양재 소방서앞 정류장으로 이동 -><br/>
+                                서초 09 버스 탑승 -> 국악고교사거리 정류장 하차 -> 민속국악사로 이동
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>버스</th>
+                            <td>
+                                <div class="b2">간선</div>463<br/>
+                                <div class="b3">지선</div>4211, 4412<br/>
+                                <div class="b3">마을</div>강남10, 서초09, 서초18, 서초21<br/>
+                                * 국악사거리 정류장 하차<br/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>자가용</th>
+                            <td>
+                                국악고교 앞 민속국악사 주차장
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+

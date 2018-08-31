@@ -54,8 +54,8 @@ class IntroTemplateView(TemplateView):
 class AuthTemplateView(TemplateView):
     template_name =  'shop/auth.html'
 
-class ProcessTemplateView(TemplateView):
-    template_name =  'shop/process.html'
+class MapTemplateView(TemplateView):
+    template_name =  'shop/map.html'
 
 #-----------------INFOVIEW END-----------------#
 
