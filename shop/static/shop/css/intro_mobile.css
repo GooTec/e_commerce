@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 서브페이지 타이틀 */
+#subPageTitle_wrap {float: left; width: 100%; height: 100px; background-color: #fbf8ef;}
+#subPageTitle_wrap #subPageTitle {width: 98%; margin: 0 auto; font-size: 16px; color: #222222; height: 100px; line-height: 100px; padding-left: 2%;}
+
+/* 소개 페이지 */
+#intro_wrap {float: left; width: 100%;}
+#intro_wrap #intro {width: 100%; margin: 0 auto;}
+	/* 조대석 장인 */
+	#intro_wrap #intro #intro_1 {float: left; width: 100%; margin: 50px auto;}
+	#intro_wrap #intro #intro_1 img {float: left; width: inherit;}
+	#intro_wrap #intro #intro_1 div {float: left; width: 90%; padding: 30px 5%; font-size: 16px; line-height: 27px; word-break: normal;}
+	#intro_wrap #intro #intro_1 div p {font-size:30px; font-family:"Noto Serif CJK KR"; line-height: 40px; margin-bottom: 15px;}
+	
+	/* 특별상 수상 */
+	#intro_wrap #intro #intro_2 {float: left; width: 100%; margin-bottom: 50px;}
+	#intro_wrap #intro #intro_2 img {float: left; width: inherit;}
+	#intro_wrap #intro #intro_2 div {float: left; width: 90%; padding: 30px 5%; font-size: 16px; line-height: 27px; word-break: normal;}
+	#intro_wrap #intro #intro_2 div p {font-size:30px; font-family:"Noto Serif CJK KR"; line-height: 40px; margin-bottom: 15px;}
+	
+	/* 장인정신 */
+	#intro_wrap #intro #intro_3 {float: left; width: 100%; vertical-align: middle; margin-bottom: 50px;}
+	#intro_wrap #intro #intro_3 img {float: left; width: inherit;}
+	#intro_wrap #intro #intro_3 div {float: left; width: 90%; padding: 30px 5%; font-size: 16px; line-height: 27px; word-break: normal;}
+	#intro_wrap #intro #intro_3 div p {font-size:30px; font-family:"Noto Serif CJK KR"; line-height: 40px; margin-bottom: 15px;}
+
+	/* 전문 제작 */
+	#intro_wrap #intro #intro_4 {float: left; width: 100%; vertical-align: middle; margin-bottom: 50px;}
+	#intro_wrap #intro #intro_4 img {float: left; width: inherit;}
+	#intro_wrap #intro #intro_4 div {float: left; width: 90%; padding: 30px 5%; font-size: 16px; line-height: 27px; word-break: normal;}
+	#intro_wrap #intro #intro_4 div p {font-size:30px; font-family:"Noto Serif CJK KR"; line-height: 40px; margin-bottom: 15px;}
