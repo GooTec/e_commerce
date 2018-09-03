@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>민속국악사</title>
+<link rel= "stylesheet" type="text/css" href="./home.css">
+<link rel= "stylesheet" type="text/css" href="./product.css">
+<link rel= "stylesheet" type="text/css" href="./productD.css">
+<link rel= "stylesheet" type="text/css" href="./intro.css">
+<link rel= "stylesheet" type="text/css" href="./login.css">
+<link rel= "stylesheet" type="text/css" href="./mypage.css">
+<script src="./javascript.js"></script>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header_wrap">
+		<div id="header">
+			<!-- 로고 -->
+			<a href="./홈.html"><img id="logo" alt="민속국악사" title="민속국악사" src="./logo.png"/></a>
+			
+			<!-- 메인 메뉴 -->
+			<nav id="gnb_m">
+				<ul>
+					<li><a href="#" title="민속국악사">민속국악사</a></li>
+					<li><a href="#" title="제품구매">제품구매</a></li>
+					<li><a href="#" title="오시는 길">오시는 길</a></li>
+					<li><a href="#" title="커뮤니티">커뮤니티</a></li>
+				</ul>
+			</nav>
+			
+			<!-- 부 메뉴 -->
+			<nav id="gnb_s">
+				<ul>
+					<li><a href="#" title="로그인">로그인</a><span>|</span></li>
+					<li><a href="#" title="회원가입">회원가입</a><span>|</span></li>
+					<li><a href="#" title="장바구니">장바구니</a><span>|</span></li>
+					<li><a href="#" title="배송조회">배송조회</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+
+<!---------------------------------------------------------------------->
+	
+	<!-- 서브페이지 타이틀 -->
+	<div id="subPageTitle_wrap">
+		<p id="subPageTitle">
+			민속국악사 / 마이페이지 / 개인정보관리 / 회원정보수정
+		</p>
+	</div>
+	
+	<div id="subPageContents_wrap">
+	<div id="subPageContents">
+		
+	<!-- 마이페이지 -->
+	<p id="mypageTit">마이페이지</p>
+	
+	<!-- 마이페이지 탭 메뉴 -->
+	<div id="mypageTab">
+		<a id="mypageTab1" class="mypageSelected" href="#mypageTab_1" onClick="mypageFirstChangeTab('1')">주문관리</a>
+		<a id="mypageTab2" class="mypageUNSelected" href="#mypageTab_2" onClick="mypageFirstChangeTab('2')">개인정보관리</a>
+
+		<!-- 주문관리 -->
+		<div id="mypageTab_1" name="mypageTab_1">
+			<!-- ********** 주문관리 file include ********** -->
+		</div>
+
+		<!-- 개인정보관리 -->
+		<div id="mypageTab_2" name="mypageTab_2">
+			
+			<a id="mypageTab2_1" href="#mypageTab_2_1" onClick="mypageSecondChangeTab('1')" class="mypageSelected2">회원정보수정</a>
+			<a id="mypageTab2_2" href="#mypageTab_2_2" onClick="mypageSecondChangeTab('2')" class="mypageUNSelected2">환불계좌관리</a>
+			<a id="mypageTab2_3" href="#mypageTab_2_3" onClick="mypageSecondChangeTab('3')" class="mypageUNSelected2">회원탈퇴</a>
+			
+			<div id="mypageTab_2_1" name="mypageTab_2_1">
+				<!-- ********** 회원정보수정 file include ********** -->
+			</div>
+			<div id="mypageTab_2_2" name="mypageTab_2_2">
+				<!-- ********** 환불계좌관리 file include ********** -->
+			</div>
+			<div id="mypageTab_2_3" name="mypageTab_2_3">
+				<form>
+					<div>
+						회원탈퇴시 개인정보가 모두 삭제되며, 탈퇴처리 이후에는 어떠한 방법으로도 회원님의 개인정보를 복원할 수 없습니다.<br />
+						위의 주의사항 등을 먼저 꼭 읽어 보신 후 아래의 항목을 입력하셔야 합니다.
+					</div>
+					<button type="submit" class="submitBtn">탈퇴하기</button>
+				</form>
+			</div>
+			
+		</div>
+		
+	</div>
+		
+	</div>
+	</div>
+		
+<!---------------------------------------------------------------------->
+		
+	<div id="footer_wrap">
+		<div id="footer">
+			<div id="copyright">
+				제조판매업자 민속국악사  주소 서울특별시 강남구 개포동 1200-3<br/>
+				대표 홍길동  충북 음성군 맹동면 맹동산단 1길 47-71  사업자정보 000-00-0000<br/>
+				개인정보관리책임자 홍길동  문의전화 010-5271-7897<br/>
+				2018 MINSOKGUKAKSA RIGHTS RESERVED.
+			</div>
+			<div id="footBtn">
+				<button class="footBtn1" type="button" title="이용약관">이용약관</button>
+				<button class="footBtn2" type="button" title="개인정보처리방침">개인정보처리방침</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

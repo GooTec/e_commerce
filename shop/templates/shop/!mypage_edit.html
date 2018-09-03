@@ -1,0 +1,117 @@
+<!-- 디자인 확인용 -->
+<link rel= "stylesheet" type="text/css" href="./home.css">
+<link rel= "stylesheet" type="text/css" href="./login.css">
+<link rel= "stylesheet" type="text/css" href="./intro.css">
+<link rel= "stylesheet" type="text/css" href="./mypage.css">
+<link rel= "stylesheet" type="text/css" href="./product.css">
+<link rel= "stylesheet" type="text/css" href="./productD.css">
+<script src="./javascript.js"></script>
+
+<style>
+ form {float: left; width: 1200px; text-align: center;}
+	 table {float: left; width: 1200px; border-top: 1px solid #dddddd;}
+	 table tr {float: left; width: 1200px; text-align: left; border-bottom: 1px solid #dddddd;}
+	 table tr th {float: left; width: 180px; font-size: 14px; font-weight: bold; padding-left: 20px; min-height: 80px; line-height: 80px;}
+	 table tr td {float: left; font-size: 14px; min-height: 80px; line-height: 80px;}
+	 table tr:nth-child(8) td {line-height: normal; padding: 15px 0;}
+	
+	 table tr td select {border: 1px solid #dddddd; width: 152px; height: 40px; padding-left: 10px;}
+	 table tr td input {border: 1px solid #dddddd; width: 480px; height: 40px; padding-left: 10px;}
+	 table tr:nth-child(5) td input {width: 150px;}
+	 table tr:nth-child(6) td input {width: 150px;}
+	 table tr:nth-child(7) td input {width: 200px;}
+	 table tr:nth-child(8) td input:nth-child(1) {width: 360px;}
+	 table tr:nth-child(8) td input {width: 360px; margin: 5px 0;}
+	
+	 table tr td button.chkBtn {width: 110px; height: 40px; background-color: #eeeeee; font-size: 14px; font-weight: bold; margin-left: 8px;}
+	 table tr td span.capt {font-size: 15px; color: #666666; padding-left: 10px;}
+	 table tr td span.capt2 {font-size: 12px; color: #d01212;}
+	 table tr:nth-child(2) td span.capt2 {margin-top: -45px; margin-bottom: -10px; display: block;}
+	
+	 form button.submitBtn {width: 210px; height: 55px; background-color: #222222; color: #fff; font-size: 15px; font-weight: bold; margin: 50px auto;}
+</style>
+
+<!-- 디자인 확인용 -->
+
+<form>
+<table>
+	<tr>
+		<th>이름*</th>
+		<td>
+			<input type="text" name="user_name" id="user_name" />
+			<button type="button" id="user_check" class="chkBtn">본인인증</button>
+		</td>
+	</tr>
+	<tr>
+		<th>아이디*</th>
+		<td>
+			<input type="text" name="user_id" id="user_id" />
+			<button type="button" id="dup_check" class="chkBtn">중복확인</button>
+			<span class="capt">4자~20자 영문, 숫자 조합(특수문자 제외)</span><br/>
+			<span class="capt2">사용하실 수 있는 아이디입니다.</span>
+		</td>
+	</tr>
+	<tr>
+		<th>비밀번호*</th>
+		<td>
+			<input type="password" name="user_pw" id="user_pw" />
+			<span class="capt">4자~20자 영문, 숫자 조합(특수문자 제외)</span>
+		</td>
+	</tr>
+	<tr>
+		<th>비밀번호 확인*</th>
+		<td>
+			<input type="password" name="user_pwChk" id="user_pwChk" />
+			<span class="capt2">&nbsp;&nbsp;&nbsp;비밀번호를 동일하게 입력해주세요.</span>
+		</td>
+	</tr>
+	<tr>
+		<th>유선전화</th>
+		<td>
+			<select name="user_tel1" id="user_tel1">
+				<option>전체</option>
+				<option>전체</option>
+				<option>전체</option>
+				<option>전체</option>
+			</select> - 
+			<input type="text" name="user_tel2" id="user_tel2" /> - 
+			<input type="text" name="user_tel3" id="user_tel3" />
+		</td>
+	</tr>
+	<tr>
+		<th>휴대전화*</th>
+		<td>
+			<select name="user_phone1" id="user_phone1">
+				<option>010</option>
+				<option>011</option>
+				<option>012</option>
+				<option>013</option>
+			</select> - 
+			<input type="text" name="user_phone2" id="user_phone2" /> - 
+			<input type="text" name="user_phone3" id="user_phone3" />
+		</td>
+	</tr>
+	<tr>
+		<th>이메일*</th>
+		<td>
+			<input type="text" name="user_email1" id="user_email1" /> @ 
+			<input type="text" name="user_email2" id="user_email2" />&nbsp;
+			<select>
+				<option>직접입력</option>
+				<option>naver.com</option>
+			</select>
+			<span class="capt2">&nbsp;&nbsp;&nbsp;이메일을 입력해주세요.</span>
+		</td>
+	</tr>
+	<tr>
+		<th>주소*</th>
+		<td>
+			<input type="text" name="user_addr1" id="user_addr1" />
+			<button type="button" id="findAddr" class="chkBtn">우편번호 찾기</button><br/>
+			<input type="text" name="user_addr2" id="user_addr2" /><br/>
+			<input type="text" name="user_addr3" id="user_addr3" />
+		</td>
+	</tr>
+</table>
+	<button type="submit" class="submitBtn">적용</button>
+</form>
