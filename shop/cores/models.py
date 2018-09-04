@@ -91,6 +91,13 @@ class Order(models.Model):
     order_date = models.DateTimeField(default=datetime.now, blank=True)
 
 
+    def get_order_items(self):
+        order_items = OrderItem.objects.filter(order=self.order_id)
+        return order_items
+
+
+
+
 class OrderItem(models.Model):
     order = models.ForeignKey(Order, on_delete=models.CASCADE)
     product = models.ForeignKey(Product, on_delete=models.CASCADE)

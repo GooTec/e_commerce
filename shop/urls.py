@@ -8,6 +8,8 @@ from .cores import views as coreViews
 
 app_name = 'shop'
 urlpatterns = [
+
+    url('^', include('django.contrib.auth.urls')),
     path('', coreViews.HomeListView.as_view(), name='home'),
     url('accounts/signup/', coreViews.CreateUserView.as_view(), name = 'signup'),
     url('accounts/login/done/', coreViews.RegisteredView.as_view(), name = 'create_user_done'),
@@ -26,8 +28,7 @@ urlpatterns = [
     path('mypage/create', coreViews.ProfileCreateView.as_view(), name='profile_create'),
     path('mypage/edit/<int:pk>', coreViews.ProfileUpdateView.as_view(), name='profile_edit'),
     path('mypage/cart/', coreViews.CartListView.as_view(), name='cart'),
-    path('mypage/cart/<int:pk>/', coreViews.CartDeleteView.as_view(), name='cart_delete'),
-
+    re_path('^mypage/cart/(?P<pk>\d+)/$', coreViews.CartDeleteView.as_view(), name='cart_delete'),
     path('mypage/order/', coreViews.OrderListView.as_view(), name='my_order'),
     re_path('^mypage/order/(?P<pk>\d+)/$', coreViews.OrderDetailView.as_view(), name='order_detail'),
 

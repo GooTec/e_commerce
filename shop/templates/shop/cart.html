@@ -6,31 +6,35 @@
 <!-- 서브페이지 타이틀 -->
     <div id="subPageTitle_wrap">
 		<p id="subPageTitle">
-			장바구니
+			민속국사 / 장바구니
 		</p>
 	</div>
 	
-<div id="mypageTab_1" name="mypageTab_1">
+<div id="cart_wrap">
+    <div id="cart">
+			<p id="cart_title">장바구니</p>
+			<p id="cart_process"><span class="step">장바구니</span> > 주문/결제 > 주문완료</p>
 
     {% if objects %}
     <link rel= "stylesheet" type="text/css" href="{% static 'shop/css/login.css' %}">
   <table>
 	<tr>
-		<th>장바구니 번호</th>
-		<th>제품명</th>
-		<th>가격/수량</th>
-		<th>총합</th>
-		<th>주문/배송상태</th>
+		<th>제품</th>
+		<th>가격</th>
+		<th>수량</th>
+		<th>합계</th>
+		<th>주문</th>
 	</tr>
         {% for cart in objects %}
 
     <tr>
-        <td><p>{{ cart.cart_id }}</p></td>
         <td><p>{{ cart.product_name }}</p></td>
-        <td><p>{{ cart.price }}</p><p>{{ cart.count }}</p></td>
+        <td><p>{{ cart.price }}</p></td>
+        <td><p>{{ cart.count }}</p></td>
         <td><p>{{ cart.total }}</p></td>
         <td>
                 <button class="btn_buy" onclick="location.href='{% url 'shop:order_product' cart.product_id %}'" title="구매하기">구매하기</button>
+                <span>|  </span><button class="btn_delete" onclick="location.href='{% url 'shop:cart_delete' cart.cart_id %}'">삭제</button>
         </td>
         </tr>
             {% empty %}
@@ -43,11 +47,6 @@
         <a href="{% url 'shop:products' %}">상품 담으러가기</a>
     {% endif %}
 </div>
-
-<script>
-
-
-
-</script>
+</div>
 
 {% endblock %}

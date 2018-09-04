@@ -254,7 +254,13 @@ class CartDeleteView(DeleteView):
     def get(self, *a, **kw):
         if not self.request.user.is_active:
             return redirect('login')
-        return self.delete(*a, **kw)
+        else :
+            cart_id  = kw['pk']
+            cart = CartItem.objects.get(pk=cart_id)
+            if cart.user == self.request.user :
+                return self.delete(*a, **kw)
+            else :
+                return redirect('shop:cart')
 
 
 #---------------CART END----------------------#
@@ -362,7 +368,10 @@ class OrderListView(ListView):
 
     def get_queryset(self):  # 컨텍스트 오버라이딩
         query =  Order.objects.filter(user=self.request.user)
-        print(query)
+        for item in query :
+            order_item = Order.get_order_items(item)
+            item.order_item = order_item[0]
+            print(order_item[0].product)
         return query
 
 
@@ -413,3 +422,5 @@ def send_email(request):
         # In reality we'd use a form class
         # to get proper validation errors.
         return HttpResponse('Make sure all fields are entered and valid.')
+
+
