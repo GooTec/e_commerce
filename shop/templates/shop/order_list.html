@@ -35,11 +35,10 @@
 
     <tr>
         <td><p>{{ order.order_date }}</p><p>{{ order.order_id }}</p></td>
-        <td>상품사진상품명</td>
+        <td>{{ order.order_item.product  }}</td>
         <td><p>가격</p><p>수량</p></td>
         <td><p>{{ order.total }}</p></td>
         <td>
-             <a href="{% url 'shop:order_detail' order.pk %}">
                  <p>
                 {% if order.status == '0' %}
                     결제 대기
@@ -54,7 +53,6 @@
                 {% elif order.status == '5' %}
                     구매 완료
                 {% endif %}
-                 - 상세보기
             </p>
             </a>
         </td>
@@ -69,5 +67,6 @@
         <a href="{% url 'shop:products' %}">상품 구매하러 가기</a>
 {% endif %}
 </div>
+    </div>
     </div>
 {% endblock %}
