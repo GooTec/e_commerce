@@ -13,15 +13,25 @@
 
 button:hover {cursor:pointer;}
 ul,li{list-style:none;}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {-webkit-appearance: one; margin: 0;}
+
 
 .btn {border: 0; background-color: rgba(255,255,255,0); outline: 0;}
 .m1Btn {width: 150px; height: 50px; margin: 70px 0 150px 0; background-color:#ffffff; border: 2px solid #aaaaaa; font-size: 15px; color:#444444;}
 .m2Btn {width: 150px; height: 50px; margin: 70px 0 87px 0; background-color:#ffffff; border: 2px solid #dddddd; font-size: 15px; color:#444444;}
 .footBtn1 {width: 75px; height: 35px; background-color:#222222; font-size: 13px; color:#fff; font-weight: bold; border: 0;}
 .footBtn2 {width: 120px; height: 35px; background-color:#555555; font-size: 13px; color:#fff; font-weight: bold; border: 0;}
+.delBtn:hover {width: 80px; height: 30px; font-size: 13px; background-color: #464646; color: #fff; font-weight: bold;}
+.delBtn {width: 80px; height: 30px; font-size: 13px; background-color: #b1b1b1; color: #fff; font-weight: bold;}
+.submitBtn {width: 210px; height: 55px; background-color: #222222; color: #fff; font-size: 15px; font-weight: bold; margin: 50px auto;}
+.resetBtn {width: 210px; height: 55px; background-color: #fff; color: #222; font-size: 15px; font-weight: bold; margin: 50px auto; border: 1px solid #dddddd;}
 
 .boardMtit {font-size:32px; font-family:"Noto Serif CJK KR"; margin-top: 150px;}
 .boardStit {font-size:15px; margin-bottom: 100px; margin-top: 10px;}
+
+.btn_buy {border: 0; width: 210px; height: 55px; background-color: #444444; color: #fff; font-size: 15px; font-weight: bold;}
+.btn_basket {border: 1px solid #dddddd; width: 210px; height: 55px; font-size: 15px; font-weight: bold; background-color: #ffffff;}
 
 /* header */
 #header_wrap {float: left; width: 100%;}
@@ -39,7 +49,7 @@ ul,li{list-style:none;}
 #header_wrap #header #gnb_m a:hover {color: #e3cd73;}
 
 /* banner */
-#banner_wrap {float: left; width: 100%; background: url(/assets/banner1.png) no-repeat center; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
+#banner_wrap {float: left; width: 100%; background: url(banner1.png) no-repeat center; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
 #banner_wrap #banner {width: 1200px; height: 600px; margin: 0 auto;}
 #banner_wrap #btnL {float: right; width: 62px; height: 62px; margin-top: 500px;}
 #banner_wrap #btnR {float: right; width: 62px; height: 62px; margin-top: 500px;}

@@ -21,7 +21,7 @@
 #product_wrap {float: left; width: 900px;}
 #product_wrap #product {}
 #product_wrap #product ul {float: left;}
-#product_wrap #product ul li {float: left; margin: 10px;}
-#product_wrap #product ul li img {width: 280px; height: 380px;}
+#product_wrap #product ul li {float: left; margin: 10px; height: 320px;}
+#product_wrap #product ul li img {width: 280px;}
 #product_wrap #product ul li p:nth-child(2){font-weight: bold; font-size: 16px; margin-top: 15px;}
 #product_wrap #product ul li p{margin: 7px 0;}
