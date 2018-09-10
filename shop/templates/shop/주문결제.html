@@ -1,0 +1,268 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>민속국악사</title>
+<link rel= "stylesheet" type="text/css" href="./home.css">
+<link rel= "stylesheet" type="text/css" href="./intro.css">
+<link rel= "stylesheet" type="text/css" href="./cart.css">
+<link rel= "stylesheet" type="text/css" href="./intro.css">
+<link rel= "stylesheet" type="text/css" href="./login.css">
+<link rel= "stylesheet" type="text/css" href="./mypage.css">
+<link rel= "stylesheet" type="text/css" href="./product.css">
+<link rel= "stylesheet" type="text/css" href="./productD.css">
+<link rel= "stylesheet" type="text/css" href="./pay.css">
+<script src="./javascript.js"></script>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header_wrap">
+		<div id="header">
+			<!-- 로고 -->
+			<a href="./홈.html"><img id="logo" alt="민속국악사" title="민속국악사" src="./logo.png"/></a>
+			
+			<!-- 메인 메뉴 -->
+			<nav id="gnb_m">
+				<ul>
+					<li><a href="#" title="민속국악사">민속국악사</a></li>
+					<li><a href="#" title="제품구매">제품구매</a></li>
+					<li><a href="#" title="오시는 길">오시는 길</a></li>
+					<li><a href="#" title="커뮤니티">커뮤니티</a></li>
+				</ul>
+			</nav>
+			
+			<!-- 부 메뉴 -->
+			<nav id="gnb_s">
+				<ul>
+					<li><a href="#" title="로그인">로그인</a><span>|</span></li>
+					<li><a href="#" title="회원가입">회원가입</a><span>|</span></li>
+					<li><a href="#" title="장바구니">장바구니</a><span>|</span></li>
+					<li><a href="#" title="배송조회">배송조회</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+
+<!---------------------------------------------------------------------->
+	
+	<!-- 서브페이지 타이틀 -->
+	<div id="subPageTitle_wrap">
+		<p id="subPageTitle">
+			민속국악사 / 장바구니 / 주문결제
+		</p>
+	</div>
+	
+	<div id="pay_wrap">
+		<div id="pay">
+			
+			<!-- 주문/결제 TITLE -->
+			<p id="pay_title">주문/결제</p>
+			<p id="pay_process">장바구니 > <span class="step">주문/결제</span> > 주문완료</p>
+	
+			<!-- 주문/결제 LIST -->
+			<table>
+				
+			<!-- 제목줄 -->
+			<tr>
+				<th>제품</th>
+				<th>가격</th>
+				<th>수량</th>
+				<th>합계</th>
+				<th>배송비</th>
+				<th>추가배송비</th>
+			</tr>
+				
+			<!-- 내용 -->
+			<tr>
+				<td><img src="./order.png" alt="#" />민속국악사 앙금 250</td>
+				<td>3,000,000 원</td>
+				<td>1</td>
+				<td>3,000,000 원</td>
+				<td>0 원</td>
+				<td>2,500 원</td>
+			</tr>
+			<tr>
+				<td><img src="./order.png" alt="#" />민속국악사 앙금 250</td>
+				<td>3,000,000 원</td>
+				<td>2</td>
+				<td>6,000,000 원</td>
+				<td>0 원</td>
+				<td>0 원</td>
+			</tr>
+			<tr>
+				<td><img src="./order.png" alt="#" />민속국악사 앙금 250</td>
+				<td>3,000,000 원</td>
+				<td>1</td>
+				<td>3,000,000 원</td>
+				<td>0 원</td>
+				<td>0 원</td>
+			</tr>			
+				
+			</table>
+			
+			
+			<!-- 총 결제 금액 -->
+			<div id="cart_sum">
+				<p class="tit">총 결제 금액</p><hr />
+				
+				<!-- 상품 요약 -->
+				<p class="h">판매가</p>	<p class="d">12,000,000 원</p>
+				<p class="h">배송비</p>	<p class="d">무료배송</p>
+				<p class="h">추가 배송비</p>	<p class="d">해당없음</p><hr />
+				<!-- 합계 -->
+				<p class="sum">합계<span> 12,000,000</span> 원</p>
+			</div>
+			
+		</div>
+	</div>
+	
+<!---------------------------------------------------------------------->
+	
+	<!-- 구매자 정보 -->
+	<div id="user_info_wrap">
+		<div id="user_info">
+			<p>구매자 정보&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="profileEditBtn">구매자 정보 변경</button></p>
+			<table>
+				<tr>
+					<th>이름*</th>
+					<td>조대식</td>
+				</tr>
+				<tr>
+					<th>주소*</th>
+					<td>06312<br>서울특별시 강남구 개포로22길 52</td>
+				</tr>
+				<tr>
+					<th>연락처*</th>
+					<td>010-5271-7897</td>
+				</tr>
+				<tr>
+					<th>이메일*</th>
+					<td>abcd@naver.com</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	
+<!---------------------------------------------------------------------->
+	
+	<!-- 배송지 정보 -->
+	<div id="addr_info_wrap">
+		<div id="addr_info">
+			<p>배송지 정보&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" class="css-checkbox" id="addrInfoChk" checked="checked"/><label for="addrInfoChk" name="checkbox1_lbl" class="css-label lite-gray-check">구매자 정보와 동일</label></p>
+
+			<form>
+			<table>
+				<tr>
+					<th>배송지 선택</th>
+					<td>
+						<input type="radio" name="addrChk" value="oriAddr"> 기본배송지&nbsp;&nbsp;&nbsp;
+						<input type="radio" name="addrChk" value="newAddr"> 새로운배송지				
+					</td>
+				</tr>
+				<tr>
+					<th>이름*</th>
+					<td>
+						<input type="text" name="user_name" id="user_name" />
+					</td>
+				</tr>
+				<tr>
+					<th>주소*</th>
+					<td>
+						<input type="text" name="user_addr1" id="user_addr1" />
+						<button type="button" id="findAddr" class="chkBtn">우편번호 찾기</button><br/>
+						<input type="text" name="user_addr2" id="user_addr2" /><br/>
+						<input type="text" name="user_addr3" id="user_addr3" value="(상세주소 입력)" />
+					</td>
+				</tr>
+				<tr>
+					<th>연락처*</th>
+					<td>
+						<input type="text" name="user_phone1" id="user_phone1" /> - 
+						<input type="text" name="user_phone2" id="user_phone2" /> - 
+						<input type="text" name="user_phone3" id="user_phone3" />
+					</td>
+				</tr>
+				<tr>
+					<th>이메일*</th>
+					<td>
+						<input type="text" name="user_email1" id="user_email1" /> @ 
+						<input type="text" name="user_email2" id="user_email2" />
+					</td>
+				</tr>
+				<tr>
+					<th>배송메모</th>
+					<td>
+						<textarea></textarea>
+					</td>
+				</tr>
+			</table>
+			</form>
+		</div>
+	</div>
+	
+<!---------------------------------------------------------------------->
+	
+	<!-- 결제 정보 -->
+	<div id="pay_info_wrap">
+		<div id="pay_info">
+			<p>결제 정보</p>
+
+			<form>
+			<table>
+				<tr>
+					<th>결제수단</th>
+					<td>
+						<input type="radio" name="payChk" value="card" id="payChk_card"> 
+						<label for="payChk_card">신용카드</label>&nbsp;&nbsp;&nbsp;
+						<input type="radio" name="payChk" value="phone" id="payChk_phone"> 
+						<label for="payChk_phone">휴대폰 결제</label>&nbsp;&nbsp;&nbsp;
+						<input type="radio" name="payChk" value="bank" id="payChk_bank"> 
+						<label for="payChk_bank">실시간 계좌이체</label>
+					</td>
+				</tr>
+				<tr>
+					<th>카드종류</th>
+					<td>
+						<select>
+							<option>선택하세요.</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<th>할부개월</th>
+					<td>
+						<select>
+							<option>선택하세요.</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+				<div>
+					<input type="checkbox" class="css-checkbox" id="agreeChk" checked="checked"/><label for="agreeChk" name="checkbox1_lbl" class="css-label lite-gray-check">구매 약관에 동의합니다.</label>
+				</div>
+				<div>
+					<button type="submit" class="submitBtn">결제하기</button>
+					<button type="reset" class="resetBtn">쇼핑 계속하기</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	
+<!---------------------------------------------------------------------->
+		
+	<div id="footer_wrap">
+		<div id="footer">
+			<div id="copyright">
+				제조판매업자 민속국악사  주소 서울특별시 강남구 개포동 1200-3<br/>
+				대표 조대석  개인정보관리책임자 조대석  문의전화 010-5271-7897 <br/>
+				2018 MINSOKGUKAKSA RIGHTS RESERVED.
+			</div>
+			<div id="footBtn">
+				<button class="footBtn1" type="button" title="이용약관">이용약관</button>
+				<button class="footBtn2" type="button" title="개인정보처리방침">개인정보처리방침</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -32,6 +32,7 @@ input[type="number"]::-webkit-inner-spin-button {-webkit-appearance: one; margin
 
 .btn_buy {border: 0; width: 210px; height: 55px; background-color: #444444; color: #fff; font-size: 15px; font-weight: bold;}
 .btn_basket {border: 1px solid #dddddd; width: 210px; height: 55px; font-size: 15px; font-weight: bold; background-color: #ffffff;}
+.profileEditBtn {border: 1px solid #dddddd; width: 134px; height: 30px; font-size: 13px; font-weight: bold; color: #010101; background-color: #ffffff;}
 
 /* header */
 #header_wrap {float: left; width: 100%;}
